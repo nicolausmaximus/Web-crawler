@@ -1,155 +1,166 @@
 Question,Description,Views
-Can't do shell script with a repeat with i from 1 to n loop #1,"With multiple selections allowed, if i chose ""3"" options in the list- the value of the variable im trying to loop, instead of it returning the values of the 3 items I need,  its just ...",2 views
-What is a static environment and what is a dynamic environment in programming?,I'm having a difficult time understanding these concepts. What is it and what is the difference between both of them?,2 views
-"Change Metadata values in python, Detectron2","I work with Detectron for panoptic segmentation.
-I would like to change the metadata values to values that I have chosen.
-In particular, I would like to replace one dictionary with another dictionary ...",2 views
-BB10 signing migration,"Since the EOL date for deprecated BlackBerry services has arrived, what options are available to those of us who wish to continue programming for BB10?
-Is it possible to get keys from your upgraded ...",2 views
-Pandas converting sub-columns into rows,I have added a picture of my dataframe. There are sub-columns names which are 'GBPEUR=X' 'GBPJPY=X' and 'USDMXN=X'. I would like to take these sub-headings and turn them into different rows. Any idea ...,6 views
-How can we convert the object of arrays data to array of objects?,"I have a data which is in format of object of keys and keys having values in array, so i want to format that to array of objects.(with using same object of keys only)
-This is the format I have :-
-...",10 views
-How to use a CloudFlare Worker Environment Variable in Quasar? (Vue),I am facing a problem in my Quasar (v1) app in regard to environment variables. I don't want to solve this using dotenv or any other Node package as these are no longer the recommended way to use ...,4 views
-Prevent splitting inputs at spaces and automatically using later words for later inputs,"I have a Function that outputs a string that it's been given to the console via cout, initializes a new string, writes user input into that string and returns it.
-I summarized my problem in this piece ...",4 views
-Application Gateways get 404 code from backend pools,"I have an App Service as Backend Pools for the Azure Application Gateway.
-The app (nextjs app) is working fine but from Application Gateway, it's receiving 404 code from health check.
-What am I ...",3 views
-Excel VBA AutoFill Destination Error on range of cells,"Can't seem to figure out why there's an error on the fourth line here :
-LastCol = Range(""A2"").End(xlToRight).Column
-LastRow = Cells(2, 1).End(xlDown).Row
-Range(Cells(3, LastCol + 1), Cells(3,...",4 views
-How to store DDragon files to mongoDB so that images work?,In the DDragon folder you have JSON information about all the champions whic I want to store to MongoDB to use for creating Guides and look at the information about Champions. Problem is that in that ...,3 views
-Database script deployment automation during release,"During the release of each new version, we have to manually run SQL scripts as pre-deployment and post-deployment against the database. I'm looking for an automated way to do this stuff instead of ...",3 views
-"Python, prober way to handle regex match?","In python I have:
-m = re.match(r""(\w+) (\w+)"", ""Isaac Newton, physicist"").group(1)
+'Format code' and 'sort using' on save in Visual Studio 2022,"I and my team spent the last few months defining rules about C# code formatting and style for our project, so we ended up with an .editorconfig file.
+Moreover, we all installed the extension ...",184 views
+Flutter : Change the path of recorded video,"I have to record a video with a timer and stop the recording after few seconds.
+When I click on stop button I am getting this error everytime. I have tested it on different real devices and emulator.
+...",41 views
+How do I wait for something to finish in C#?,"private void Download_Click(object sender, EventArgs e)
+        {
+            label1.Text = ""Downloading..."";
+            WebClient wc = new WebClient();
+            string program = ""...",33 views
+Unable to Download all the Blobs in a container from Azure IOT Hub and getting error: Cannot read property 'on' of undefined,I have been trying to download 5 files uploaded as blobs already in azure cloud in container: updateappnew via a nodejs script. However I am getting error as in the image Cannot read property 'on' of ...,33 views
+Horizontal total monthly sales for procedures,"I am trying to generate total monthly sales for 2021 based on the procedure name by month. Each row must contain procedure name and months names and if any month has any sale, the total of the sale ...",23 views
+Call to undefined method Acceptance::amOnPage,"I followed this video to set up a AcceptanceTester: https://youtu.be/B3PE7w-jvjQ?t=686
+But the methods amOnPage and see give the following error:
 
-But this throws exception if no match was found as I'm using group on None type.
-How can I fix ...",7 views
-os.listdir not accessing numerically labelled files in ascending order,"We want the png files to be accessed as 15.png,45.png,75.png and so on. This is the code and the output we are getting
-import os
-keypts_labels=[]
-class_list=os.listdir('dataset')
-for name in ...",10 views
-How to permit insertion of special characters into MySQL database?,"Till now I cannot insert data into MySQL table :
-String sql = ""insert into pdrintervention(code, designation, idintervention, quantitesortie, refos, idequipement, prixunitaire, quantitedemandee, ...",6 views
-Converting User Input from Celsius to Fahrenheit [duplicate],"enter image description here
-I am having issues with the code as displayed in the picture, the value doesn't show even when the button is clicked.
-please assist",9 views
-How to interrupt array entry with a number?,"I am a beginner in C , I learning array now
-How do I do when I enter an array that my entry is interrupted on (-1) and then it prints those numbers that I printed, and to say for example in which ...",8 views
-Getting Python error when trying to change locale in macos,"In order to get date names in Spanish for a particular project, I am trying to set locale in my python script to 'es_MX.UTF8'.
-Using this line:
- locale.setlocale(locale.LC_TIME, 'es_MX.UTF-8')
-However,...",5 views
-"Excel: How to calculate sum of non empty cells in column, based on value in another column?","I need help with a formula for excel to calculate the number of cells in a column where the cell is not empty, but where the value of a cell in another column equals a certain value.
-Example excel ...",4 views
-Nav height is not 100% - CSS,"My vertical menu is not 100% high, it just covers the entire page (100vh). I've already tried making changes to the css stylesheet, but nothing has worked. I think it's a simple problem, but I can't ...",5 views
-Transitive Dependency Version Management,I have a maven project with some dependency written in pom file. For those Direct Dependencies we have lots of Transitive Dependency. The version of those Transitive dependency have some security ...,3 views
-git log does not like branch name starting with numbers,We have a branch 10.7.0_sp. When I try git log 10.7.0_sp I get fatal: ambiguous argument '10.7.0_sp': unknown revision or path not in the working tree.. I can work around this by using git log 10.7....,9 views
-GitHub Authentication with AWS tokens for multiple environment,"I am working on a GitHub pipeline to deploy and execute an MSBuild in PowerShell via an AWS CodeDeploy Agent, I am getting an authentication error while trying to login to my Dev environment,which ...",2 views
-How to use Intel's ixgbe driver's VMDq feature in linux OS,"While skimming Intel's ixgbe Linux Driver, I found out it has VMDq support. But the Linux kernel itself doesn't. So my question is how can we enable or use this VMDq feature on any Linux Distro given ...",8 views
-Loading small amounts of data from Lumen API time,"I have an API built in lumen and I plan to consume the API json response in the frontend using a single page framework like Angular.
-The problem is the response from some routes contain huge amount of ...",7 views
-"C++: Why need to multiply 1.0, when generate a random number?","I use the code as follow to generate a random number between 10000 and 60000.
-(int)round(1.0 * rand() / RAND_MAX * 50000 + 10000)
-My Question is why 1.0 * rand(), and what is the difference with only ...",17 views
-How to enable Brotli support in Android WebView,I need to allow Brotli encoding in Android WebView. I found that I need to enable experimental flags: https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/developer-ui.md but I ...,3 views
-How to deserialize a complex JSON,"I am new in Jackson and I need to deserialize JSON looks like the following:
-{
-  ""companies"": [{
-    ""id"": ""some_id"",
-    ""type"": ""sale"",
-    ""...",10 views
-delete smaller mp3 files with similar name in python,"I've been facing following issue:
+Call to undefined method Acceptance::amOnPage
+Call to ...",4 views
+How I can show multiple Rows in two table in one row in SQL?,"I have tow table like this:
+1)Phones
 
-there is a directory, where online radio station is ripping and storing mp3 files
+| CustomerID           | PhoneID      | PhoneNum     | PhoneTypeID |
+| 1                    | 101          | 09811111     |       1     |
+| 1                    | ...",3 views
+does one login support dynamic urls?,"I am hoping to get my company's app added to one login (and others) but the way our urls are structured, the first part of it is different for each client.  So, we have client_1.mysite.com and ...",2 views
+Chilkat for Android™ Error: No implementation found chilkatJNI.swig_module_init(),"I wanted to implement Chilkat into my Android app, to do scp calls.
+I am using android studio v. 4.2.
+So far i have successfully followed the instructions on how to get started.
+I followed this post: ...",3 views
+Adding ComposeView to PopupWindow's contentView crashes,"I'm trying to show a PopupWindow from a Fragment, and then add a ComposableView to the Popup contentView, and it crashes because the ViewTreeLifecycleOwner is not found for PopupDecorView$...",175 views
+Get all posts base on Hashtag search Instagram API,"I want a API, to get all the posts, search by hashtag in Instagram.
+As per my research, I can use Graph API to do the same. But I did not get a proper tutorial from scratch.
+Can someone suggest me ...",5 views
+Code works on Anaconda but not on Python through cmd,"I have code that runs over 7000 columns dataset with around 250k records
 
-some if them is played and stored more times, difference is in the name :
-1st file ...",3 views
-How do i create excel chart with SXSSFSheet using apache POI?,My project is using SXSSFWorkbook in order to generate excel files as the excel files generated in the application can be of large size as well. Now I need to include excel charts in these excel files ...,5 views
-MMLib.SwaggerForOcelot not resolving Microservice Swagger Link,"I am using Ocelot in my Asp.Net Core 3.1 Project to serve as API Gateway and I have two microservices hosted.
-I am trying to load Swagger documentation of both microservices from Gateway URL, however ...",3 views
-"The material should ignore everything that goes behind it, even if it’s semi-transparent","We need to gain the following behavior of the threejs material:
-The material should ignore everything that goes behind it, even if it’s semi-transparent.
-The problem needs to be solved: by mixing ...",3 views
-jQuery Event listener problem - how to select class?,"I am making a to-do app and I would like to choose only p elements inside .text-box.
-I need to make selector after click, because I want to select also new created div elements. I am struggling with ...",17 views
-Conditional sum of dataframe columns in Python,"Keen to know if it's possible to reproduce the following logic in Python, in one line, without creating a function.
-z = IF (y-x) = 0 THEN a ELSE (y-x)
+it works fine when I use Anaconda Spyder 
 
-Using this df:
-df = pd.DataFrame({'x': [10, 22, ...",5 views
-Compute child views size and position by given parent container in Android,"Thanks for your help with my question.
-The given conditions are as follows.
+but now I want to put this code to run based on Task Schedule
 
-All shape (parent and children) is square.
-Parent container (like FrameLayout) size (width, height) is given by X, Y.
-There ...",5 views
-How to write correct C# GraphClient filter to retrieve users with ExternalUserState = null?,"I don't manage to create a filter to get the users that have null in the ExternalUserState property
-My attempts:
-var users = await graphClient.Users.Request()
-                            .Filter(""...",7 views
-Convert Old MongoDB Update Query into New MongoDB 4.2.0 Query,"public static void updateInvoice(BsonDocument query)
-{
-try
-{
-var BCOldcollectionP = database.GetCollection(""BookingClosed"");
-            var updateValues = new List<UpdateBuilder>();
-  ...",4 views
-Display user information via model?,"I have following problem / question. I am working on my Webshop project (Plain PHP + MySQL), and I’ve build so far registration, login, products and so on using MVC Pattern / Model. When the user logs ...",16 views
-Plugin Bodymovin,"I want put animation font in my web site with the plugin ""bodymovin"" (this pricipe is transform json files in svg), i use framework laravel. I have follow this example : https://codepen.io/...",9 views
-How to convert this trigger into a trigger with handler class,"How to convert this trigger into a trigger with handler class? Can anyone please help?
-trigger GiDP_ArticleRequestTrigger on GiDP_ArticleRequest__c (before insert, after update, before update) {
-// ...",4 views
-DISCORD JS: Unknown interaction error when command is executed,"This is a help command which uses menus in discord.js v13. I have this issue when I select a menu. It doesn't show the content of the menu I selected, instead it brings me an error in console saying:
-...",7 views
-SetTimeOut inside a Javascript Promise,"I have this code snippet , basically I want to add some interval in between calling  myfunc for each element in myCol .
-         Promise.all(
-                _.map(myCol, (o) ->
-                  ...",12 views
-Wired Guest Network using VLAN Switch and Pi as DHCP-Server,"I'm trying to setup a wired guest network that I can plug devices into (maybe even an AP in the future) and have that network separted from my home network.
-Currently the hardware I'm using looks like ...",5 views
-Display svg file in HTML,"I have this code:
-
-
-<img src=""https://piuksu.github.io/svg.svg"" width=""100"">
-
-
-
-It does not work.
-What do I have to do?",10 views
-Why is iteration necessary in a 'continue if loop' in C++?,"What I mean is this :
-while (i < 10) {
-    if (i == 4) {
-        // i++; should be here, but if I skip it...
-        continue;
-    }
-    cout << i << endl;
-    i++;
-}
-
-I am getting this ...",33 views
-TIDAL API documention - how to get track IDs,"I'm using the TIDAL API to retrieve information on what tracks are on what playlists.
-To log in to the API I'm using the below code:
-session = tidalapi.Session()
-session.login_oauth_simple()
-
-From ...",4 views
+Therefore I am want ...",194 views
 com.google.firebase.database.DatabaseException: Failed to convert a value of type java.lang.String to int,"I am adding Person name(String) and age(int) to the Firebase.
-But while retriving data from firebase i am facing this error.
+But while retrieving data from Firebase I am facing this error.
 This is how data is added in Firebase.
 Cannot resolve this error
-Person ...",7 views
-Scrapy won't follow next page it gives an error,"I cannot get any information on the next page and do not understand where I went wrong. I get the following error for the next page follow:
+Person ...",12 views
+Nav height is not 100% - CSS,"My vertical menu is not 100% high, it just covers the entire page (100vh). I've already tried making changes to the css stylesheet, but nothing has worked. I think it's a simple problem, but I can't ...",13 views
+Convert numpy array from space separated to comma separated in python,"This is data in .csv format file
+generally we expect array/ list with [1,2,3,4] comma separated values
+which it seems that nothing happened in this case
+data = pd.read_csv('file.csv')
+data_array = ...",7 views
+"Could not load file or assembly 'Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0","Using MVC5 with rdlc to generate pdf, it's working fine in localhost, but when i deply the application to server when i try to generate report it has error that some assebly are missing.....
 
-DEBUG: Crawled (204) <GET https://www.cv-library.co.uk/...",4 views
-Using seaborn and getting the FileNotFound error,"I am getting the FileNotFound error on jupyter note on Linux.
-I'm using panda to import a file, the path is something like:
-data = pd.read_csv (""/home/pfold/project/plot1.csv"")
-data = data....",6 views
-Antd form input double validation,"So, i'm new to AntD and i need to setup up a rule for input field, so it could get phone number or email.
-I'm trying something like that but it doesn't work as it should:
-<Form.Item
-                ...",7 views
+Server ...",8k views
+How do I replace NULL in datediff with a text,I have a 2 different date columns and I'm using datediff to calculate the years of working. But there is nulls when the people is still working I wonder how can I replace it with a text 'Still Working'...,6 views
+"""Runtime.ImportModuleError"" trying to access npm package in an AWS lambda function using layers","I'd like to use the npm package ""request"" in an AWS lambda function.
+
+I'm trying to follow the procedure outlined in this article here: https://medium.com/@anjanava.biswas/nodejs-runtime-environment-...",21k views
+Calculate if cannon with limited rotation angles can do fire in 3D space,"I want to create a game where it can be a lot of different cannons what will have different limit of fire angle (vertical and horizontal).
+I found this formula to calculate angle between cannon and ...",23 views
+Writing a vectorised function in R,"I have written the following function:
+asteriks = function(pvalue){
+  if(pvalue > 0.05){
+    output = ""NS""
+  }else if (pvalue <=0.05 & pvalue >0.01){
+    output = ""*""
+ ...",16 views
+Mapping through array in React with nested objects,"For a school project, I am making a dashboard where I want to visualize some data. I've already got it so far that I can load the data into the front end which is react.
+Now I want to get certain ...",15 views
+Is it possible to add swap space on kubernetes nodes?,I am trying to add swap space on kubernetes node to prevent it from out of memory issue. Is it possible to add swap space on node (previously known as minion)? If possible what procedure should I ...,11k views
+How to group my expenses items according to the day you create them,I'm creating an expense tracker app. I did my best but couldn't figure out how to group expenses for each day so that I can count total expense and total income for that day and also display them ...,12 views
+Select only certain fields from the model using SqlAlchemy Core,"I use the encode databases library to perform asynchronous queries on the database. The library is based on SQLAlchemy Core expression language. A query that gives all fields works
+@staticmethod
+async ...",4 views
+Calculated column based on secondary key in Pandas Dataframe,"My data looks somewhat like this:
+key
+city
+currentCityKey
+1
+Boston
+NaN
+2
+New York
+1
+3
+Concord
+2
+I'd like to create a new column with the current city name, which needs to be found by finding the ...",6 views
+Building prime number checker in c++,"I am new to C++ and coding, so excuse me if my knowledge is poor. I thought of a way to check if a number is prime (my code is below). My idea is that the user inputs a number, and uses a for loop ...",101 views
+How to download data from OECD by using R package,"I am trying to download data directly from the OECD website using the OECD package in R. I'm specifically trying to download data from ""Employment by activities and status (ALFS) ARCHIVE"" ...",2 views
+How to create column based on other column and probably using regex in pandas?,"df:
+Id   Product_description     Vol
+100  Oil 32cmX36cmx25cm 1s   1  
+101  Oil 32cmX36cmx30cm 1M   1
+102  bag 45cmx3f 1s          1
+103  bag 45cmx32f 2L         2
+104  BAG 45cmx32f 3 L        3
+105  ...",10 views
+Matlab loop through images in a folder an transform each picture with Imreadto an array,I want to loop through a list of images in Matlab by unsing a loop. I want to get one Image at a time and turn it into a Matrix by using the imread function. Then I want to save each Matrix in a ...,3 views
+What are monadic bind and monadic return for C++23 optional?,"C++23 std::optional is finally getting some very useful additions.
+Since my knowledge of FP is very primitive I am wondering what is the syntax for the following two operations(that according to my ...",36 views
+how does this error means in react-router-dom?,"when I import switch from react-router-dom error screen shot
+when I import switch from react-router enter image description here
+I copied code from https://v5.reactrouter.com/web/guides/quick-start",18 views
+How to use egrep with double quotes in search string?,"I have a sample.txt as follows:
+$ cat sample.txt
+bc
+it is | ERROR
+first
+second
+third
+No space left
+1
+2
+3
+4
+
+I want to search both | ERROR and No space left. When I try using the below command, it is ...",6 views
+Configure User Account authorization in SSRS,"What's up folks?
+I've been trying to call an SSRS report but the issue I am facing is The permissions granted to user 'XYZ\PQR-0051$' are insufficient for performing this operation. (rsAccessDenied).
+...",5 views
+SiegeTest:socket error unable to connect,"Really need help to figure out what is going wrong.
+
+Application Background: It is a nodejs with socket.io application.
+
+I am testing my site load using siege windows 3.0.5 tool.
+70 concurrent users ...",2k views
+ImportError: cannot import name 'Frame' from partially initialized module 'tkinter',"I'm an absolute beginner in Python and I'm just trying to follow the steps in a youtube video tutorial on building a python GUI
+https://youtu.be/jE-SpRI3K5g
+I just wrote this so far:
+import tkinter as ...",505 views
+SQL Merge tables and return oldest record,"What I'm trying to achieve is to merge two tables and return the oldest record, then join it to another table.
+When i run the sub query on it's own it works ok, i know records exists in the subquery. ...",19 views
+Split string in two by splitting it at the last '_' symbol,I have this structure of string 'amount_capital_expected_eighty_percent_6009a08948abf6001e95359a'. I would like to cut the part after the last '_' from the rest of the string with a String.split() ...,37 views
+Large storage in Flutter web,"Is there a way to store approximately 2GB of binary data (video files with ~600MB each) in Flutter web?
+I need to support web on both desktop and mobile devices.
+I tried Localstorage (converting ...",8 views
+"flowWithLifecycle(lifecycle, Lifecycle.State.STARTED) doesn't stop flows while App is in background","I'm trying to observe the result of the View Collection and upstream flows stopped.
+But viewModel.testFlow is still collecting while the App is in the background.
+Why can't I observe the collection is ...",4 views
+How can I publish my node.js a.p.i to iis?,I am making an api with node js and I need to publish it to a server. I have been looking at how to do it and there is a lot of information about doing it on platforms like heroku but I can't get it ...,3 views
+WordPress - white space between header and slider,"I'm looking to make improvements to this website: https://www.iwillsolicitors.com/
+There is a white space between the header and the slider, that shows across all pages. The theme used on WordPress is ...",5 views
+"postman post result: could not find driver (SQL: select * from ""users""","I've a macbook pro with M1 chipset, I'm testing a Laravel web-app with Sanctum Api authentication.
+First I send a GET requesto to /sanctum/csrf-cookie to get the cookies, then I send a POST request to ...",28 views
+How to do non blocking usb serial input in circuit python?,"I am trying to interface a micropython board with python on my computer using serial read and write, however I can't find a way to read usb serial data in micropython that is non-blocking.
+Basicly I ...",838 views
+onFocusChange is not getting called when launching an activity above android version 8,I'm having android.support.v7.widget.AppCompatEditText inside TextInputLayout in my activity and added setOnFocusChangeListener for the editText. When ever the activity is opened its automatically ...,3 views
+OpenCV2 Thin Plate Splines Apply Transformation not working?,"I am using the Python OpenCV2 implenentation of the thin plate transformer and running into some issues. When I do WarpImage, the image gets warped properly, however when I then use ...",27 views
+jQuery AJAX submit form,"I have a form with name orderproductForm and an undefined number of inputs.
+
+I want to do some kind of jQuery.get or ajax or anything like that that would call a page through Ajax, and send along all ...",2.3m views
+Concat two strings through pointers not working,"I made a function that concat string t to the end of string s, for my exercise I have to use pointers for this, so I did this way but its not working:
+#include <stdio.h>
+
+void strcat(char *s, ...",24 views
+Using RUN in Dockerfile to install Laravel inside a php image is not working,"I am trying to install Laravel inside a php container using this line on my Dockerfile:
+RUN composer create-project laravel/laravel=8.* . --prefer-dist
+
+My goal is to install it on my container ...",15 views
+Changing Size and the Color of the UIComponent of Storyboard from the Inspector Menu,"I'm able to change the size of a component(on storyboard) by using the Inspector Menu of below:
+
+But I can not change the background color of the component using Inspector Menu. It doesn't change ...",4 views
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column,"I'm trying to create a model with SQLAlchemy (with Flask), but I cannot find out anywhere on the internet a fix to my problem.
+The error that it gives me is
+sqlalchemy.exc.OperationalError: (sqlite3....",2k views

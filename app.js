@@ -13,7 +13,7 @@ const csvWriter = createCsvWriter({
 });
 
 
-const url = "https://stackoverflow.com/questions";
+const url = "https://stackoverflow.com/questions?tab=Active";
 
 async function scrapeData() {
     try {
@@ -31,7 +31,7 @@ async function scrapeData() {
             questions.Question = $(el).children(".summary").children("h3").children("a").text().trim();
             questions.Description = $(el).children(".summary ").children(".excerpt ").text().trim();
             questions.Views = $(el).children(".statscontainer ").children(".views ").text().trim();
-
+            questions.Votes = $(el).children(".statscontainer ").children(".stats ").children(".vote ").children(".votes ").children(".vote-count-post ").text().trim();
             stackdata.push(questions);
         });
         console.dir(stackdata);
