@@ -8,11 +8,18 @@ async function scrapeData() {
     try {
         const { data } = await axios.get(url);
         const $ = cheerio.load(data);
-        const listItems = $("#questions .question-summary .statscontainer");
+        const listItems = $("#questions .question-summary");
         const stackdata = [];
         listItems.each((idx, el) => {
-            const questions = { Views: "" };
-            questions.Views = $(el).children(".views").text();
+            const questions = {
+                Question: "",
+                Description: "",
+                Views: "",
+
+            };
+            questions.Question = $(el).children(".summary").children("h3").children("a").text();
+            questions.Description = $(el).children(".summary ").children(".excerpt ").text();
+            questions.Views = $(el).children(".statscontainer ").children(".views ").text();
             stackdata.push(questions);
         });
         console.dir(stackdata);
@@ -27,5 +34,4 @@ async function scrapeData() {
         console.error(err);
     }
 }
-// Invoke the above function
 scrapeData();

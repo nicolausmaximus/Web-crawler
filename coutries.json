@@ -1,152 +1,252 @@
 [
   {
+    "Question": "Handle Loading status useMutation",
+    "Description": "\n            I use useMutation and send multiple requests. Have both request success and failure. But when have a request failure in the last, the status will change to error and I don't want that to happend.\nHow ...\n        ",
     "Views": "\n    3 views\n"
   },
   {
+    "Question": "Is there a Vue.JS based UI library that doesn't use images?",
+    "Description": "\n            I need it for an embedded system that has very few resources and no filesystem. My dream library will have just two files: a js and a css.\nIf there are none based on Vue, maybe others?\n        ",
+    "Views": "\n    5 views\n"
+  },
+  {
+    "Question": "Is there a way to disconnect user from Signlar server side?",
+    "Description": "\n            I'm building an app that use SignalR to transmit realtime message and I was wandering if there was any way for me to disconnect user on the server side.\nI want to disconnect them because of the way ...\n        ",
     "Views": "\n    3 views\n"
   },
   {
+    "Question": "How can I load data for multiple TabPages concurrently in a WinForms application",
+    "Description": "\n            I have a Windows Forms application with a TabControl containing multiple TabPages. Each TabPage contains many controls whose data is read from a database via a web api. I want to be able to display at ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "Failed in using LD_PRELOAD to hook mmap system call in qemu(through libvirt)",
+    "Description": "\n            I want to hook mmap system call in qemu, and I use libvirt to passthrough the environment argument like this:\n<qemu:commandline>\n  <qemu:env name='LD_PRELOAD' value='/glibcHookMMAP.so'/>\n&...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "How to set login logo for @auth0/auth0-spa-js",
+    "Description": "\n            I can't figure out how to specify a logo for auth0-spa-js package.  Online documentation show to add an logo option under theme, but that doesn't seem to exist with this package, no such option exist.\n...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "Copying std::thread::spawn and Send behavior, but with a different trait and function",
+    "Description": "\n            I am learning Rust and have run into the following problem, which is not obvious to me.\nI saw a std::thread::spawn in the library, looked at the implementation, and saw that some type requires an ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "Not starting the JMS listener using jmsListenerEndpointRegistry.start()",
+    "Description": "\n            I am trying to start the JMS listener using jmsListenerEndpointRegistry.start() which was stopped using jmsListenerEndpointRegistry.stop(). But looks like it is not getting started.\nIn application....\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "How can I programatically show/hide editLink client side in Vuepress 2?",
+    "Description": "\n            I want to show the edit link only for privileged users. I have user information that I am using for example for routing, and I can use it in components. However, I have not found any way to show/hide ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "-Dmaven.multiModuleProjectDirectory system property is not set. What it is?",
+    "Description": "\n            I got a source from https://github.com/apache/maven.\nthe version is apache-maven-3.8.4\nwhen I run the code. The main class is  org.apache.maven.cli\nI got a error\n\"D:\\Program Files\\Java\\jdk1.8....\n        ",
     "Views": "\n    4 views\n"
   },
   {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    4 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    2 views\n"
-  },
-  {
-    "Views": "\n    2 views\n"
-  },
-  {
-    "Views": "\n    2 views\n"
-  },
-  {
-    "Views": "\n    14 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    7 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    4 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    10 views\n"
-  },
-  {
+    "Question": "What is provisioning profile? Why do I create provisioning profile?",
+    "Description": "\n            I am a fresher iOS developer and my question is\n\nWhat is provisioning profile?\nWhy do I create provisioning profile?\nI don't know provisioning profile so please give me path\n        ",
     "Views": "\n    8 views\n"
   },
   {
-    "Views": "\n    4 views\n"
-  },
-  {
-    "Views": "\n    15 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    8 views\n"
-  },
-  {
-    "Views": "\n    8 views\n"
-  },
-  {
-    "Views": "\n    4 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    4 views\n"
-  },
-  {
-    "Views": "\n    4 views\n"
-  },
-  {
-    "Views": "\n    11 views\n"
-  },
-  {
+    "Question": "How to replace the contents of a XML child element with a complement DOM document object from another xml file?",
+    "Description": "\n            i have parsed and stored a xml file as document object using the code below.\nimport xml.dom.minidom as DOM\nimport shutil\nimport xml.etree.ElementTree as ET\nmetadata_path=r\"C:\\Users\\ar\\...\n        ",
     "Views": "\n    3 views\n"
   },
   {
-    "Views": "\n    7 views\n"
-  },
-  {
-    "Views": "\n    11 views\n"
-  },
-  {
-    "Views": "\n    7 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    8 views\n"
-  },
-  {
-    "Views": "\n    7 views\n"
-  },
-  {
-    "Views": "\n    5 views\n"
-  },
-  {
-    "Views": "\n    3 views\n"
-  },
-  {
+    "Question": "Using RxJS in Angular with conditional / combined subscriptions",
+    "Description": "\n            in my Angular App I have an API service like so that contains two methods:\naddComment(id: string, comment: string): Observable<any> {\n    return this.http.post(`api/${encodeURIComponent(id)}/...\n        ",
     "Views": "\n    6 views\n"
   },
   {
-    "Views": "\n    3 views\n"
+    "Question": "AWS Natting Request through Site-to-Site VPN",
+    "Description": "\n            I have a following specific requirement that I need to setup to access on premise server of one of the payment processor vendor that I am trying to access from EC2 instance.\nThe specific requirement ...\n        ",
+    "Views": "\n    4 views\n"
   },
   {
+    "Question": "Display an error message when there is a network issue or backend issue",
+    "Description": "\n            I am building an application when there is any network issue or the backend is not working I need to display a message from my common component in the application\nI tried the below code in my using\n   ...\n        ",
+    "Views": "\n    8 views\n"
+  },
+  {
+    "Question": "I am running Express JS project, but it showing any mongoose error",
+    "Description": "\n            I cloned an old project from git, it was working well. But now it is showing this error\n(node:88186) UnhandledPromiseRejectionWarning: MongooseError: The `uri` parameter to `openUri()` must be a ...\n        ",
+    "Views": "\n    6 views\n"
+  },
+  {
+    "Question": "Split string in two by splitting it at the last '_' symbol",
+    "Description": "\n            I have this structure of string 'amount_capital_expected_eighty_percent_6009a08948abf6001e95359a'. I would like to cut the part after the last '_' from the rest of the string with a String.split() ...\n        ",
+    "Views": "\n    6 views\n"
+  },
+  {
+    "Question": "Place gameObjects on top of another gameObject in Inspector",
+    "Description": "\n            I am trying to script to place two of my instantiated gameObjects on top of another gameObject.\nFor example in the image given below, I am instantiating two objects and making \"Buttons-Set\" ...\n        ",
+    "Views": "\n    4 views\n"
+  },
+  {
+    "Question": "React native chunk files downloader and play",
+    "Description": "\n            I have some videos so i want to down these videos in chunk files that are .exo files. So i have a url link but i am getting a full videos. So how can i convert it into these chunk files and play ...\n        ",
+    "Views": "\n    4 views\n"
+  },
+  {
+    "Question": "What are monadic bind and monadic return for C++23 optional?",
+    "Description": "\n            C++23 std::optional is finally getting some very useful additions.\nSince my knowledge of FP is very primitive I am wondering what is the syntax for the following two operations(that according to my ...\n        ",
     "Views": "\n    5 views\n"
   },
   {
+    "Question": "Invalid Argument Error from os.path.join()",
+    "Description": "\n            I am trying to run a project from GitHub but logging is proving to be difficult. I am running the code on Windows 10, but the OS.Path.Join() keeps adding a forward-slash to my log folder and thus I ...\n        ",
+    "Views": "\n    6 views\n"
+  },
+  {
+    "Question": "Inserting large dataset from CSV file with CI Model",
+    "Description": "\n            I have a CSV file with 5mn rows. I am using CSV library from thephpleague.com. It uses generators so reads the file line by line. So reading does not cause any problem.\nYet, I want to save those to ...\n        ",
+    "Views": "\n    6 views\n"
+  },
+  {
+    "Question": "Split a list on spaces and group quoted characters",
+    "Description": "\n            I'm trying to parse an input string into tokens, where each token is a word in the string.\nHowever, I also want the tokens to be able to contain spaces, and for clearer syntax, i'd like to be able to ...\n        ",
+    "Views": "\n    10 views\n"
+  },
+  {
+    "Question": "Autoplay on a POS screen",
+    "Description": "\n            I would like to display a video on a POS screen. I specify that I am not a developer.\nI have several slide images with a configurable time and I can add embed code for a Youtube video.\nEither I ...\n        ",
     "Views": "\n    4 views\n"
+  },
+  {
+    "Question": "Confusion about Prediction intervals",
+    "Description": "\n            I've stumbled on something that confuses me. I was reading a blogpost about prediction intervals. This blogpost used code similar to the following to calculate prediction intervals:\nset.seed(42)\nx = ...\n        ",
+    "Views": "\n    5 views\n"
+  },
+  {
+    "Question": "Issue with JQuery Country and State cascading dropdown showing all states until country dropdown changed",
+    "Description": "\n            I have cascading dropdowns for country and state in my laravel project. I am using JQuery to refresh the list of available states, depending on the country selected in the country dropdown. This works ...\n        ",
+    "Views": "\n    7 views\n"
+  },
+  {
+    "Question": "Docker overlay2 folder eating Disk",
+    "Description": "\n            i have problem with docker overlay2 folder.\nWhen I enter du -sj /var/lib/docker/overlay2 in the time of writing it says:\n85G overlay2/\n\nAnd it keeps growing up.\nI tried to prune system with command ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "stripe subscription code not giving error when card having insufficient fund",
+    "Description": "\n            i am facing a issue with custom stripe subscription code. My issue is like when a card having insufficient fund then stripe subscription code is not giving me any error.\nMy code is this.\nStripe\\Charge:...\n        ",
+    "Views": "\n    4 views\n"
+  },
+  {
+    "Question": "SocketIO with Nextjs deployed to Vercel, socket is not connecting",
+    "Description": "\n            I am trying to create a next app that also communicates with its backend in realtime with a socket, and I am using socket.io for that. It is all working just fine locally (even when built), but when ...\n        ",
+    "Views": "\n    2 views\n"
+  },
+  {
+    "Question": "Unable to get cyhton loop to run faster than pyhton loop",
+    "Description": "\n            I'm trying to speed up a python function by using cython, but without luck so far. The original python code is currently faster. If anyone have ideas on how the execution time can be lowered it would ...\n        ",
+    "Views": "\n    6 views\n"
+  },
+  {
+    "Question": "Istio block excessive requests from a single IP",
+    "Description": "\n            I need to setup a rate limit for number of requests a single IP can trigger.\nI followed this tutorial on Istio documentation for global rate limit.\nhttps://istio.io/latest/docs/tasks/policy-...\n        ",
+    "Views": "\n    2 views\n"
+  },
+  {
+    "Question": "How to improve latency when streaming via RTSP to Kinesis Video Streams?",
+    "Description": "\n            I am using gstreamer to stream an IP Camera to Kinesis video streams.\nI have tried the following pipeline and got a latency of 6~8 seconds.\nAnyone knows how to further lessen this to atleast 2~...\n        ",
+    "Views": "\n    2 views\n"
+  },
+  {
+    "Question": "How to get double quotes only when we open in txt editor for CSV file",
+    "Description": "\n            I have an array like this:\nnewArray = [\n\"header1\",\n\"header2\",\n\"header3\",\n\"header4\",\n\"header5\"\n]\nwhen I download as CSV and open in excel I should get ...\n        ",
+    "Views": "\n    8 views\n"
+  },
+  {
+    "Question": "ImportError: cannot import name 'is_valid_waiter_error'",
+    "Description": "\n            I'm following along to this Notebook, cell \"Loading the dataset\".\nI want to use datasets library.\nI've restarted and rerun the Kernel conda_pytorch_p36 without luck.\nI run:\n! pip install ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "Lock a python program following an intrusion",
+    "Description": "\n            I would like to develop a python program in tkinter in which if the user does not enter the correct username and / or password more than 5 times, the program locks up and cannot be launched for 24 ...\n        ",
+    "Views": "\n    7 views\n"
+  },
+  {
+    "Question": "Problem getting \"Invalid characters in string\" in watch window during debugging VS2019 C++",
+    "Description": "\n            // Test of \"Invalid characters in string\"\n#include <iostream>\n#include <string>    \nint main()\n{\n    char ac[100] =  \"Hello World!  Åke Österman\\n\";\n    std::string s = ...\n        ",
+    "Views": "\n    9 views\n"
+  },
+  {
+    "Question": "Howe can I change more than one SVG fill in react",
+    "Description": "\n            I am trying to change the color of two elements in an SVG in react .\nI turned the svg into a component and and am trying to change the fills of both circles in my SVG (different colored fills). ...\n        ",
+    "Views": "\n    4 views\n"
+  },
+  {
+    "Question": "Is it better to redirect to backend or frontend in redirect_url?",
+    "Description": "\n            While developing a webapp or a mobile app (let's say myapp.com), I redirect use to an external service where user fills some info and then is supposed to be redirected back to my app (I specify ...\n        ",
+    "Views": "\n    6 views\n"
+  },
+  {
+    "Question": "I am tring deploy angular project on heroku but get error",
+    "Description": "\n            I am trying to deploy Angular project to Heroku. I do all the steps and get An error that occurred in the application and your page could not be served. If you are the application owner, check your ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "Why is `str` not defined?",
+    "Description": "\n            In python I wrote:\nfrom base64 import b64encode\nimport os\nimport uuid\nimport xml.etree.ElementTree as ET\ndef scan_network_for_list_of_ips(dest_network = '10.10.10.0/24'):\n    print(' '.join(['...\n        ",
+    "Views": "\n    25 views\n"
+  },
+  {
+    "Question": "How to convert a yml file to a text file?",
+    "Description": "\n            I'm trying to convert a yml file to a text file.\nThis is my code:\n\n#Import Modules\nfrom ruamel.yaml import YAML\nimport yaml\n\n#Read file\nwith open(\"/Users/AndreB/Library/Mobile Documents/com~apple~...\n        ",
+    "Views": "\n    8 views\n"
+  },
+  {
+    "Question": "Combine - mapping errors to different types",
+    "Description": "\n            I've created this publisher chain:\nenum ViewState {\n  case loading, loaded([Person]), error(String)\n}\n\nvar viewStatePublisher: AnyPublisher<ViewState, Never> {\n  service.fetchPeople()\n    .map { ...\n        ",
+    "Views": "\n    3 views\n"
+  },
+  {
+    "Question": "how to build multiple flutter apps, firebase as the common backend for all?",
+    "Description": "\n            I have been trying to create multiple apps using a single firebase as the backend.is there any way to connect them?\nI have developed a food delivery app using flutter and firebase. but now I need an ...\n        ",
+    "Views": "\n    7 views\n"
+  },
+  {
+    "Question": "how should I define the eight differenatial system and boundary condition to solve with scipy bvp solver?",
+    "Description": "\n            I trying to solve these systems but I didnt understand how can I define the equations and boundary condition. I wrote some codes but I am not sure if it is correct. it is very complex problem, can ...\n        ",
+    "Views": "\n    5 views\n"
+  },
+  {
+    "Question": "Show lowercase url in .htaccess with uppercase file names",
+    "Description": "\n            In my .htaccess file, I have this code:\nRewriteMap tolowercase int:tolower \nRewriteRule ^(.*)$ ${tolowercase:$1} [R=301,L]\n\nFrom: htaccess Uppercase URL to lowercase\nThis change the url from uppercase ...\n        ",
+    "Views": "\n    10 views\n"
+  },
+  {
+    "Question": "About using Oracle Nosql database on windows",
+    "Description": "\n            So i'm having an assignment which is researching the basic of Oracle Nosql Database\nI'm on windows, so i just wanted to know if there is anyway to use some kind of virtual machine to use it, bc ...\n        ",
+    "Views": "\n    8 views\n"
+  },
+  {
+    "Question": "ConfuserEx - VS2019 - Obfuscating multiple project referenced in same solution",
+    "Description": "\n            I have two projects in my solution. The startup project is successfully able to obfuscate however, the other referenced project is not able to obfuscate successfully.\nIf I obfuscate individual ...\n        ",
+    "Views": "\n    5 views\n"
+  },
+  {
+    "Question": "event is waiting for ajax call even though async set to true",
+    "Description": "\n            I'm trying to let the user open a tab to keep letting him use the system while the current tab is making some request to the server.\nso I'm opening a new tab and trying to use $(window).load() or $(...\n        ",
+    "Views": "\n    10 views\n"
+  },
+  {
+    "Question": "How can i get guild name using discord.py",
+    "Description": "\n            @client.command()\nasync def kick(ctx, member : discord.Member, *, reason=None):\n    await member.kick(reason=reason)\n    await ctx.send(f\"{member.name} has been kicked by {ctx.author.name}\\...\n        ",
+    "Views": "\n    15 views\n"
+  },
+  {
+    "Question": "Why swiftui text dont have a lineBreakMode property?",
+    "Description": "\n            I really really need lineBreakMode .\nUsing UILabel() is not a graceful way !\n        ",
+    "Views": "\n    5 views\n"
   }
 ]
