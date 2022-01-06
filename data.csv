@@ -1,139 +1,187 @@
 Question,Description,Views,UpVotes,Answers
-"pandas numpy KeyError: ""['1' '2' '3' '4'] not in index""","I have a dataframe,you can have it by running this code:
-import numpy as np
-import pandas as pd
-from io import StringIO
+How can I run Xcode 12.5.1 on Monterey?,I am facing a problem running older versions of Xcode on new Monterey OS.,3k ,16,3
+Fix for SQL update updating all the rows to the same value,"I have the following query to combine the columns into a comma separated list:
+SELECT top 1 STUFF((
+            SELECT ',' + t1.HAZARD_code_desc 
+            FROM HAZARD_codes t1 
+            where ...",14 ,0,1
+ImportXML having issues with XPATH,"I cannot seem to import a table from a website. At best I can get the first column I want but none of the other data and I am not sure why.
+The website: https://classic.warcraftlogs.com/character/EU/...",2 ,0,0
+To Connect [833/528/O9O5] with our Customer Service Representative - Coinbase,"All you need is the support.coinbase.com platform or the customer service phone number, which is openly posted.
+Why Coinbase Support Number, Coinbase Customer service and phone number get quick and ...",2 ,0,0
+Count and ToList extension method for Enum?,"Is it possible de create a Count and a ToList extension method for an Enum instance ?
+I have tried this but don't know how to replace the ""???"", related to the type of the enum ""e"".
 
-df4s = """"""
-   LowerAge    age   '1'    '2'    '3'     '4' 
-0  2  ...",26 ,0,2
-"Python , working with files, math operations","I'm new to Python and I need help with a program thats reads the contents of a text file and make the necessary math operations from the file.
-in the txt.file i have the following numbers and ...",16 ,-1,1
-Haskell Function returning its input,"I'm currently writing a function for substitution (Lambda Calculus) based in Haskell.
-data Term = Var String 
-          | Application Term Term
-          | Lambda String Term`
+public static ...",773 ,3,2
+How to add mXparser library to Sketchware Pro?,I am trying to add mxparser library to my Sketchware Pro project. I downloaded the .jar file of the library and copy paste it to local libraries folder manually. But when I open Sketchware and go to ...,26 ,0,1
+"On windows, DLL load failed while importing CV2: the specified module could not be found","system: windows 10
+I installed anaconda3. But it isn't added in the system PATH.
+I installed an official python3.8.2 also. And the official python3.8.2 is added in the system PATH
+I compile opencv ...",358 ,2,0
+Updating chart when onchange handler is called in React,For a school project i'm visualizing data in React. I load the data when an onchange event is called. The problem now is that the chart does not refresh with the new data that is in the state. i'm ...,2 ,0,0
+"Django annotate with conditional expression, how to apply distinct()","I have a little bit complex query and I use annotate with a conditional expression, the code is below:
 
-The function takes in a ...",20 ,1,1
-Reactjs how to add variable in URL parameter,"The link from my backend produce ?id= for my frontend to parse using queryString. Is there a way to get this link to load in the frontend?
-http://localhost:3000/resetpassword/?id=...",8 ,0,0
-Writing the payload back to HTTPRequest object in Java Filter after changing some value in the payload,"In our application, I have to write a Filter which will read the HttpServletRequest containing xml as body. I have read the xml and now i want to remove a specific tag from the xml as it is base64 ...",7 ,0,1
-How do i execute a def function in python?,Im writing a simple choice game in python and im pretty new i just learned how to make a def function but when i run it nothing is working and if i remove the def main() command theres an error that ...,3 ,0,0
-ASP Repeater.DataBind() is taking forever to load?,"I have ASP:Repeater loading the data by paging in it, and it's taking very long time to load, after debugging I found out that the delay is in Rpt.DataBind();
+from django.db.models import Q, F, When, CharField, Value, Case
+from django.contrib.auth.models ...",314 ,5,1
+Why am I required to remove/rescan my PCIe devices after Ubuntu boots?,"When I cold-boot my SuperMicro server, the kernel dmesg log states that it finds my PCIe cards and their required MEM spaces for their BARs...
+[  +0.000036] pci 0000:19:00.0: [10de:1eb1] type 00 class ...",2 ,0,0
+Hot to read variable that is outside dynamically added script element?,"I add scripts dynamically to my page using next code:
+var newScriptElem = document.createElement(""script"");
+newScriptElem.innerHTML = myJSCodeString; // myJSCodeString loaded before from .js ...",23 ,0,1
+Count the number of Records in Child in MVC,"I want to achieve the same result as the below question but in MVC. 
 
-Code:
+    public ActionResult Index()
 
-var query = (from a in db.Table1
- ...",184 ,0,1
-"How to split text every 6 periods, but in parts shorter than 400 characters with regex","this is a little difficult for me to explain.
-I have a large text, 5000 characters, and i want to split it in small parts until period.
-Let's say that every 6 period i want to create a new part of ...",13 ,-1,1
-"How to split a string and then split the returned value again connected to another value that has to be split, and join the remainder to the remaining","What I want is something like a string that is around 2000 to 3000 characters with over a hundred non-uniformly located \n in them, and I want to split them for every 1000 characters, and then in the ...",28 ,1,1
-Can you recognise this people,"https://youtube.com/shorts/kKnRqWu0ATk?feature=share
-Tell me what's your opinion about this thing",13 ,-7,0
-E-mail form doesn't send data to the email address,"I'm trying to make simple contact form
-and here is my html code:
-<form id=""wf-form-Contact-Form"" name=""wf-form-Contact-Form"" data-name=""Wf Form Contact Form"" method=&...",7 ,0,0
-Cyclic dependencies of some beans: a WebSecurityConfigurerAdapter implementation and a filter using AuthenticationManager,I implemented my own filter that employs AuthenticationManager. The manager injected through the filter's constructor (I don't utilize field injection because it is not recommended). I get a ...,13 ,0,0
-How to call setup file through vbs and that vbs is from another folder,"I have 2 folder, folder A and folder B. Folder A have setup.exe file and folder B have .vbs file.
-In folder B .vbs file how to call setup.exe file from folder A?",6 ,0,0
-Swift - Concurrency with Alamofire,"how are you doing?
-I'm trying to do an Interceptor to use with Alamofire, where I can retry a service call when the user has no internet previous and click on ""try again"" button.
-I did it ...",8 ,0,0
-Keeping apps synchronized,"Need to integrate two services(e-shop cms with erp). When the order created in shop, it should appear in erp, and erp changes should be visible in cms.
-How do I control deliever of webhook? Tech ...",10 ,0,0
-Does React keep state and CSS styles after replacing components with new ones?,"This has been baffling me for days! I've got a game where a user clicks tiles on a 25-tile board hoping they don't hit a bomb. As soon as they do uncover a bomb, the user should be able to restart the ...",18 ,0,0
-Docker container ssh not starting if starting a script or settings LD_PRELOAD,"I have a Docker image which starts SSH at startup and listen for connections:
-FROM nvcr.io/nvidia/deepstream:6.0-triton
-
-# OTHER STUFF HERE 
-# ....
-
-# SSH AND REMOTE LOGIN FOR DEVELOPMENT PURPOSES
-RUN ...",3 ,0,0
-how to copy the dependencies libraries JARs in gradle,"i got a runnable jar with this build.gradle
-
-apply plugin: 'java'
-apply plugin: 'application'
-
-manifest.mainAttributes(""Main-Class"" : ""com.test.HelloWorld"")
-
-repositories {
-    mavenCentral()
+    {
+        //List<Systems> systems;
+        //var query = db.SystemFamily.Select(c => ...",5k ,2,1
+Axios API request in Vue app returns different results than when testing with Insomnia,"I have a vue app with a flask server. I wrote a new API in flask, however when making a request using this API, I get different results in insomnia than I do in the app itself.
+simplified version of ...",2 ,0,0
+Can a module know name of host file?,"Say I have  a script.py that imports  module.py,
+In the module, __file__ returns path\module.py
+Is there a variable or something I can use in the module that returns path\script.py or script.py?
+at ...",16 ,1,1
+What is the recommended approach for large react app with react-query?,"I've recently started using react using functional components and react-query and it has been working fine except that I'm not clear about how to organize components properly.
+the way I'm used to ...",41 ,1,2
+Usage of flag and while loop,"boolean flag=true;
+while(flag)
+{
+   //code(flag=false;)
 }
 
-...",47k ,47,7
-React-native navigation is it possible to intercept the back action?,"Is it possible to  intercept the back action in react native on any route?
-Lets say I am on a page and I want navigate a user on a different route when he/she performs a back action.
-or even a popup ...",10 ,-1,1
-How to deploy and configure nextjs (using reactjs) application on cloudways or debian OS?,"I am trying to deploy my nextjs(reactjs) application and make it runnable for cloudways server:
-I tried following command in visual studio code terminal.
-npx create-next-app
+In the above code ,inside the while loop condition simply flag is given. How does the while condition satisfy here?",30 ,0,1
+Java Program skips over user input using the Scanner class and print statements,"I have never encountered a problem of this sort before, but three of my latest projects are all having this same problem where, for some reason, Java is skipping over the user's input. Whatever help ...",29 ,0,1
+JavaScript - find index of array inside another array,"I am trying to find the index of an array inside another array in Javascript, as below:
 
-When above command is ...",224 ,0,1
-QtCreqtor error YAML::Load using yaml-cpp [duplicate],"I'm trying to use yaml-cpp to parse a file in QtCreator but I can't load the file. It doesn't tell me any error at first but when I'm trying to compile the program in Qt I have an error:
-undefined ...",13 ,0,0
-"jq: how to perform unmerge / multi-level object subtraction i.e. given X and Y, find Z such that X * Z = Y","Using jq we can easily merge two multi-level objects X and Y using *:
-X='{
-    ""a"": 1,
-    ""b"": 5,
-    ""c"": {
-      ""a"": 3
-    }
-  }' Y='{
-    ""d"": 2,
-...",11 ,1,1
-I don't understand how to install MySQL,"I installed the installer from the official website, I have Apache Service Monitor, I connect it to localhost. PHP works without problems.
-Then, I install MySQL in C:/mysql. Now I don't know how to ...",12 ,-1,1
-GNURadio OOT Module: pmt_dict_keys: wrong_type : #<unknown>,"I am running some tests for a GNU Radio OOT Module, and although the tests pass, i get the following message:
-thread[thread-per-block[1]: <block conv_enc(0)>]: pmt_dict_keys: wrong_type : #<...",2 ,0,0
-Cant get Regex to capture multi-part line in Bash(Grep) or Notepad++,I am trying to parse all the log line prints from a few java files and in notepad++ (grep all log lines to a new file). I created the following regex and it appears to work in notepad++ as when I find ...,38 ,1,1
-horizontal menu show vertical menu,"I am just starting to learn HTML, CSS and PHP.
-I have made a layout with a horizontal menu using cssgrid and now I want to show a vertical menu on the left side below the horizontal menu. which in ...",10 ,-2,0
-BASH How to improve performance of JSON parsing with jq,"Context: I have a scenario where I need to perform copies of backups from one system to another. I want the backups list to be configurable, so I went with a JSON approach inside the script itself.
-...",69 ,0,1
-I am using card view with in recycler view and i want to change color of each single card,I am using card view within recycler view and I want to change the color of each single card view like in the picture I'm using retrofit technique for fetching data. please tell me where to put what ...,16 ,0,1
-"subscripted value is not an array, pointer, or vector C","everybody, I'm newbie in C, I'm trying to build a programme to calculate the matrix, so here is my source:
-#include <stdio.h>
-#include <stdlib.h>
 
-void f1(double *p, double *n, double *m, ...",3 ,0,0
-How to correctly create method accepting list of objects,"Hi I would like to create method which accepts list of Object something like this:
-public static String formatList(List<Object> listToFormat,int indentationSize){
-        String indentation = ...",18 ,0,2
-Error encountered while defining a function to calculate the Euclidean distance between two points using a struct,"I created a function to calculate the Euclidean distance between two points in C (written in the Codeblocks IDE), however some errors occurred:
-error: expected ')' before 'p1'|
+piece = [5, 10];
+array = [[5, 10], [5, 11]];
 
-error: expected ...",24 ,1,2
-Is it possible to use mix-blend-mode to blur a background while ignoring an opaque layer?,"I have a small page with a blurred background image. On top of that, I have divs setup as cards that have their own transparent overlay a background image. I'm trying to setup a text effect using ...",54 ,0,0
-Does Firestore have a write limit for categorical data?,"According to the Firestore documentation, Firestore has a soft limit of 500 writes per second when writing documents with indexed sequential data to a collection. Does Firestore have any similar ...",4 ,0,0
-"browser.executeScript(""return arguments[0].shadowRoot"") not working with chromedriver 96 and higher","I extensively use this method to locate element inside shadowRoot using Protractor framework.
-But after the chromedriver was updated to 96, it has stopped working.
-Does anyone knows how to do work ...",32 ,0,1
-Why does decoder stop while decoding attributed string with secure coding?,"I am still struggling with secure coding an attributed string. As soon as I encode an attributed string with attributes – like
-NSDictionary *attrsDictNormal = [NSDictionary ...",3 ,0,0
-What is this raw query equivalent to Sqlalchemy?,"I also need to create a model with dynamic table name, etc. The below is the raw sql staement that I need to return response from with my FastAPI library.
-select min(date_trunc('{timeframe}', ...",3 ,0,0
-Is there another way to use CSS module?,"Whenever I import ""style.module.css"" I have to give a class name like this: class={style.className}
-is there any more convenient way than this? So, I don't have to type the ""style....",4 ,0,0
-module.exports = app More than One Require,"I'm creating a lambda function on AWS and I'm looking to require more than one file for ""app"". Apologies, I'm not great with Node yet.
-In a routes.js file I have the following...
-module....",18 ,0,1
-"GAE, Cannot find requsted url /index.html on this server",I have been working on a website that I am using google app engine to host. Everything is working on my localhost. It is a very simple website where the home page is an index.html file with 3 pages. I ...,6 ,0,1
-How I get data to flutter app from AWS RDS database,I need to get data from an AWS RDS database to my flutter up. I read that I need an endpoint to achieve this but I don't understand what this exactly means.,10 ,0,1
-Return List<object> from IEnumerable C#,"I have a method:
+//Using indexOf
+console.log(array.indexOf(piece));
 
-public List<AxeResult> LoadAxes(string kilometriczone, string axe)
+//Using ...",15 ,0,2
+"Warning: Departure time for vehicle ""*"" is in the past; using current time instead","After running the following code, the GUI sends a message repeatedly that: ""Warning: Departure time for vehicle 'veh_0' is in the past; using current time instead."" and the veh_0 is not ...",4 ,0,0
+Why is my face detector app so slow on my mobile device,"I've successfully implemented a face detector app using html and javascript. Specifically this one: https://justadudewhohacks.github.io/face-api.js/docs/index.html.
+To test it, I run it locally using ...",4 ,0,0
+IQueryable.ToList method messing up with T-SQL sorting order,"I'm using EF Code First and I have a Linq To SQL (against an Oracle Database). For the sake of simplicity, I'll be resuming the scenario. Suppose I have table Products like this:
+
+ProductName (varchar)...",457 ,3,1
+Assistance with SQL hyperlink,"SELECT distinct
+'[' || job_requisition_id ||'](https://app.huntclub.com/jobs/'||job_id|| '/requisitions)' as ""Req ID"",
+job_requisition_id as ""Job Req ID"",
+FROM job_requisitions
+...",3 ,0,0
+Find number of digits in number,"I need to generate a unique id for every user in my program. This is my code :
+from random import choices
+IDS = []
+id = """"
+num = int(input("" Entr the ids number : ""))#عدد الايديات ...",40 ,0,2
+What does object object object mean?,"I'm trying to make a journal but can't get it to work. I'm trying to make a for loop that posts the posts that I compose, in an array on the home page. I get connection between the app file and the ...",44 ,0,2
+Get ROLLUP to include rows for missing values,"PostgreSQL 14
+Assuming this sample data:
+fruit
+ripeness
+orange
+1
+orange
+3
+apple
+0
+apple
+3
+apple
+3
+apple
+2
+Is there a way to get ROLLUP to give me a count of fruits by ripeness with a row for ...",3 ,0,0
+"Error ""Error: A <Route> is only ever to be used as the child of <Routes> element""","I am trying to use routing for the first time and followed the exact instructions from Udemy:
+File App.js:
+import { Route } from ""react-router-dom"";
+import Welcome from ""./Pages/Welcome&...",47k ,41,12
+execute two functions in google app script,"I have two functions (function one and function two). what I want is when function one 
+
+execution completes, then function two execution starts and then after done. I managed to find
+some formula ...",3 ,0,0
+Android Google play : App rejected : Your app has been rejected and wasn't published due to a policy violation. Issue: Not a core feature,"Our app got rejected 3 times with same reasons.
+1st attempt :
+rejection email : https://docs.google.com/document/d/10AV9Mq4EBjollo_-kgvsfNgJR8XzBhFxT5eXl3OL0eo/edit?usp=sharing
+After doing research, ...",12 ,0,0
+Count items in a list - ASP.NET C# [closed],"I have a search function on my website which takes text from a textbox control, compares it to the names of products in my database, adds the results to a list and then displays the product details in ...",5k ,-4,1
+How to type an argument which will be subclassed in Python,"I have a piece that follows such pattern
+from typing import Any
+class Base:
+    ...
+class Derived1(Base):
+    ...
+class Derived2(Base):
+    ...
+class BasicApp:
+    # how to type d in this base ...",5 ,0,0
+"""Reinitialize from source"" not working for long time run",I have defined a variable using MATLAB code in a Simulink block (Monte Carlo approach). The problem I am facing is that when I edit and run the MATLAB Code on a short time it works fine BUT for long ...,5 ,0,0
+How to update key's value in json file by Python,"I want collect data from different pages, but when i get data and append to json file it is structurally bad. i have one dict num and i want to append all data in value as list. for example
+num:[1,2,3]...",21 ,0,1
+Is dispatch function returned from useDispatch hook synchronous with async thunk?,"Async thunk:
+const getMovies = createAsyncThunk('recommended/getMovies', async () =>{
+    const result = await api.getRecommendedMovies();
+    console.log('first')
+    return result;
+});
+
+Function ...",3 ,0,0
+Spring Boot graphiql not working when running a Jar but works on IntelliJ,"I have a basic spring boot 2.7 project with graphql.
+I can access the /graphiql  console from the path  http://localhost:8080/graphiql?path=/graphql when running the project on intellij but I get 404 ...",14 ,0,1
+How can I set the margin of a PowerPoint TextBox with Apache POI?,"I have an application which creates a power point presentation with Apache POI. I have some text boxes, and I need to set the left and right margin of this text boxes to 0.
+Hypothetically it would be ...",3 ,0,0
+Scraping entire lines with HtmlUnit,"I'm struggling to scrape the entire option lines from a web page
+<select id=""Code_9"" name=""value[2].valueType"" onchange=""changeMe(this);"">
+  <option value=""...",11 ,0,1
+E-mail form doesn't send data to the email address,"I'm trying to make simple contact form
+and here is my html code:
+<form id=""wf-form-Contact-Form"" name=""wf-form-Contact-Form"" data-name=""Wf Form Contact Form"" method=&...",10 ,0,0
+How do i convert the following xml based spring bean to java annotation beans,I want to convert this to java annotation based bean (@Bean).,5 ,0,0
+Extend my Ubuntu LVM so it uses free space on a partition,"I am running a Ubuntu server VM (no GUI) inside virtualbox. My disk space became to small so I increased the size of sda3 to use the additional space that I added to the virtualbox vdi.
+Now I have the ...",3 ,0,0
+How admin can update user meta using gravity form,"I have gravity form user registration, in which a user can update their own metadata but I want that an admin can also update any user data just by adding their email address on some specific field.  ...",222 ,0,1
+How do I write codes to calculate the following averages in an array?,"Apologies if this is too simple. I have been looking but not able to solve it.
+Dimensions of my data looks like this
+y is [1:267, 1:3, 1:10]
+It basically represents 267 sites, 3 surveys every year for ...",6 ,0,0
+Loading table into R from SQL Server database,"I get the following error when I try to load a table from a SQL Server in an Azure VM. I know the connection is successful, but I'm unable to get my syntax correct for the tables I want to load into R ...",17 ,0,1
+How to get text from a textfield inside another classin kivy,"I'm stuck in this problem, I'm using a dialog so that the user can change his password but i cant access the textfield text from the DashboardGerente class...
+main.py
+class Content(BoxLayout):
+    ...",12 ,0,1
+Which packages will allow me to automate website tasks in Python,"I want to automate some interactions with a website (that has video content) that doesn't have an API.
+Specifically I want to do things like:
+
+Log in
+Navigate to different pages
+Play video content
+
+I ...",4 ,0,0
+Prolog: aStar method for maximization,"i have a problem with the aStar method for maximization, the goal is with this method find the strongest path with a little twist
+This is the knowledge base
+no/3 (First value is the id of a user, the ...",3 ,0,0
+How do I stop my Player from attaching to my mouse? (Unity 2D),"I'm making a game where you can teleport to the Mouse position when you press ""Q"". When I load in the game to play the player essentialy gets attached to the mouse (Where the mouse moves the ...",4 ,0,0
+Value assignment on copied object not behaving as expected,"I have a simple game I'm working through.  At one point I am running some logic to test several possible moves and determine which one gets the best result in the game.  To do this, I am copying the ...",9 ,0,0
+"I am new to data structures and was trying,but whenever i am using my index function to find the index of the number its returning -1 as value","#include <iostream>
+using namespace std;
+class Node
 {
-    IEnumerable<AxeResult> allAxes = PullAxes();
-    var findAxes = allAxes.Select(a => a....",2k ,2,2
-Is there a way to access values stored in has_many association in Ruby on Rails?,"I have two models in Ruby on Rails, movies, and directors. A director has_many movies, and a movie belongs_to a director. I'm creating a mini-project, where if I view a Director on a page, I would ...",12 ,0,1
-Making a command that shows all your cooldowns and the time remaining,"I need a command that shows the list of the commands with cooldowns and the time remaining to use the command again. Is it possible especially putting the command in a cog? If yes, can you help me how ...",56 ,0,2
-How to create a variable based on two opposing Booleans - business objects web intelligence,"I have a cross table in business objects web intelligence which has customer IDs in the rows, items in the columns and quantity in the body. I am trying to create a variable (dimension?) that will ...",21 ,0,1
-How to properly test React Native Modals using Jest and Native Testing Library,I'm having a bit of a hard time understanding how to test my modal component. I'm using the react-native-modals package and @testing-library/react-native with Jest. My component is a modal that pops ...,3k ,2,3
-How using JWT makes Spring Security more secure ? [New to JWT] [closed],The difference between Spring Security and JWT.,25 ,-3,0
-Apply effect to audio using NWaves,"I'm using the NWaves package to apply some effects to audios and make a simple voice changer.
-Actually, when I apply some effects to the current signal, it will not change at all and still is the same ...",10 ,0,1
-Creating a module subclass in a Python extension,"I am trying to create a Python extension module with multi-phase initialization, following the advice I got from a previous question. PEP 489 suggests that it is preferable for the Py_mod_create ...",29 ,2,1
-I can’t find the problem with my PyQt5 project,"I am currently writing my first project (game) in PyQt 5. The problem is that when the user goes from selecting the mode to the game itself, it freezes (that is, it starts loading endlessly). It's not ...",20 ,0,0
-Render a nested object from API - Type Error: Cannot read properties of undefined,I'm trying to access information from this API. I can access the first level however when I try to access any property past the first level I get an error stating TypeError: Cannot read properties of ...,7 ,0,0
+public:
+    int data;
+    Node *next;
+
+    Node(int Data)
+    {
+        data = Data;
+        next = NULL;
+    }
+};
+
+//This FUNCTION is used ...",17 ,0,0
+Why does jetpack-compose state hoisting use callbacks?,"This tutorial on state hoisting in jetpack-compose says:
+
+By passing a function and not a state to OnboardingScreen we are making this composable more reusable and protecting the state from being ...",31 ,0,1
+Get GCP OAuth2.0 token via Postman POST,"I know that postman provides an interface to get OAuth2.0 tokens. But I need to know if I can create a request with all the necessary information (client_id, client_secret, username, password etc ) ...",5 ,0,0
