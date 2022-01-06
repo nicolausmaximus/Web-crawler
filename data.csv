@@ -1,114 +1,139 @@
 Question,Description,Views,UpVotes,Answers
-Is it possible to use mix-blend-mode to blur a background while ignoring an opaque layer?,"I have a small page with a blurred background image. On top of that, I have divs setup as cards that have their own transparent overlay a background image. I'm trying to setup a text effect using ...",51 ,0,0
+"pandas numpy KeyError: ""['1' '2' '3' '4'] not in index""","I have a dataframe,you can have it by running this code:
+import numpy as np
+import pandas as pd
+from io import StringIO
+
+df4s = """"""
+   LowerAge    age   '1'    '2'    '3'     '4' 
+0  2  ...",26 ,0,2
+"Python , working with files, math operations","I'm new to Python and I need help with a program thats reads the contents of a text file and make the necessary math operations from the file.
+in the txt.file i have the following numbers and ...",16 ,-1,1
+Haskell Function returning its input,"I'm currently writing a function for substitution (Lambda Calculus) based in Haskell.
+data Term = Var String 
+          | Application Term Term
+          | Lambda String Term`
+
+The function takes in a ...",20 ,1,1
+Reactjs how to add variable in URL parameter,"The link from my backend produce ?id= for my frontend to parse using queryString. Is there a way to get this link to load in the frontend?
+http://localhost:3000/resetpassword/?id=...",8 ,0,0
+Writing the payload back to HTTPRequest object in Java Filter after changing some value in the payload,"In our application, I have to write a Filter which will read the HttpServletRequest containing xml as body. I have read the xml and now i want to remove a specific tag from the xml as it is base64 ...",7 ,0,1
+How do i execute a def function in python?,Im writing a simple choice game in python and im pretty new i just learned how to make a def function but when i run it nothing is working and if i remove the def main() command theres an error that ...,3 ,0,0
+ASP Repeater.DataBind() is taking forever to load?,"I have ASP:Repeater loading the data by paging in it, and it's taking very long time to load, after debugging I found out that the delay is in Rpt.DataBind();
+
+Code:
+
+var query = (from a in db.Table1
+ ...",184 ,0,1
+"How to split text every 6 periods, but in parts shorter than 400 characters with regex","this is a little difficult for me to explain.
+I have a large text, 5000 characters, and i want to split it in small parts until period.
+Let's say that every 6 period i want to create a new part of ...",13 ,-1,1
+"How to split a string and then split the returned value again connected to another value that has to be split, and join the remainder to the remaining","What I want is something like a string that is around 2000 to 3000 characters with over a hundred non-uniformly located \n in them, and I want to split them for every 1000 characters, and then in the ...",28 ,1,1
+Can you recognise this people,"https://youtube.com/shorts/kKnRqWu0ATk?feature=share
+Tell me what's your opinion about this thing",13 ,-7,0
+E-mail form doesn't send data to the email address,"I'm trying to make simple contact form
+and here is my html code:
+<form id=""wf-form-Contact-Form"" name=""wf-form-Contact-Form"" data-name=""Wf Form Contact Form"" method=&...",7 ,0,0
+Cyclic dependencies of some beans: a WebSecurityConfigurerAdapter implementation and a filter using AuthenticationManager,I implemented my own filter that employs AuthenticationManager. The manager injected through the filter's constructor (I don't utilize field injection because it is not recommended). I get a ...,13 ,0,0
+How to call setup file through vbs and that vbs is from another folder,"I have 2 folder, folder A and folder B. Folder A have setup.exe file and folder B have .vbs file.
+In folder B .vbs file how to call setup.exe file from folder A?",6 ,0,0
+Swift - Concurrency with Alamofire,"how are you doing?
+I'm trying to do an Interceptor to use with Alamofire, where I can retry a service call when the user has no internet previous and click on ""try again"" button.
+I did it ...",8 ,0,0
+Keeping apps synchronized,"Need to integrate two services(e-shop cms with erp). When the order created in shop, it should appear in erp, and erp changes should be visible in cms.
+How do I control deliever of webhook? Tech ...",10 ,0,0
+Does React keep state and CSS styles after replacing components with new ones?,"This has been baffling me for days! I've got a game where a user clicks tiles on a 25-tile board hoping they don't hit a bomb. As soon as they do uncover a bomb, the user should be able to restart the ...",18 ,0,0
+Docker container ssh not starting if starting a script or settings LD_PRELOAD,"I have a Docker image which starts SSH at startup and listen for connections:
+FROM nvcr.io/nvidia/deepstream:6.0-triton
+
+# OTHER STUFF HERE 
+# ....
+
+# SSH AND REMOTE LOGIN FOR DEVELOPMENT PURPOSES
+RUN ...",3 ,0,0
+how to copy the dependencies libraries JARs in gradle,"i got a runnable jar with this build.gradle
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+manifest.mainAttributes(""Main-Class"" : ""com.test.HelloWorld"")
+
+repositories {
+    mavenCentral()
+}
+
+...",47k ,47,7
+React-native navigation is it possible to intercept the back action?,"Is it possible to  intercept the back action in react native on any route?
+Lets say I am on a page and I want navigate a user on a different route when he/she performs a back action.
+or even a popup ...",10 ,-1,1
+How to deploy and configure nextjs (using reactjs) application on cloudways or debian OS?,"I am trying to deploy my nextjs(reactjs) application and make it runnable for cloudways server:
+I tried following command in visual studio code terminal.
+npx create-next-app
+
+When above command is ...",224 ,0,1
+QtCreqtor error YAML::Load using yaml-cpp [duplicate],"I'm trying to use yaml-cpp to parse a file in QtCreator but I can't load the file. It doesn't tell me any error at first but when I'm trying to compile the program in Qt I have an error:
+undefined ...",13 ,0,0
+"jq: how to perform unmerge / multi-level object subtraction i.e. given X and Y, find Z such that X * Z = Y","Using jq we can easily merge two multi-level objects X and Y using *:
+X='{
+    ""a"": 1,
+    ""b"": 5,
+    ""c"": {
+      ""a"": 3
+    }
+  }' Y='{
+    ""d"": 2,
+...",11 ,1,1
+I don't understand how to install MySQL,"I installed the installer from the official website, I have Apache Service Monitor, I connect it to localhost. PHP works without problems.
+Then, I install MySQL in C:/mysql. Now I don't know how to ...",12 ,-1,1
+GNURadio OOT Module: pmt_dict_keys: wrong_type : #<unknown>,"I am running some tests for a GNU Radio OOT Module, and although the tests pass, i get the following message:
+thread[thread-per-block[1]: <block conv_enc(0)>]: pmt_dict_keys: wrong_type : #<...",2 ,0,0
+Cant get Regex to capture multi-part line in Bash(Grep) or Notepad++,I am trying to parse all the log line prints from a few java files and in notepad++ (grep all log lines to a new file). I created the following regex and it appears to work in notepad++ as when I find ...,38 ,1,1
+horizontal menu show vertical menu,"I am just starting to learn HTML, CSS and PHP.
+I have made a layout with a horizontal menu using cssgrid and now I want to show a vertical menu on the left side below the horizontal menu. which in ...",10 ,-2,0
+BASH How to improve performance of JSON parsing with jq,"Context: I have a scenario where I need to perform copies of backups from one system to another. I want the backups list to be configurable, so I went with a JSON approach inside the script itself.
+...",69 ,0,1
+I am using card view with in recycler view and i want to change color of each single card,I am using card view within recycler view and I want to change the color of each single card view like in the picture I'm using retrofit technique for fetching data. please tell me where to put what ...,16 ,0,1
+"subscripted value is not an array, pointer, or vector C","everybody, I'm newbie in C, I'm trying to build a programme to calculate the matrix, so here is my source:
+#include <stdio.h>
+#include <stdlib.h>
+
+void f1(double *p, double *n, double *m, ...",3 ,0,0
+How to correctly create method accepting list of objects,"Hi I would like to create method which accepts list of Object something like this:
+public static String formatList(List<Object> listToFormat,int indentationSize){
+        String indentation = ...",18 ,0,2
+Error encountered while defining a function to calculate the Euclidean distance between two points using a struct,"I created a function to calculate the Euclidean distance between two points in C (written in the Codeblocks IDE), however some errors occurred:
+error: expected ')' before 'p1'|
+
+error: expected ...",24 ,1,2
+Is it possible to use mix-blend-mode to blur a background while ignoring an opaque layer?,"I have a small page with a blurred background image. On top of that, I have divs setup as cards that have their own transparent overlay a background image. I'm trying to setup a text effect using ...",54 ,0,0
+Does Firestore have a write limit for categorical data?,"According to the Firestore documentation, Firestore has a soft limit of 500 writes per second when writing documents with indexed sequential data to a collection. Does Firestore have any similar ...",4 ,0,0
+"browser.executeScript(""return arguments[0].shadowRoot"") not working with chromedriver 96 and higher","I extensively use this method to locate element inside shadowRoot using Protractor framework.
+But after the chromedriver was updated to 96, it has stopped working.
+Does anyone knows how to do work ...",32 ,0,1
 Why does decoder stop while decoding attributed string with secure coding?,"I am still struggling with secure coding an attributed string. As soon as I encode an attributed string with attributes – like
-NSDictionary *attrsDictNormal = [NSDictionary ...",2 ,0,0
+NSDictionary *attrsDictNormal = [NSDictionary ...",3 ,0,0
 What is this raw query equivalent to Sqlalchemy?,"I also need to create a model with dynamic table name, etc. The below is the raw sql staement that I need to return response from with my FastAPI library.
-select min(date_trunc('{timeframe}', ...",2 ,0,0
+select min(date_trunc('{timeframe}', ...",3 ,0,0
 Is there another way to use CSS module?,"Whenever I import ""style.module.css"" I have to give a class name like this: class={style.className}
-is there any more convenient way than this? So, I don't have to type the ""style....",2 ,0,0
+is there any more convenient way than this? So, I don't have to type the ""style....",4 ,0,0
 module.exports = app More than One Require,"I'm creating a lambda function on AWS and I'm looking to require more than one file for ""app"". Apologies, I'm not great with Node yet.
 In a routes.js file I have the following...
-module....",17 ,0,1
-"GAE, Cannot find requsted url /index.html on this server",I have been working on a website that I am using google app engine to host. Everything is working on my localhost. It is a very simple website where the home page is an index.html file with 3 pages. I ...,5 ,0,1
-Reactjs how to add variable in URL parameter [duplicate],"The link from my backend produce ?id= for my frontend to parse using queryString. Is there a way to get this link to load in the frontend?
-http://localhost:3000/resetpassword/?id=...",6 ,0,0
-How I get data to flutter app from AWS RDS database,I need to get data from an AWS RDS database to my flutter up. I read that I need an endpoint to achieve this but I don't understand what this exactly means.,8 ,0,1
+module....",18 ,0,1
+"GAE, Cannot find requsted url /index.html on this server",I have been working on a website that I am using google app engine to host. Everything is working on my localhost. It is a very simple website where the home page is an index.html file with 3 pages. I ...,6 ,0,1
+How I get data to flutter app from AWS RDS database,I need to get data from an AWS RDS database to my flutter up. I read that I need an endpoint to achieve this but I don't understand what this exactly means.,10 ,0,1
 Return List<object> from IEnumerable C#,"I have a method:
 
 public List<AxeResult> LoadAxes(string kilometriczone, string axe)
 {
     IEnumerable<AxeResult> allAxes = PullAxes();
     var findAxes = allAxes.Select(a => a....",2k ,2,2
-Is there a way to access values stored in has_many association in Ruby on Rails?,"I have two models in Ruby on Rails, movies, and directors. A director has_many movies, and a movie belongs_to a director. I'm creating a mini-project, where if I view a Director on a page, I would ...",11 ,0,1
+Is there a way to access values stored in has_many association in Ruby on Rails?,"I have two models in Ruby on Rails, movies, and directors. A director has_many movies, and a movie belongs_to a director. I'm creating a mini-project, where if I view a Director on a page, I would ...",12 ,0,1
 Making a command that shows all your cooldowns and the time remaining,"I need a command that shows the list of the commands with cooldowns and the time remaining to use the command again. Is it possible especially putting the command in a cog? If yes, can you help me how ...",56 ,0,2
-How to create a variable based on two opposing Booleans - business objects web intelligence,"I have a cross table in business objects web intelligence which has customer IDs in the rows, items in the columns and quantity in the body. I am trying to create a variable (dimension?) that will ...",20 ,0,1
+How to create a variable based on two opposing Booleans - business objects web intelligence,"I have a cross table in business objects web intelligence which has customer IDs in the rows, items in the columns and quantity in the body. I am trying to create a variable (dimension?) that will ...",21 ,0,1
 How to properly test React Native Modals using Jest and Native Testing Library,I'm having a bit of a hard time understanding how to test my modal component. I'm using the react-native-modals package and @testing-library/react-native with Jest. My component is a modal that pops ...,3k ,2,3
-How using JWT makes Spring Security more secure ? [New to JWT] [closed],The difference between Spring Security and JWT.,24 ,-3,0
+How using JWT makes Spring Security more secure ? [New to JWT] [closed],The difference between Spring Security and JWT.,25 ,-3,0
 Apply effect to audio using NWaves,"I'm using the NWaves package to apply some effects to audios and make a simple voice changer.
-Actually, when I apply some effects to the current signal, it will not change at all and still is the same ...",9 ,0,1
-Creating a module subclass in a Python extension,"I am trying to create a Python extension module with multi-phase initialization, following the advice I got from a previous question. PEP 489 suggests that it is preferable for the Py_mod_create ...",27 ,2,1
-I can’t find the problem with my PyQt5 project,"I am currently writing my first project (game) in PyQt 5. The problem is that when the user goes from selecting the mode to the game itself, it freezes (that is, it starts loading endlessly). It's not ...",18 ,0,0
-Spring boot hibernate complex table relationship works partially,"I have following models they have one-to-one and one-to-many and many-to-one relationship. Most of the model are fine except one.
-My json data:
-        {
-            
-                    ""name&...",13 ,0,0
-Render a nested object from API - Type Error: Cannot read properties of undefined,I'm trying to access information from this API. I can access the first level however when I try to access any property past the first level I get an error stating TypeError: Cannot read properties of ...,5 ,0,0
-EfCore ToListAsync() Throw exception with where condition,"I have a problem with an async task that get items from the database with a specific condition
-When i call the ToListAsync() i get this error
-  Expression of type 'System.Collections.Generic....",3k ,0,1
-Get Log4j2 log file location to write to directory containing a date,"How can I get the location of a log4j log file? I tried this: Where can i programatically find where the log4j log files are stored? 
-
-But it doesn't work for newer versions of log4j. 
-
-I am creating ...",6k ,2,2
-"Shift maker , shift organizer","We have 25 people with 12 engineers and 13 doctors.
-shift_1 = {""Jack"":""eng"", ""Sam"":""eng"", ""Ben"":""doc"", ""Tom"":""doc"", &...",22 ,-3,0
-Mixing parent and child managed object contexts down a view hierarchy,"I'm using Core Data to persist data in my app, and have a question about mixing parent and child managed object contexts down a view hierarchy.
-For simplicity, let's say my app allows users to create ...",7 ,0,1
-Entity Framework query with ToList().Last() in Where(),"I have to get records from database which last of OrderStatus is Registered. This is how I try to find those records
-
-    List<Order> orders = db.Orders
-        .Include(""OrderStatuses"")
-        ...",2k ,2,1
-"""Cannot read properties of undefined,"" even though data is there (React/JSX)","I need to map over an array of novels a user has saved in order to render info cards on each novel. Each time I try, the page fails to load and I get ""TypeError: Cannot read properties of null (...",13 ,0,1
-How to open Dialog Box automatically when app receive notification in background?,"I want to open DialogBox automatically when app receive firebase push notification(Without clicking on notification). And app is not running . It is closed.
-You can find similar functionality in ...",4 ,0,0
-how to prevent ruby from defining variables,"I'd like a user to input a conditional expression interactively, something like f1 == 'b' || f2 == 'd' where f1 and f2 are ruby functions. eval condition works ok. However, I'd like to prevent errors ...",22 ,0,2
-How to use moveTo and locateOnScreen with duration and tween features on PyAutoGUI?,"I was using the moveTo function with coordinates, but I notice that sometimes the coordinates are changed, so getting those coordinates manually every time is not being that practical as I wanted.
-So ...",4 ,0,0
-How can I setup IntelliJ to remember Git Bash current working directory between sessions?,"I'm running IntelliJ 2018.3 on Windows 7, as well as openSUSE Leap 15.
-Under Windows 7, I've configured IntelliJ to use Git Bash, i.e., in Settings, under Tools -> Terminal, I'm setting Shell path ...",1k ,2,2
-How to convert list of jsons in a nested list of jsons to csv in python?,How do I convert a list of jsons in a nested list of jsons to be in the following format? Can't seem to get this right and many examples use pandas where as I'd prefer to use csv.DictWriter. My ...,16 ,0,2
-Kubernetes Ingress TLS not being applied with headless service,"What I'm trying to achieve
-I'm trying to deploy an elixir (phoenix) application in a microk8s cluster namespace with TLS using let's encrypt. The cluster is hosted on an AWS EC2 instance.
-The problem ...",2 ,0,0
-Default fallback for C++ template functions using enable_if,"I want to write a C++ mechanism, where different instantiations of a function are called if a given class Param is derived from a certain base class.
-This works pretty nicely with std::is_base_of and ...",19 ,0,1
-Why would my Magento 2 site start giving me 403 errors when I try to upload data?,"I am working on a Magento 2 site for a client. We recently had an issue with spam accounts flooding the /customer endpoints, so we enabled an IP-based region blocking plugin to stop people from a ...",21 ,0,2
-Is there a way to queue a function call and its parameters for later calling?,"Is there a way to store function calls and their variable parameters to a database while the player is offline and call them again when the player turns back online. 
-
-Hi! I am working on a new game(...",102 ,0,2
-How many custom claims can one user account have in Firebase Auth?,"I've recently tried setting custom claims and noticed that an account I previously added custom claims to lost those claims. I know for a fact they set correctly, so after some testing I noticed that ...",4 ,0,1
-Java parallel quires and read/writing I/O,"A system is generating 10k values every 10Min and I need to use system output to lookup on a table to get the key to select from another table and dump the select output to file.
-looping on all values ...",4 ,0,0
-Check if one polygon crosses another polygon in Turf.js,"I'm using Turf.js for advanced geospatial analysis in my application, but can not find a method which checks if two polygons cross one another. Intersect method is not what I want, since if I have a ...",1k ,4,4
-g++ does not produce debug symbols,"I am learning linux, and my first step is to adapt my project for running on linux. Here is simple makefile (in educational purposes mostly), which generates out file:
-
-#------------------------BUILD ...",4k ,-1,3
-Change string values with new values contain in another data frame,"I have a csv with thousand of rows with sales data as follows:
-pd.DataFrame({
-    'Item_name': ['guacamole', 'morita', 'verde', 'pico', 'tomatillo'],
-    'Inv_number': ['0001', '0002', '0003', '0004', ...",17 ,0,2
-input value issues in javascript,"I hav a google published csv sheet. I created a html table and want to display csv values from published csv sheet into all input fields inside html table.
-Screenshot:
-But currently my code displays ...",40 ,0,1
-Ignoring specific rows in SAS,I have a large excel file that I am importing to SAS; Row 1 has the variable names but rows 2-4 of the file have additional descriptive information (about the variables) that I do not want in my SAS ...,3 ,0,0
-"Difference between ""ToListAsync()"" and ""AsAsyncEnumerable().ToList()""","Function need to return Task<List<Record>>
-Following both options are returning Task<List<Record>>, which one is more efficient? Is there any standard way here?
-
-Option 1 : 
-
-...",8k ,5,2
-Dynamic Filename with Grunt Uglify,"I am trying to set the version in the filename with Grunt Uglify, but it doesn't accept anything other than a string literal.
-
-How can I replace ""VERSION"" dynamically by using a variable (e.g. ${...",337 ,2,1
-Is modifying a class variable in python threadsafe?,"I was reading this question (which you do not have to read because I will copy what is there... I just wanted to give show you my inspiration)...
-
-So, if I have a class that counts how many instances ...",15k ,23,5
-Display sales by store,I have three tables I am working with. Each table purposely is leaving out information so I need to do it with these. I need to break down the total sales by store. So far I am able to get the stores ...,14 ,-1,0
-Performance issue while converting to .ToList() while executing LINQ from LiteDB approx. 1 million records,"I am using LiteDB to store approx.1 million records. When i retrieve records from LiteDb after filtering and convert .ToList() from IQueryable, it is very slow even the result of the query is just one ...",519 ,0,1
-How can we import multiple tables from the body of a multiple .msg files?,"I am trying to import data from several tables embedded in a several .msg files. I think the sample code below is pretty close, but when I get to this line:
-ws.Cells(i, 1) = MyItem.Body
-
-Everything is ...",25 ,0,2
-react native access content:// uri fails,"Working with the following react native packages in android:
-
-""react-native"": ""0.47.2""
-""react-native-document-picker"": ""2.0.0"" (removing the ovveride to compile with 0.47)
-""react-native-fetch-blob"": ""^...",8k ,9,2
-Splitting a large file into chunks,"I've a file with 7946479 records, i want to read the file line by line and insert into the database(sqlite). My first approach was open the file read the records line by line and insert into the ...",38 ,1,4
-How to join data from 2 datasets conditionally based on time?,"In my case, I have 2 datasets I'd like to merge. My first dataset consists of a column of locations, and a column of datetimes.
-site              | datetime
----------------------------------------
-...",26 ,3,2
+Actually, when I apply some effects to the current signal, it will not change at all and still is the same ...",10 ,0,1
+Creating a module subclass in a Python extension,"I am trying to create a Python extension module with multi-phase initialization, following the advice I got from a previous question. PEP 489 suggests that it is preferable for the Py_mod_create ...",29 ,2,1
+I can’t find the problem with my PyQt5 project,"I am currently writing my first project (game) in PyQt 5. The problem is that when the user goes from selecting the mode to the game itself, it freezes (that is, it starts loading endlessly). It's not ...",20 ,0,0
+Render a nested object from API - Type Error: Cannot read properties of undefined,I'm trying to access information from this API. I can access the first level however when I try to access any property past the first level I get an error stating TypeError: Cannot read properties of ...,7 ,0,0

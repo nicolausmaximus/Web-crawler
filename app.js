@@ -75,13 +75,13 @@ async function scrapeData() {
             o.push(ini);
             return o;
         }, []);
-    ] db.query('INSERT INTO stackquestion(question,Description,Views,Upvotes,Answers) VALUES ?', [values], (err, res) => {
-        if (err) throw err;
-    });
-    db.end((err) => {});
-} catch (err) {
-    console.error(err);
-}
+        db.query('INSERT INTO stackquestion(question,Description,Views,Upvotes,Answers) VALUES ?', [values], (err, res) => {
+            if (err) throw err;
+        });
+        db.end((err) => {});
+    } catch (err) {
+        console.error(err);
+    }
 }
 
 
