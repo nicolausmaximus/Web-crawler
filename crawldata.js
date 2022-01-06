@@ -3,6 +3,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 var db = require('./dbconnect');
 var csvwrite = require("./writecsv");
+var dbwrite = require("./dbwrite");
 var scrapeData = async function(url) {
     try {
         const { data } = await axios.get(url);
@@ -28,20 +29,8 @@ var scrapeData = async function(url) {
 
         console.dir(stackdata);
         csvwrite(stackdata);
+        dbwrite(stackdata);
 
-        let values = stackdata.reduce((o, a) => {
-            let ini = [];
-            ini.push(a.Question);
-            ini.push(a.Description);
-            ini.push(a.Views);
-            ini.push(a.UpVotes);
-            ini.push(a.Answers);
-            o.push(ini);
-            return o;
-        }, []);
-        db.query('INSERT INTO stackquestion(question,Description,Views,Upvotes,Answers) VALUES ?', [values], (err, res) => {
-            if (err) throw err;
-        });
         db.end((err) => {});
     } catch (err) {
         console.error(err);
