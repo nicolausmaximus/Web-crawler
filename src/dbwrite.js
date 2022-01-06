@@ -1,5 +1,6 @@
 var db = require('./dbconnect');
 
+//converts the array to array of arrays so that they can easily be pushed in the database.
 var dbwrite = function(stackdata) {
     let values = stackdata.reduce((o, a) => {
         let ini = [];

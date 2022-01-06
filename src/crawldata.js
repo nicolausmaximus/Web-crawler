@@ -2,15 +2,17 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 var db = require('./dbconnect');
-var csvwrite = require("../writecsv");
+var csvwrite = require("./writecsv");
 var dbwrite = require("./dbwrite");
 
 var scrapeData = async function(url) {
     try {
         const { data } = await axios.get(url);
         const $ = cheerio.load(data);
+        //id and class common to all the questions in stackoverflow
         const listItems = $("#questions .question-summary");
         const stackdata = [];
+        //used to store each question
         listItems.each((idx, el) => {
             const questions = {
                 Question: "",

@@ -1,4 +1,4 @@
-var csvWriter = require('./public/createcsvfile');
+var csvWriter = require('./createcsvfile');
 
 var csvwrite = function(stackdata) {
     csvWriter
