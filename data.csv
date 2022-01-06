@@ -1,196 +1,206 @@
 Question,Description,Views,UpVotes,Answers
-Django Dynamic Nested Formsets,"I have 3 models Clinic, Doctor, DoctorHours
-I want to create a dynamic form which will allow me to create those instances in one form
-something like this:
--ClinicForm
---add_doctor_button
---DoctorForm
--...",17 ,0,1
-Java: Possible performance issues while reading a JSON file,"I have a JSON files which are roughly 4 MB, The code that I have written is fine, but will I be bogged with performance issues on a latter stage when the JSON file size doubles i.e. 8 MB. I am reading ...",8 ,0,1
-Cannot update code with lorisleiva/laravel-deployer when deploying,I am quite new to laravel deployment using this CI/CD lorisleiva/laravel-deployer. I don't know why my code on server doesn't update when doing php vendor/bin/dep deploy staging while it is ...,13 ,0,1
-Power Query - How to add total rows for multiple column?,"I am looking for a solution in Power Query in Office 365.
-I have a table with several columns and >30K rows.
+How to convert Array of string to List of string in react js,"How to add a string item to the list in react js.
+sample Code:
 
-Some columns contains text based data.
-Some columns contains number based data.
-Some ...",8 ,0,1
-Django 4.0 and celery no such file or directory,"I updated Django to 4.0 and now I get the following error, can someone please help.
-The celery version is  5.2.1
-The error I get is
-Traceback (most recent call last):
-  File ""/usr/local/lib/...",2 ,0,0
-LINQ query does not work without .ToList(),"Consider following LINQ-to-NHibernate queries:
+const value1=""Book"";
+const value2=""Pen"";
+const value3=""Note"";
 
-var q1 = from se in query.ToList<SomeEntity>()
-  where
-  prop1 == ""abc""
-  select se;
+const arrayValue=[];
+arrayValue.push(value1)...",16 ,-1,2
+C ternary operator branches evaluation?,"I always assumed the ternary operator in C  did not evaluate the branch that failed the test. Why does it in this case? a is less than b so only c should be assigned to 1, d should remain 2. Thank ...",14 ,1,1
+What is the difference between hard and soft masked numpy arrays?,"I have been browsing the numpy docs for masked arrays (which I really like and use regularly) and found numpy.ma.harden_mask and numpy.ma.soften_mask which affect the MaskedArray.hardmask attribute, ...",14 ,2,1
+reading Excel in Python with win32com - it's incorrectly reading header as first row of data,"I need to read a password-protected Excel from a Python script. I found a solution on Reddit that works to open the Excel (I have the password) and save to a dataframe.
+def open_to_read(filename, ...",8 ,0,1
+Reapeating a program with a while loop in python,"I've created a while True loop at the end of the program, and a function repeat() that checks if it's an empty string which should just restart the program if ran in the loop. Right? I'm not sure if ...",31 ,-1,3
+xslt input control jquery event not working,I have this XSLT file that is loaded onto the page and then I am try to get this  jquery event to fire off. Is there anything for this to work? The function is in the document.ready so I am not sure ...,2 ,0,0
+Comparing Strings with BREAK LINES in Java,"I have two Strings as below:
+String A = ""Hello World"";
+String B = ""Hello \n World"";
 
-var q2 = from se in q1
-  where 
-  m1(se.prop2) == ""def""
-  ...",2k ,1,4
-"Disable the ""undo command for file operations in Explorer"" feature in VS Code",Something that really bugs me in recent versions of VSCode is this feature to undo file operations in the file explorer. Apparently this is a new feature since v1.52 (November 2020) https://code....,631 ,9,2
-TrainTestSplit in DeepLearning?,"I'm studying DL and making my own project mostly based on what I learned from Kaggle courses... but I couldn't find any examples of CNN models using train_test_split.
-My current code for splitting the ...",3 ,0,0
-linq related question,"using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+The only difference between the Strings is a line break, my question is how can we compare ...",2 ,0,0
+How to handle a fixed width flat file row width change in SSIS?,"For example now I have flat file with row width (length) 100 next day I got file with row width change to 105 and other next day row width change 125. In this case how build SSIS package?
+Files :",36 ,0,1
+Element with pointer-events: none causes mouseLeave to fire on underlying element?,"When I hover over an image, I have a larger blown up version of it appearing over it. This blown-up version has pointer-events: none, so that I can detect mouseLeave when I stop hovering the small ...",2 ,0,0
+Value of async function can't be used,"I saved token into asyncstorage to be retrieved for authentication, but the problem is whenever i get the value, i log it into the console and it works but it doesn't send token to header, i have ...",11 ,-1,1
+Why use .ToList after .Include in Eager Loading,"This might be easy, but I was wondering why whenever using the process of eagerly loading that .ToList() has to be used after .Include()?
 
-namespace Comparer.csd
-{
-    class Program
-    {
-        /* Confusion is regarding how ToList() method works. ...",413 ,0,2
-Get value from Read command and assign to a variable,"I have a simple script that is something like the following:
-#!/bin/bash
-NUM=$(read -p ""Number: "")
-echo $NUM
+I know that eagerly loading allows for the loading of related ...",1k ,1,1
+Building a linkedlist by input,"I'm trying to get a LinkedList by user input and everything works well, but I don't understand why. In the while loop, I'm constantly setting the 'last' to be the most recent input of num. But I never ...",16 ,0,2
+"Parse XML string with LINQ, create new object from xml","Given the following requirements and code, I have not yet found ONE answer that actually works.  
 
-When I run this from the command line i don't seem to get any value
-How can one ...",7 ,-2,1
-"pop or add esp, 4 ? What is the difference?","I saw this question, but I didn't find my answer in it..
+I have an XML field in a SQL Server Database table.  Why is it in there?  I have no idea.  I didn't ...",84 ,0,1
+NG0301: Export of name 'matMenu' not found,"My code compiles just fine however when I go to the browser to navigate to a next page I get the following error in the console : "" Export of name 'matMenu' not found!""
+I dont understand why ...",4 ,0,0
+Bash script to convert from HTML entities to characters,"I'm looking for a way to turn this:
 
-So, why would I prefer to use add esp, 4 or add esp, 8 instead of using pop one or two times? Is there any difference (performance, safety, ...",16k ,11,3
-How react handles previous state?,"const [countries,setCountries] = useState([""usa"",""china"",""russia""])
-const [country,setCountry] = useState('uk"")
+hello &lt; world
+to this:
 
-Now when i tries to update the old states, react ...",20 ,-1,1
-Debezium io with pulsar,"I want to understand how pulsar uses debezium io connect for CDC.
-While creating the source using pulsar-admin source create, how can I pass broker url and authentication params or client. Similar to ...",10 ,0,1
-Getting extra list of None values when parsing through list created from Dataframe column,"I am trying to parse through a column in Dataframe ""df"" and store the titles in a list, and then remove all None or null values from it. input number is the n number of top titles that the ...",3 ,0,0
-how to remove backslash from json array pyspark,"I converted a dataframe to json using
-dff = pd.DataFrame({'alerts':[payload]})
+hello < world
+I could use sed, but how can this be accomplished without using cryptic regex?",54k ,83,12
+how to fix 500 status err in form submission template using thymeleaf?,"I wrote some code using Spring docs: https://spring.io/guides/gs/handling-form-submission/
+I think I made same thing like in docs but my code returns me (type=Internal Server Error, status=500).
+Here ...",27 ,0,1
+Separating DNS records into multiple zones for the same domain,"I thought it would be a good idea to setup MX records in one zone, while using another zone managed by Terraform (using GCP) to deal with A records and CNAMES for the web server I'm setting up. Both ...",11 ,-1,0
+add decrypted javascript inside of javascript,"I am trying to add decrypt javascript and it is not working
+    var decrypedjs = ""alert(\""test\"")"" //for example;
+    function start() {
+    decrypedjs
+    };
 
-I only have one row and one column named alerts, and the value that I have there is
+and the html
+<...",7 ,0,0
+"Google sheet API, executing AddProtectedRangeRequest","How to execute Google sheet API, executing AddProtectedRangeRequest ?
+ void addRangeRestriction(final String sheetId, final Sheets sheetService) throws IOException {
 
-I converted it back to json using ...",11 ,-1,0
-LINQ to Objects - any performance benefit in using ToArray / ToList over IEnumerable<string>,"This is almost undoubtedly a dumb question.  In my defence I'm ill.  Anyway.
-
-I've got an in memory list of objects.  I've used the following expression to pull out the strings I'm interested in from ...",924 ,0,3
-How to add a readonly email to Forgot password,"My custom policiy for forgot password is based on this documentation: doc
-how can I add to the 3rd page before password label, a label and an input text for readonly email?",2 ,0,0
-Find coordinates in wikipedia pages iterating over a list,"Probably this is a simple question, but my experience in for loop is very limited.
-I was trying to adapt the solution in this page https://www.mediawiki.org/wiki/API:Geosearch with some simple ...",12 ,0,1
-d3 tween only applied for the last element issue - React,"I have a bar chart developed using d3 and react. In BarChart.js I have the following code
- {data.map((item) => (
-            <RectEl
-              key={item.id}
-              id={item.id}
-       ...",2 ,0,0
-How to get the size of single document in Mongodb?,"I encountered a strange behavior of mongo and I would like to clarify it a bit...
-My request is simple as that: I would like to get a size of single document in collection.
-I found two possible ...",98k ,104,5
-ERROR: Command errored out with exit status while pip install PyAudio,"Collecting PyAudio
-Using cached PyAudio-0.2.11.tar.gz (37 kB)
-Preparing metadata (setup.py) ... done
-Building wheels for collected packages: PyAudio
-Building wheel for PyAudio (setup.py) ... error
-...",2 ,0,0
-Building a linkedlist by input,"I'm trying to get a LinkedList by user input and everything works well, but I don't understand why. In the while loop, I'm constantly setting the 'last' to be the most recent input of num. But I never ...",12 ,0,1
-ToList slow performance vs foreach slow performance,"I am building program that use DataBase with 3 tables(Worker, Task, TaskStep)
-and i have a method that get date and build report for specific worker
-of the task and there steps for the specific day.
-
-...",4k ,2,3
-Yocto meta-raspberrypi core-image-minimal on rpizero-w no serial shell,"I built a Poky core-image-minimal using Yocto (meta-raspberrypi).
-It boots, I've added enable_uart=1 to config.txt and updated the kernel command line. I have kernel output via both the serial port ...",2 ,0,0
-Not able to connect with broker using MQTTNet library .net core,"I need an help, I can't connect with the broker.
-I'm using MQTTNet library into my api project .net core
-this is my code:
-// GET: api/<SendCommandController>
-[HttpGet]
-public void Get()
-{
-
-    ...",657 ,1,2
-How do i create excel chart with SXSSFSheet using apache POI?,My project is using SXSSFWorkbook in order to generate excel files as the excel files generated in the application can be of large size as well. Now I need to include excel charts in these excel files ...,20 ,0,1
-301 Redirect After Changing WordPress Permalink Structure from /%postname%/ to /%category%/%post_id% with htaccess?,Please I am new here. I have been looking for a way of redirecting the permalink on my WordPress blog from /%postname%/ to /%category%/%post_id% with htaccess after changing it through my Admin ...,2 ,0,0
-How to extract a list of names that start with an ‘s’ and end with a ‘p’ in input_list using filter() function in PYTHON?,"input_list =  ['soap','sharp','shy','silent','ship','summer','sheep']
-Extract a list of names that start with an s and end with a p (both 's' and 'p' are lowercase) in input_list using filter ...",4k ,0,7
+    AddProtectedRangeRequest ...",9 ,0,1
 Python regular expressions with overlap,"Given a string like:
 text = 'jack betty ""donald jake rita"" lorie katie danny'
 
 and a list of keywords like:
-keywords = [""jack"", ""donald"", ""rita"", ""katie&...",5 ,0,0
-Perl wrong UTF-8 output,"I have the following program:
-#! /usr/bin/perl
-use strict;
-use warnings;
-use utf8;
+keywords = [""jack"", ""donald"", ""rita"", ""katie&...",22 ,0,1
+H2 intermittently experiencing a StackOverflowError when first hitting the database,Once in a while our H2 database (v1.4.199) throws a StackOverflowError internally when our Java Spring Boot application starts and hits the database with a very simple SELECT query against a single ...,30 ,0,1
+Review snippets  Invalid object type for field ‘author’,"I got the following warning under Google Search Console.
+Review snippets  Invalid object type for field ‘author’
+I have setup Knowledge Graph & Schema.org
+organizaton
+uploaded a logo as well
+The ...",103 ,0,1
+Tailwind is not being added on my reactjs project,"I am following the official tailwind installation for reactjs tutorial step-by-step but tailwind is not being added on my reactjs project.
+This is the link to the tuorial I am following,
+I think the ...",9 ,0,0
+How to make sure a player is touching the game piece before allowing them to move it,"I am trying to make it so that the game piece (red square) cannot be moved unless the player initially clicks on it, but can then drag it freely until releasing it. Currently, if the player clicks ...",4 ,0,0
+PHP function to remove the first sentence from a paragraph,"I found very usefull the function to returne the first sentence from a paragraph.
+refer: Returning first sentence from variable in PHP
+I have product description in xml file and i want to get the ...",39 ,-1,1
+Python+tkinter: Text widget doesn't change text immidiately,"I have a tk.Text() widget and a button. When the button is clicked, I want to change the text in the Text widget, then conduct a lengthy job. Here is code snippet from the button command function:
+...",19 ,-1,1
+what does a linq query return when no results are found,"i'm using a query to see if a user already exists in the database. if it finds a user, it adds it to the list (not database), and presents a message. if the user does NOT already exist, the program ...",4k ,2,2
+Rebase after amending removed the changes introduced in amend,"I have two branches which looks like this
+A->B->C - Master
+A->B->C - Branch
 
-print ""\x{00a0}\n"";
+Now I have amended to C commit in 'Branch'
+A->B->C - Master
+A->B->C' - Branch
 
-When I run it, it produces the wrong UTF-8 encoding:
-$ ./nbsp.pl | od -tx1
-0000000 a0 ...",4 ,0,0
-Golang dispatch same data to go routins,"There is one go routine generating data. Also are many go routines that handles http response. I want generated data to be passed to all http handler routines. All dispatched data are same.
-I thought ...",10 ,0,1
+When I rebase '...",6 ,0,0
+ggplot2 legend items in a single horizontal row,"This may seem like a stupid question, but I am a little confused.
+
+It seems that the code I wrote and tested last week has now suddenly decided to change the output even though nothing in the code or ...",28k ,43,1
+Angular service failing to consume external API,"I'm trying to consume an external API (http://developer.perfectgym.com/api/memberships/memberships/) from an Angular 9 app.
+
+I created a service class (perfectgym.service.ts) as follows (simplified):
+
+...",438 ,0,2
+Compare items of an object array in JS,"I am working on an array which is like this:
+var arr = [
+  {floor: '1', id: '10165', label: 'Elutuba/Köök'},
+  {floor: '1', id: '10166', label: 'Tuba 1'},
+  {floor: '1', id: '10167', label: 'Vannituba'...",50 ,-1,4
+How to use std::copy if an explicit type conversion is necessary between source and destination type,"Consider
+struct foo{};
+
+struct bar{
+    bar(const foo& f){}
+};
+
+And imagine that I have a
+std::vector<foo> vec;
+
+and I want to convert this to a std::vector<bar> out. I can use
+std::...",18 ,2,1
+Cannot convert IQueryable<T> AsEnumerable because T has a Guid property,"I have the following EF class:
+
+class Product
+{
+   public Guid ProductGuid { get; set; }
+   public string ProductName { get; set; }
+}
+derived from a DB class where ProductGuid is a uniqueidentifier ...",294 ,1,1
+FromQuery receiving null arguments from HttpClient GetAsync,"Why is the IDictionary<string, string> data in API Controller coming in as null?
+I am using HttpClient GetAsync to make a call to the APi Controller.I am sending a one parameter as a querystring ...",27 ,1,2
+Definite assignment error with nested for loops,"The below example is a test question that I need help understanding, and I know it is not standard practice to declare and initialize the for loop counter variable separately.
+      int j,k;
+  
+      ...",18 ,1,1
+Disable interaction on CDKScrollable,"Is there a way to temporarily prevent interaction on the Angular CDKScrollable component?
+I have a draggable button on the screen but moving the button also scrolls the CDK-virtual-scroll, even with ...",6 ,0,0
+Send url from javascript to flask,"I create a var in javascript that receive a value of the current url like this : tabs[0].url;
+When i try to send it to my flask server with fetch api and pass it to my function that receive a url this ...",6 ,-1,0
+round time using wtforms in python,"I'm using wtforms in python, and everything is working fine, but I want to round the TimeFiled to hour only and keep the minutes in 00. For example 14:00, 15:00, so the user can choose only hour, not ...",3 ,0,0
+Retrieve a value of a link in a menu to use in a where statement to build a query for menuitems [closed],"I am just starting to learn HTML, CSS and PHP.
+I have made a layout with a horizontal menu using cssgrid and now I want to show a vertical menu on the left side below the horizontal menu. which in ...",17 ,-2,0
+"I am new to data structures and was trying,but whenever i am using my index function to find the index of the number its returning -1 as value","#include <iostream>
+using namespace std;
+class Node
+{
+public:
+    int data;
+    Node *next;
+
+    Node(int Data)
+    {
+        data = Data;
+        next = NULL;
+    }
+};
+
+//This FUNCTION is used ...",33 ,-1,2
+Best way to handle additional fields in mass assignment in Laravel?,"App\Models\Venue:
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Venue extends Model
+{
+    use HasFactory;
+
+    ...",19 ,0,2
+Get ROLLUP to include rows for missing values,"PostgreSQL 14
+Assuming this sample data:
+fruit
+ripeness
+orange
+1
+orange
+3
+apple
+0
+apple
+3
+apple
+3
+apple
+2
+Is there a way to get ROLLUP to give me a count of fruits by ripeness with a row for ...",12 ,0,1
+Socket.io HTML - Send unique content to unique clients' HTML page,"I'm using NodeJS and Socket.io. I'm getting a query from the user (https://localhost:3000?id=12345) and using this query I want to send this specific user unique content.
+Now my problem is that all ...",14 ,0,1
+Java parallel queries and read/writing I/O,"A system is generating 10k values every 10Min and I need to use system output to lookup on a table to get the key to select from another table and dump the select output to file.
+Looping on all values ...",25 ,1,0
+VSCode : what actions change the last-modified date of the user settings.json file?,"In Linux, the user settings.json is installed in .config/Code/User/ folder. In Windows, the equivalent file's location is AppData/Roaming/Code/User/
+I observe that even without making any changes from ...",6 ,0,0
+C#: Chained Linq methods and casting,"I have a little game, where I implemented some collision detection. Now I want to get a list of all items of a specific type, which are colliding with the current ""Entity"" object. I want to do ...",241 ,2,2
 Function Pointer with void* return and void* parameters,"I wrote a function pointer that has all void* so that it can be used for any numeric value
 
 int
 float
 double.
 
-But it is working only for the int
-For float and double, compile time error
-Why is that ...",3 ,0,0
-Simple Jquery selecting dom elements trying to copy images to another slider,"I want to copy the picture in a slider into another slider. Im using iOSslider if that helps.. Jquery is so complicated when browsing through the dom and i im this case i just fail time after time..
+But it is working only for the int addition function
+For float and double addition ...",11 ,0,1
+"Linq To Entities, ToList() exception when called from non-UI thread","I use EF 4.0 and it works really fine, however problem occured when
+I call query:
+var query = from employee in employees
+             from cr in employee.RcpCrossRegister
+select new { employee, cr }
 
-...",137 ,0,1
-Where are Clickonce apps installed on Win Server 2016 essential?,I have looked and looked. A lot of resources say it is in C:\Documents & Settings but there is no folder named this on this server. I have set explorer setting to show hidden files and folders.,4 ,0,0
-I want to extract the email address as a substring from the column 'authorMeta_signature' with sql in a new column,The email addresses contain '@' (but some other texts such as social handles contain @ too) and it is nested between the whole string in the column 'authorMeta_signature'. The column is the users' bio ...,10 ,-2,0
-How to manage REST API versioning with spring?,"I've been searching how to manage a REST API versions using Spring 3.2.x, but I haven't find anything that is easy to maintain. I'll explain first the problem I have, and then a solution... but I do ...",102k ,135,9
-mvc3 how can i include a Count method inside a Tolist,"I have a tolist method that makes changes inside the database but I would like to Count how many times my Where clause is true. The Tolist works how can i add a count..
-
-   // the count to see how ...",859 ,0,1
-Mocking Dependency Injected URL parameter in PHPUnit,"I am trying to create a test for a feature I've written.
-The logic is quite simple:
-From the api.php I am calling the store method:
-Route::group(['prefix' => '/study/{study}/bookmark_list'], ...",4 ,0,0
-Not able to access media file even if file exists when checked manually,"I have a media file that Django isn't able to access, even if it definitely exists if I enter its URL in the browser.
-Info
-
-Language: Python [v.3.9.7]
-Platform: Django [v.3.2.8]
-
-Goal
-Being able to ...",13 ,0,1
-Bootstrap 5 floating labels in an input group,"I'm wanting to use Bootstrap's ""Floating Label"" and ""Input Group"" components together.
-The trouble I'm having is that the label is hidden when the input is focused.
-In my code ...",2k ,4,4
-How can I call 'BeginPlay' on 'UDataAsset' ? (unreal),"I made UDataAsset.
-And I want to call BeginPlay function on UDataAsset.
-I just put BeginPlay function on UDataAsset script just like Actor does.
-But it didn't work.
-How can I do this?
-UCLASS()
-class ...",14 ,0,2
-HTML table cells not editabable,"using on google chrome, a leaflet map layer with a simple html table that I want the user to edit. Following this question How to make HTML table cell editable? where I added contenteditable='true' ...",9 ,0,0
-Is it necessary to convert query result to .ToList() before using FirstOrDefault()?,"I am facing transaction related issues such as 
-  the transaction operation cannot be performed because there are pending requests
-or 
-  New transaction is not allowed because there are other ...",364 ,0,1
-Amazon Athena SQL: Group unique user id values by country,"Run AWS Athena SQL query against a single table for the total number of unique users per country.
-Allow users to be present in multiple countries but only once per country.
-
-This query returns unique ...",48 ,1,2
-Enable kubectl autocompletion on aws cloudshell,"I followed all the instructions in https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-bash-linux/ to enable kubectl autocompletion.
-I've the line source <(kubectl completion ...",3 ,0,0
-Explanations in Consistent OWL Ontologies,"I want to programmatically get explanations for inferred axioms in consistent ontologies, in a similar manner that one can do in the Protégé UI. I cannot find any straightforward way. I have found the ...",29 ,1,0
-"In Visual Studio Code, is it possible to delay displaying inline errors when editing C# code, perhaps until I save the file?","I'm using Visual Studio Code primarily to edit C# code, and it automatically detects errors in the code as I type. However because it updates this every second or so, that means that the moment I ...",127 ,2,1
-Aggregating one bigquery table to another bigquery table,"I am trying to aggregate multi PB (around 7PB) worth of BigQuery Table into another BigQuery Table
-I have (partition_key, clusterkey1, clusterkey2, col1, col2, val)
-Where partition_key is used for ...",8 ,0,1
-useState in react custom hook always calls the function,"I have created a custom hook in which one of the state variable gets the initial value from a function (see the example below). When i am referencing the value, it is calling the function and giving ...",39 ,1,2
-How to type an argument which will be subclassed in Python,"I have a piece that follows such pattern
-from typing import Any
-class Base:
-    ...
-class Derived1(Base):
-    ...
-class Derived2(Base):
-    ...
-class BasicApp:
-    # how to type d in this base ...",19 ,0,1
+...",990 ,0,1
+Restore a deleted file in the Visual Studio Code Recycle Bin,Using Visual Studio Code Version 1.8.1 how do I restore a deleted file in the recycle bin?,162k ,131,14
+DAX error with type text values - Pay Terms,"Team,
+I get the DAX comparison operations do not support comparing values of type text with values of type integer error when using this formula:
+Z - Term Type = if('...",4 ,0,0

@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 var db = require('./dbconnect');
-var csvWriter = require('./createcsvfile');
+var csvwrite = require("./writecsv");
 var scrapeData = async function(url) {
     try {
         const { data } = await axios.get(url);
@@ -27,10 +27,7 @@ var scrapeData = async function(url) {
 
 
         console.dir(stackdata);
-        csvWriter
-            .writeRecords(stackdata)
-            .then(() => console.log('The CSV file was written successfully'));
-
+        csvwrite(stackdata);
 
         let values = stackdata.reduce((o, a) => {
             let ini = [];
