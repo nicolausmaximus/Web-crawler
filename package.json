@@ -19,6 +19,8 @@
   "dependencies": {
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",
+    "csv-stringify": "^6.0.5",
+    "csv-writer": "^1.6.0",
     "fs": "^0.0.1-security",
     "pretty": "^2.0.0",
     "request": "^2.88.2"

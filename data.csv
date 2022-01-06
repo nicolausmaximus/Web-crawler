@@ -1,0 +1,155 @@
+Question,Description,Views
+Can't do shell script with a repeat with i from 1 to n loop #1,"With multiple selections allowed, if i chose ""3"" options in the list- the value of the variable im trying to loop, instead of it returning the values of the 3 items I need,  its just ...",2 views
+What is a static environment and what is a dynamic environment in programming?,I'm having a difficult time understanding these concepts. What is it and what is the difference between both of them?,2 views
+"Change Metadata values in python, Detectron2","I work with Detectron for panoptic segmentation.
+I would like to change the metadata values to values that I have chosen.
+In particular, I would like to replace one dictionary with another dictionary ...",2 views
+BB10 signing migration,"Since the EOL date for deprecated BlackBerry services has arrived, what options are available to those of us who wish to continue programming for BB10?
+Is it possible to get keys from your upgraded ...",2 views
+Pandas converting sub-columns into rows,I have added a picture of my dataframe. There are sub-columns names which are 'GBPEUR=X' 'GBPJPY=X' and 'USDMXN=X'. I would like to take these sub-headings and turn them into different rows. Any idea ...,6 views
+How can we convert the object of arrays data to array of objects?,"I have a data which is in format of object of keys and keys having values in array, so i want to format that to array of objects.(with using same object of keys only)
+This is the format I have :-
+...",10 views
+How to use a CloudFlare Worker Environment Variable in Quasar? (Vue),I am facing a problem in my Quasar (v1) app in regard to environment variables. I don't want to solve this using dotenv or any other Node package as these are no longer the recommended way to use ...,4 views
+Prevent splitting inputs at spaces and automatically using later words for later inputs,"I have a Function that outputs a string that it's been given to the console via cout, initializes a new string, writes user input into that string and returns it.
+I summarized my problem in this piece ...",4 views
+Application Gateways get 404 code from backend pools,"I have an App Service as Backend Pools for the Azure Application Gateway.
+The app (nextjs app) is working fine but from Application Gateway, it's receiving 404 code from health check.
+What am I ...",3 views
+Excel VBA AutoFill Destination Error on range of cells,"Can't seem to figure out why there's an error on the fourth line here :
+LastCol = Range(""A2"").End(xlToRight).Column
+LastRow = Cells(2, 1).End(xlDown).Row
+Range(Cells(3, LastCol + 1), Cells(3,...",4 views
+How to store DDragon files to mongoDB so that images work?,In the DDragon folder you have JSON information about all the champions whic I want to store to MongoDB to use for creating Guides and look at the information about Champions. Problem is that in that ...,3 views
+Database script deployment automation during release,"During the release of each new version, we have to manually run SQL scripts as pre-deployment and post-deployment against the database. I'm looking for an automated way to do this stuff instead of ...",3 views
+"Python, prober way to handle regex match?","In python I have:
+m = re.match(r""(\w+) (\w+)"", ""Isaac Newton, physicist"").group(1)
+
+But this throws exception if no match was found as I'm using group on None type.
+How can I fix ...",7 views
+os.listdir not accessing numerically labelled files in ascending order,"We want the png files to be accessed as 15.png,45.png,75.png and so on. This is the code and the output we are getting
+import os
+keypts_labels=[]
+class_list=os.listdir('dataset')
+for name in ...",10 views
+How to permit insertion of special characters into MySQL database?,"Till now I cannot insert data into MySQL table :
+String sql = ""insert into pdrintervention(code, designation, idintervention, quantitesortie, refos, idequipement, prixunitaire, quantitedemandee, ...",6 views
+Converting User Input from Celsius to Fahrenheit [duplicate],"enter image description here
+I am having issues with the code as displayed in the picture, the value doesn't show even when the button is clicked.
+please assist",9 views
+How to interrupt array entry with a number?,"I am a beginner in C , I learning array now
+How do I do when I enter an array that my entry is interrupted on (-1) and then it prints those numbers that I printed, and to say for example in which ...",8 views
+Getting Python error when trying to change locale in macos,"In order to get date names in Spanish for a particular project, I am trying to set locale in my python script to 'es_MX.UTF8'.
+Using this line:
+ locale.setlocale(locale.LC_TIME, 'es_MX.UTF-8')
+However,...",5 views
+"Excel: How to calculate sum of non empty cells in column, based on value in another column?","I need help with a formula for excel to calculate the number of cells in a column where the cell is not empty, but where the value of a cell in another column equals a certain value.
+Example excel ...",4 views
+Nav height is not 100% - CSS,"My vertical menu is not 100% high, it just covers the entire page (100vh). I've already tried making changes to the css stylesheet, but nothing has worked. I think it's a simple problem, but I can't ...",5 views
+Transitive Dependency Version Management,I have a maven project with some dependency written in pom file. For those Direct Dependencies we have lots of Transitive Dependency. The version of those Transitive dependency have some security ...,3 views
+git log does not like branch name starting with numbers,We have a branch 10.7.0_sp. When I try git log 10.7.0_sp I get fatal: ambiguous argument '10.7.0_sp': unknown revision or path not in the working tree.. I can work around this by using git log 10.7....,9 views
+GitHub Authentication with AWS tokens for multiple environment,"I am working on a GitHub pipeline to deploy and execute an MSBuild in PowerShell via an AWS CodeDeploy Agent, I am getting an authentication error while trying to login to my Dev environment,which ...",2 views
+How to use Intel's ixgbe driver's VMDq feature in linux OS,"While skimming Intel's ixgbe Linux Driver, I found out it has VMDq support. But the Linux kernel itself doesn't. So my question is how can we enable or use this VMDq feature on any Linux Distro given ...",8 views
+Loading small amounts of data from Lumen API time,"I have an API built in lumen and I plan to consume the API json response in the frontend using a single page framework like Angular.
+The problem is the response from some routes contain huge amount of ...",7 views
+"C++: Why need to multiply 1.0, when generate a random number?","I use the code as follow to generate a random number between 10000 and 60000.
+(int)round(1.0 * rand() / RAND_MAX * 50000 + 10000)
+My Question is why 1.0 * rand(), and what is the difference with only ...",17 views
+How to enable Brotli support in Android WebView,I need to allow Brotli encoding in Android WebView. I found that I need to enable experimental flags: https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/developer-ui.md but I ...,3 views
+How to deserialize a complex JSON,"I am new in Jackson and I need to deserialize JSON looks like the following:
+{
+  ""companies"": [{
+    ""id"": ""some_id"",
+    ""type"": ""sale"",
+    ""...",10 views
+delete smaller mp3 files with similar name in python,"I've been facing following issue:
+
+there is a directory, where online radio station is ripping and storing mp3 files
+
+some if them is played and stored more times, difference is in the name :
+1st file ...",3 views
+How do i create excel chart with SXSSFSheet using apache POI?,My project is using SXSSFWorkbook in order to generate excel files as the excel files generated in the application can be of large size as well. Now I need to include excel charts in these excel files ...,5 views
+MMLib.SwaggerForOcelot not resolving Microservice Swagger Link,"I am using Ocelot in my Asp.Net Core 3.1 Project to serve as API Gateway and I have two microservices hosted.
+I am trying to load Swagger documentation of both microservices from Gateway URL, however ...",3 views
+"The material should ignore everything that goes behind it, even if it’s semi-transparent","We need to gain the following behavior of the threejs material:
+The material should ignore everything that goes behind it, even if it’s semi-transparent.
+The problem needs to be solved: by mixing ...",3 views
+jQuery Event listener problem - how to select class?,"I am making a to-do app and I would like to choose only p elements inside .text-box.
+I need to make selector after click, because I want to select also new created div elements. I am struggling with ...",17 views
+Conditional sum of dataframe columns in Python,"Keen to know if it's possible to reproduce the following logic in Python, in one line, without creating a function.
+z = IF (y-x) = 0 THEN a ELSE (y-x)
+
+Using this df:
+df = pd.DataFrame({'x': [10, 22, ...",5 views
+Compute child views size and position by given parent container in Android,"Thanks for your help with my question.
+The given conditions are as follows.
+
+All shape (parent and children) is square.
+Parent container (like FrameLayout) size (width, height) is given by X, Y.
+There ...",5 views
+How to write correct C# GraphClient filter to retrieve users with ExternalUserState = null?,"I don't manage to create a filter to get the users that have null in the ExternalUserState property
+My attempts:
+var users = await graphClient.Users.Request()
+                            .Filter(""...",7 views
+Convert Old MongoDB Update Query into New MongoDB 4.2.0 Query,"public static void updateInvoice(BsonDocument query)
+{
+try
+{
+var BCOldcollectionP = database.GetCollection(""BookingClosed"");
+            var updateValues = new List<UpdateBuilder>();
+  ...",4 views
+Display user information via model?,"I have following problem / question. I am working on my Webshop project (Plain PHP + MySQL), and I’ve build so far registration, login, products and so on using MVC Pattern / Model. When the user logs ...",16 views
+Plugin Bodymovin,"I want put animation font in my web site with the plugin ""bodymovin"" (this pricipe is transform json files in svg), i use framework laravel. I have follow this example : https://codepen.io/...",9 views
+How to convert this trigger into a trigger with handler class,"How to convert this trigger into a trigger with handler class? Can anyone please help?
+trigger GiDP_ArticleRequestTrigger on GiDP_ArticleRequest__c (before insert, after update, before update) {
+// ...",4 views
+DISCORD JS: Unknown interaction error when command is executed,"This is a help command which uses menus in discord.js v13. I have this issue when I select a menu. It doesn't show the content of the menu I selected, instead it brings me an error in console saying:
+...",7 views
+SetTimeOut inside a Javascript Promise,"I have this code snippet , basically I want to add some interval in between calling  myfunc for each element in myCol .
+         Promise.all(
+                _.map(myCol, (o) ->
+                  ...",12 views
+Wired Guest Network using VLAN Switch and Pi as DHCP-Server,"I'm trying to setup a wired guest network that I can plug devices into (maybe even an AP in the future) and have that network separted from my home network.
+Currently the hardware I'm using looks like ...",5 views
+Display svg file in HTML,"I have this code:
+
+
+<img src=""https://piuksu.github.io/svg.svg"" width=""100"">
+
+
+
+It does not work.
+What do I have to do?",10 views
+Why is iteration necessary in a 'continue if loop' in C++?,"What I mean is this :
+while (i < 10) {
+    if (i == 4) {
+        // i++; should be here, but if I skip it...
+        continue;
+    }
+    cout << i << endl;
+    i++;
+}
+
+I am getting this ...",33 views
+TIDAL API documention - how to get track IDs,"I'm using the TIDAL API to retrieve information on what tracks are on what playlists.
+To log in to the API I'm using the below code:
+session = tidalapi.Session()
+session.login_oauth_simple()
+
+From ...",4 views
+com.google.firebase.database.DatabaseException: Failed to convert a value of type java.lang.String to int,"I am adding Person name(String) and age(int) to the Firebase.
+But while retriving data from firebase i am facing this error.
+This is how data is added in Firebase.
+Cannot resolve this error
+Person ...",7 views
+Scrapy won't follow next page it gives an error,"I cannot get any information on the next page and do not understand where I went wrong. I get the following error for the next page follow:
+
+DEBUG: Crawled (204) <GET https://www.cv-library.co.uk/...",4 views
+Using seaborn and getting the FileNotFound error,"I am getting the FileNotFound error on jupyter note on Linux.
+I'm using panda to import a file, the path is something like:
+data = pd.read_csv (""/home/pfold/project/plot1.csv"")
+data = data....",6 views
+Antd form input double validation,"So, i'm new to AntD and i need to setup up a rule for input field, so it could get phone number or email.
+I'm trying something like that but it doesn't work as it should:
+<Form.Item
+                ...",7 views

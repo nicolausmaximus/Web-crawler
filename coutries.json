@@ -1,252 +1,252 @@
 [
   {
-    "Question": "Handle Loading status useMutation",
-    "Description": "\n            I use useMutation and send multiple requests. Have both request success and failure. But when have a request failure in the last, the status will change to error and I don't want that to happend.\nHow ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "Buildfile does not execute in AWS ElasticBeanstalk deployment",
+    "Description": "I created a NodeJS-application and would like to deploy it on ElasticBeanstalk with CodePipeline. My first attempt was to put all files in the root (e.g. package.json, Procfile, server.js). This ...",
+    "Views": "2 views"
   },
   {
-    "Question": "Is there a Vue.JS based UI library that doesn't use images?",
-    "Description": "\n            I need it for an embedded system that has very few resources and no filesystem. My dream library will have just two files: a js and a css.\nIf there are none based on Vue, maybe others?\n        ",
-    "Views": "\n    5 views\n"
+    "Question": "node js and sql server",
+    "Description": "I just start learning node js with sql server.\nI'm wondering if there is a way to call this only one time in the beginning when we run the app, instead of calling it in each method in the controller.\n ...",
+    "Views": "5 views"
   },
   {
-    "Question": "Is there a way to disconnect user from Signlar server side?",
-    "Description": "\n            I'm building an app that use SignalR to transmit realtime message and I was wandering if there was any way for me to disconnect user on the server side.\nI want to disconnect them because of the way ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "This call draw no fragments Opengles3",
+    "Description": "I've a large scale project, so its impossible to provide a fully code here.\nBut I'm having the following scenario.\nI have a triangle that renders perfectly. But when I add another one mesh using ...",
+    "Views": "3 views"
   },
   {
-    "Question": "How can I load data for multiple TabPages concurrently in a WinForms application",
-    "Description": "\n            I have a Windows Forms application with a TabControl containing multiple TabPages. Each TabPage contains many controls whose data is read from a database via a web api. I want to be able to display at ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "save dynamic map with shared preferences",
+    "Description": "I want to pass data in my class and save them on the map with shared preferences.\nand read my data in another class.\nmy problem is about saving the map and passing data more than once.\nso how can I ...",
+    "Views": "5 views"
   },
   {
-    "Question": "Failed in using LD_PRELOAD to hook mmap system call in qemu(through libvirt)",
-    "Description": "\n            I want to hook mmap system call in qemu, and I use libvirt to passthrough the environment argument like this:\n<qemu:commandline>\n  <qemu:env name='LD_PRELOAD' value='/glibcHookMMAP.so'/>\n&...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "Convert Docx to PDF in python folder access permission",
+    "Description": "I wrote some python code to convert Docx files to PDF using the docs2pdf package, and have the following code:\nFor f in files:\n    convert(‘input‘ + f + ‘.docx’, ‘ output‘ + f + ‘.pdf’)\n\nIt works, and ...",
+    "Views": "5 views"
   },
   {
-    "Question": "How to set login logo for @auth0/auth0-spa-js",
-    "Description": "\n            I can't figure out how to specify a logo for auth0-spa-js package.  Online documentation show to add an logo option under theme, but that doesn't seem to exist with this package, no such option exist.\n...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "On react-native-video, how can I manually adjust the video quality across all platforms?",
+    "Description": "I'm creating a react-native app that uses react-native-video to stream video. I want users to be able to manually modify the video quality. I haven't been able to figure out how to accomplish it up ...",
+    "Views": "4 views"
   },
   {
-    "Question": "Copying std::thread::spawn and Send behavior, but with a different trait and function",
-    "Description": "\n            I am learning Rust and have run into the following problem, which is not obvious to me.\nI saw a std::thread::spawn in the library, looked at the implementation, and saw that some type requires an ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "ThemeOverlay is not styling statusBar in one fragment",
+    "Description": "I want to change status bar color for dark blue for only one screen. I'm using ThemeOverlay for this and in fragment XML I set the theme. Why it doesn't work like that?\nthemes.xml:\nresources xmlns:...",
+    "Views": "2 views"
   },
   {
-    "Question": "Not starting the JMS listener using jmsListenerEndpointRegistry.start()",
-    "Description": "\n            I am trying to start the JMS listener using jmsListenerEndpointRegistry.start() which was stopped using jmsListenerEndpointRegistry.stop(). But looks like it is not getting started.\nIn application....\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "How to destruct class with mutex member?",
+    "Description": "I have a class with a std::shared_mutex member protecting some resource the class owns (say, a vector). My problem is that during destruction of the class, a different thread may be holding the mutex. ...",
+    "Views": "5 views"
   },
   {
-    "Question": "How can I programatically show/hide editLink client side in Vuepress 2?",
-    "Description": "\n            I want to show the edit link only for privileged users. I have user information that I am using for example for routing, and I can use it in components. However, I have not found any way to show/hide ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "GridView is not taking full space inside ExpandableListView in android",
+    "Description": "I have to create an ExpandableListView as shown in picture below\n\nI have added GridView inside ExpandableListView but it shows only first line of GridView as you can see in the pic below\n\nGridView is ...",
+    "Views": "2 views"
   },
   {
-    "Question": "-Dmaven.multiModuleProjectDirectory system property is not set. What it is?",
-    "Description": "\n            I got a source from https://github.com/apache/maven.\nthe version is apache-maven-3.8.4\nwhen I run the code. The main class is  org.apache.maven.cli\nI got a error\n\"D:\\Program Files\\Java\\jdk1.8....\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "Jest unit test for React component to render array of data",
+    "Description": "I'm playing around with react unit cases using famous testing libraries like Jest and react-testing-library, being new to it.\nI have a dropdown component that receives some array of data to render the ...",
+    "Views": "3 views"
   },
   {
-    "Question": "What is provisioning profile? Why do I create provisioning profile?",
-    "Description": "\n            I am a fresher iOS developer and my question is\n\nWhat is provisioning profile?\nWhy do I create provisioning profile?\nI don't know provisioning profile so please give me path\n        ",
-    "Views": "\n    8 views\n"
+    "Question": "What is the best way to create AWS elastic beanstalk component?",
+    "Description": "Elastic Beanstalk internally uses CloudFormation to provision infrastructure.\nTo create Elastic Beanstalk's components i.e. Application, Environment, Application Version, and information like which ...",
+    "Views": "3 views"
   },
   {
-    "Question": "How to replace the contents of a XML child element with a complement DOM document object from another xml file?",
-    "Description": "\n            i have parsed and stored a xml file as document object using the code below.\nimport xml.dom.minidom as DOM\nimport shutil\nimport xml.etree.ElementTree as ET\nmetadata_path=r\"C:\\Users\\ar\\...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "How to access base class method *args from child class object in Python?",
+    "Description": "I am trying to get base class method *args from child class object. Here is the code:\nclass BaseView():\n\ndef __init__(self, *args, **kwargs):\n    for key, value in kwargs.items():\n        setattr(self,...",
+    "Views": "5 views"
   },
   {
-    "Question": "Using RxJS in Angular with conditional / combined subscriptions",
-    "Description": "\n            in my Angular App I have an API service like so that contains two methods:\naddComment(id: string, comment: string): Observable<any> {\n    return this.http.post(`api/${encodeURIComponent(id)}/...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "pyspark - AttributeError: 'PipelinedRDD' object has no attribute 'select'",
+    "Description": "I have been asked to perform this task Click Image\nThis is my code:\nfrom pyspark.sql import SparkSession\nfrom pyspark.sql.functions import rand, randn \nfrom pyspark.sql import SQLContext\n\nspark = ...",
+    "Views": "3 views"
   },
   {
-    "Question": "AWS Natting Request through Site-to-Site VPN",
-    "Description": "\n            I have a following specific requirement that I need to setup to access on premise server of one of the payment processor vendor that I am trying to access from EC2 instance.\nThe specific requirement ...\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "How to validate jotfrom in mail my projects?",
+    "Description": "I want to validate the jot form to email. How I can do it\nimport React from 'react';\nimport \"./Subscription.css\"\nconst Subscription = () => {\nreturn (\n\n        <section className=\"...",
+    "Views": "3 views"
   },
   {
-    "Question": "Display an error message when there is a network issue or backend issue",
-    "Description": "\n            I am building an application when there is any network issue or the backend is not working I need to display a message from my common component in the application\nI tried the below code in my using\n   ...\n        ",
-    "Views": "\n    8 views\n"
+    "Question": "how to change color of highcharter candlestick stockchart?",
+    "Description": "I am trying to build a candlestick chart with quantmod and highcharter package. Building the chart is super easy.\nlibrary(quantmod)\nlibrary(highcharter)\n\nx <- getSymbols(\"GOOG\", auto....",
+    "Views": "5 views"
   },
   {
-    "Question": "I am running Express JS project, but it showing any mongoose error",
-    "Description": "\n            I cloned an old project from git, it was working well. But now it is showing this error\n(node:88186) UnhandledPromiseRejectionWarning: MongooseError: The `uri` parameter to `openUri()` must be a ...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "Flutter how to play and stop audio at specific time?",
+    "Description": "I have an audio player app using just_audio plugin. How to play and stop audio at a specific time?\nFor example, I have an audio file that is 20 minutes long. I want when I press play button, the audio ...",
+    "Views": "4 views"
   },
   {
-    "Question": "Split string in two by splitting it at the last '_' symbol",
-    "Description": "\n            I have this structure of string 'amount_capital_expected_eighty_percent_6009a08948abf6001e95359a'. I would like to cut the part after the last '_' from the rest of the string with a String.split() ...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "I've got a project to make a compiler from Python to LLVM, is it possible ? Any tips?",
+    "Description": "Like the question says, Do you have any tips on how to do it, I was planing to use ANTLR for it",
+    "Views": "9 views"
   },
   {
-    "Question": "Place gameObjects on top of another gameObject in Inspector",
-    "Description": "\n            I am trying to script to place two of my instantiated gameObjects on top of another gameObject.\nFor example in the image given below, I am instantiating two objects and making \"Buttons-Set\" ...\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "Scrap Data after button click in PuppeeterSharp C#",
+    "Description": "I am unable to scrap data after clicking the button in PuppeeterSharp C#.\nHere is my Puppeeter C# code.\nstring url = $\"https://www.google.com\";\nvar response = await page.GoToAsync(url, new ...",
+    "Views": "4 views"
   },
   {
-    "Question": "React native chunk files downloader and play",
-    "Description": "\n            I have some videos so i want to down these videos in chunk files that are .exo files. So i have a url link but i am getting a full videos. So how can i convert it into these chunk files and play ...\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "exist more methods or <div> is only method [closed]",
+    "Description": "Can I use any method for web styling in CSS for  is the only one?enter image description here",
+    "Views": "7 views"
   },
   {
-    "Question": "What are monadic bind and monadic return for C++23 optional?",
-    "Description": "\n            C++23 std::optional is finally getting some very useful additions.\nSince my knowledge of FP is very primitive I am wondering what is the syntax for the following two operations(that according to my ...\n        ",
-    "Views": "\n    5 views\n"
+    "Question": "Custom Annotation Scope",
+    "Description": "Annotaion:\n@Retention(RetentionPolicy.RUNTIME)\n@Target(value = {ElementType.TYPE, ElementType.METHOD})\npublic @interface HasRole {\n    String[] value();\n}\n\nAspect:\n\n@Aspect\n@Component\npublic class ...",
+    "Views": "2 views"
   },
   {
-    "Question": "Invalid Argument Error from os.path.join()",
-    "Description": "\n            I am trying to run a project from GitHub but logging is proving to be difficult. I am running the code on Windows 10, but the OS.Path.Join() keeps adding a forward-slash to my log folder and thus I ...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "Having error Uncaught RangeError: Maximum call stack size exceeded, when trying to close popover in IONIC+VUE(with vuex)",
+    "Description": "Good morning developers. I´m working in this IONIC + VUE app , specifically in some popover  with some functionality, but for some reason the popover is having a weird behaviour, cause once is open ...",
+    "Views": "4 views"
   },
   {
-    "Question": "Inserting large dataset from CSV file with CI Model",
-    "Description": "\n            I have a CSV file with 5mn rows. I am using CSV library from thephpleague.com. It uses generators so reads the file line by line. So reading does not cause any problem.\nYet, I want to save those to ...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "Object property check and format date",
+    "Description": "Need to format the date using header object property type check.\nI have headers object is:\nlet headers = [\n  {\n    key_name: 'trans_id',\n    header_value: 'Transaction ID' ,type:'number' \n  },\n  {\n    ...",
+    "Views": "7 views"
   },
   {
-    "Question": "Split a list on spaces and group quoted characters",
-    "Description": "\n            I'm trying to parse an input string into tokens, where each token is a word in the string.\nHowever, I also want the tokens to be able to contain spaces, and for clearer syntax, i'd like to be able to ...\n        ",
-    "Views": "\n    10 views\n"
+    "Question": "Branch io : Setting live and test keys programmatically other than manifest declaration",
+    "Description": "Is it possible to set branch live and test keys programmatically?\nCurrently we can only set via Manifest\n<meta-data\n            android:name=\"io.branch.sdk.BranchKey\"\n            android:...",
+    "Views": "3 views"
   },
   {
-    "Question": "Autoplay on a POS screen",
-    "Description": "\n            I would like to display a video on a POS screen. I specify that I am not a developer.\nI have several slide images with a configurable time and I can add embed code for a Youtube video.\nEither I ...\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "Python's regex Get folder name between name=' and /'",
+    "Description": "I want to extract all the folder names between \"name='\"   and \"/'\" under a list of strings using regex\nstring = \"FileInfo(path='dbfs:/mnt/34334324/folder1/', name='folder1/', ...",
+    "Views": "10 views"
   },
   {
-    "Question": "Confusion about Prediction intervals",
-    "Description": "\n            I've stumbled on something that confuses me. I was reading a blogpost about prediction intervals. This blogpost used code similar to the following to calculate prediction intervals:\nset.seed(42)\nx = ...\n        ",
-    "Views": "\n    5 views\n"
+    "Question": "Is it possible to find equivalent X/Y coordinates in order to print some text at the same position using both ^FO as well as ^FT command using ZPL 2",
+    "Description": "I am trying to find out if there is a possible way via which we can convert the X/Y coordinates from the ^FO command to the equivalent ^FT coordinates in such a way that the position of text in the ...",
+    "Views": "3 views"
   },
   {
-    "Question": "Issue with JQuery Country and State cascading dropdown showing all states until country dropdown changed",
-    "Description": "\n            I have cascading dropdowns for country and state in my laravel project. I am using JQuery to refresh the list of available states, depending on the country selected in the country dropdown. This works ...\n        ",
-    "Views": "\n    7 views\n"
+    "Question": "find input tag inside a html div and that div is stored in a javascript variable",
+    "Description": "I am creating fully flexible contact us form where user can drag and drop input elements.\nso in that case I am stuck in a problem\nthe html structure is:\n<div class=\"ns_field_box\">\n    &...",
+    "Views": "9 views"
   },
   {
-    "Question": "Docker overlay2 folder eating Disk",
-    "Description": "\n            i have problem with docker overlay2 folder.\nWhen I enter du -sj /var/lib/docker/overlay2 in the time of writing it says:\n85G overlay2/\n\nAnd it keeps growing up.\nI tried to prune system with command ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "How to dynamically use toLabel function with SOQL query to SalesForce API within ADF?",
+    "Description": "My objective is to stage data from SalesForce to Azure SQL Database using ADF. In the past we used queries written in SOQL to load the data. However, when the SalesForce consultants introduce new ...",
+    "Views": "3 views"
   },
   {
-    "Question": "stripe subscription code not giving error when card having insufficient fund",
-    "Description": "\n            i am facing a issue with custom stripe subscription code. My issue is like when a card having insufficient fund then stripe subscription code is not giving me any error.\nMy code is this.\nStripe\\Charge:...\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "I don't understand the behavior of a pointer",
+    "Description": "I'm in a formation and we're seeing pointers. We're facing a mystery :\n#include <stdio.h>\n#include <stdlib.h>\n\nint main()\n{\n    short* p_var= 0;\n    \n    if(p_var == NULL)\n    {\n        ...",
+    "Views": "10 views"
   },
   {
-    "Question": "SocketIO with Nextjs deployed to Vercel, socket is not connecting",
-    "Description": "\n            I am trying to create a next app that also communicates with its backend in realtime with a socket, and I am using socket.io for that. It is all working just fine locally (even when built), but when ...\n        ",
-    "Views": "\n    2 views\n"
+    "Question": "How to count by log part in Kibana",
+    "Description": "Problem is simple, but I cannot figure out the solution:\nI have logs, in the following pattern:\nSome random text | Some random text | Some text: Data1 | Some random text\nSome random text | Some random ...",
+    "Views": "3 views"
   },
   {
-    "Question": "Unable to get cyhton loop to run faster than pyhton loop",
-    "Description": "\n            I'm trying to speed up a python function by using cython, but without luck so far. The original python code is currently faster. If anyone have ideas on how the execution time can be lowered it would ...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "How To Read and Print Data from CSV file into HTML File as Text",
+    "Description": "I've been trying to read data from .csv file and print the data as text/number into HTML file. Like the below example:\nData from CSV file looks like this\nNow, I want to print in HTML like this:\n...",
+    "Views": "8 views"
   },
   {
-    "Question": "Istio block excessive requests from a single IP",
-    "Description": "\n            I need to setup a rate limit for number of requests a single IP can trigger.\nI followed this tutorial on Istio documentation for global rate limit.\nhttps://istio.io/latest/docs/tasks/policy-...\n        ",
-    "Views": "\n    2 views\n"
+    "Question": "Bitmap image array from recyclerview to other activity with position",
+    "Description": "i want to get single image from bitmap array recyclerview and show it to my detailactivity\n[recyclerview adapterclass][detailactivity]",
+    "Views": "5 views"
   },
   {
-    "Question": "How to improve latency when streaming via RTSP to Kinesis Video Streams?",
-    "Description": "\n            I am using gstreamer to stream an IP Camera to Kinesis video streams.\nI have tried the following pipeline and got a latency of 6~8 seconds.\nAnyone knows how to further lessen this to atleast 2~...\n        ",
-    "Views": "\n    2 views\n"
+    "Question": "Does torch.nn.MultiheadAttention contain normalisation layer and feed forward layer?",
+    "Description": "Tried to find the source code of multihead attention but could not find any implementation details. I wonder if this module only contains the attention part rather than the whole transformer block (i....",
+    "Views": "3 views"
   },
   {
-    "Question": "How to get double quotes only when we open in txt editor for CSV file",
-    "Description": "\n            I have an array like this:\nnewArray = [\n\"header1\",\n\"header2\",\n\"header3\",\n\"header4\",\n\"header5\"\n]\nwhen I download as CSV and open in excel I should get ...\n        ",
-    "Views": "\n    8 views\n"
+    "Question": "How can I encrypt my dotenv variables when running `npm run build`",
+    "Description": "I am building a firebase application using React v17.0.2 that uses dotenv v8.2.0 to populate the firebaseConfig object.\nWhen I run npm run build it bundles the scripts and puts it in the build folder (...",
+    "Views": "8 views"
   },
   {
-    "Question": "ImportError: cannot import name 'is_valid_waiter_error'",
-    "Description": "\n            I'm following along to this Notebook, cell \"Loading the dataset\".\nI want to use datasets library.\nI've restarted and rerun the Kernel conda_pytorch_p36 without luck.\nI run:\n! pip install ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "How do I group blocks of data in Python [duplicate]",
+    "Description": "Here is an example of the data I am dealing with:\n\nSo my goal is to get the average of a given column, for each and every 'Run', however right now, when I get average of a column it gets the average ...",
+    "Views": "5 views"
   },
   {
-    "Question": "Lock a python program following an intrusion",
-    "Description": "\n            I would like to develop a python program in tkinter in which if the user does not enter the correct username and / or password more than 5 times, the program locks up and cannot be launched for 24 ...\n        ",
-    "Views": "\n    7 views\n"
+    "Question": "What mappings is Automapper applying?",
+    "Description": "I have a problem where a mapping works when applied as the child of one object but not another and I am clueless how to debug this.\nI map a complex object such as:\nParentType1\n-> ChildType1\n-> ...",
+    "Views": "5 views"
   },
   {
-    "Question": "Problem getting \"Invalid characters in string\" in watch window during debugging VS2019 C++",
-    "Description": "\n            // Test of \"Invalid characters in string\"\n#include <iostream>\n#include <string>    \nint main()\n{\n    char ac[100] =  \"Hello World!  Åke Österman\\n\";\n    std::string s = ...\n        ",
-    "Views": "\n    9 views\n"
+    "Question": "Google API create new User",
+    "Description": "I'm using Zapier and try to create a new User in Google.\nThe documentation is pretty unclear.\nThis is the request I'm making:\n\nNow I understand, that I need to add authorization to the request.\n\nHow ...",
+    "Views": "4 views"
   },
   {
-    "Question": "Howe can I change more than one SVG fill in react",
-    "Description": "\n            I am trying to change the color of two elements in an SVG in react .\nI turned the svg into a component and and am trying to change the fills of both circles in my SVG (different colored fills). ...\n        ",
-    "Views": "\n    4 views\n"
+    "Question": "How to disable bottle by default?",
+    "Description": "I used to have something like the below in a formula to disable bottle\nbottle :disable, \"Reason to ignore bottle\" \nThis bottle :disable option was removed recently.\nLogs from Homebrew 3.3.9 ...",
+    "Views": "3 views"
   },
   {
-    "Question": "Is it better to redirect to backend or frontend in redirect_url?",
-    "Description": "\n            While developing a webapp or a mobile app (let's say myapp.com), I redirect use to an external service where user fills some info and then is supposed to be redirected back to my app (I specify ...\n        ",
-    "Views": "\n    6 views\n"
+    "Question": "Remove html tags title from notification banner",
+    "Description": "I received a notification alert from server as html format. So how can I display that notification message format by html using custom user notification.",
+    "Views": "3 views"
   },
   {
-    "Question": "I am tring deploy angular project on heroku but get error",
-    "Description": "\n            I am trying to deploy Angular project to Heroku. I do all the steps and get An error that occurred in the application and your page could not be served. If you are the application owner, check your ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "Error in eval(predvars, data, env) : object 'Type' not found",
+    "Description": "so i was asked to do a discriminant analysis of the dataset of titanic passenger, so far what i'e done to the dataset is removing unneeded collumn with\ntitanic1=select(titanic,-name, -sex, -ticket, -...",
+    "Views": "5 views"
   },
   {
-    "Question": "Why is `str` not defined?",
-    "Description": "\n            In python I wrote:\nfrom base64 import b64encode\nimport os\nimport uuid\nimport xml.etree.ElementTree as ET\ndef scan_network_for_list_of_ips(dest_network = '10.10.10.0/24'):\n    print(' '.join(['...\n        ",
-    "Views": "\n    25 views\n"
+    "Question": "Session expired Issue in spring session and redis",
+    "Description": "2022-01-04 22:55:55.187 WARN org.springframework.data.redis.listener.RedisMessageListenerContainer.invokeErrorHandler(291) - Execution of message listener failed, and no ErrorHandler has been set.\norg....",
+    "Views": "4 views"
   },
   {
-    "Question": "How to convert a yml file to a text file?",
-    "Description": "\n            I'm trying to convert a yml file to a text file.\nThis is my code:\n\n#Import Modules\nfrom ruamel.yaml import YAML\nimport yaml\n\n#Read file\nwith open(\"/Users/AndreB/Library/Mobile Documents/com~apple~...\n        ",
-    "Views": "\n    8 views\n"
+    "Question": "Room field / getter mismatch warning when using sealed classes or Any",
+    "Description": "I have a Room (v2.4.0-beta01) database, and whilst it works fine, during the build it gives a field vs getter mismatch warning on a few fields, included below.\nI suspect this is due to an interop ...",
+    "Views": "4 views"
   },
   {
-    "Question": "Combine - mapping errors to different types",
-    "Description": "\n            I've created this publisher chain:\nenum ViewState {\n  case loading, loaded([Person]), error(String)\n}\n\nvar viewStatePublisher: AnyPublisher<ViewState, Never> {\n  service.fetchPeople()\n    .map { ...\n        ",
-    "Views": "\n    3 views\n"
+    "Question": "TypeError: Cannot read properties of undefined (reading 'fontFamilyUrl') at Object.updateDependenciesToLoad",
+    "Description": "I am debugging a code that was developed by someone else. The site was working well, however, after updating the PHP version to 7.4, some pages have failed to load, and the console error that I am ...",
+    "Views": "8 views"
   },
   {
-    "Question": "how to build multiple flutter apps, firebase as the common backend for all?",
-    "Description": "\n            I have been trying to create multiple apps using a single firebase as the backend.is there any way to connect them?\nI have developed a food delivery app using flutter and firebase. but now I need an ...\n        ",
-    "Views": "\n    7 views\n"
+    "Question": "Alternatives to \"Windows.ServerBackup\" when there is no Server via Powershell",
+    "Description": "I am currently looking into sending \"Backup-Log\" E-Mails like this one (https://jocha.se/blog/tech/wbadmin-backup-mail-report) I found via Powershell. The problem is that it is completely ...",
+    "Views": "3 views"
   },
   {
-    "Question": "how should I define the eight differenatial system and boundary condition to solve with scipy bvp solver?",
-    "Description": "\n            I trying to solve these systems but I didnt understand how can I define the equations and boundary condition. I wrote some codes but I am not sure if it is correct. it is very complex problem, can ...\n        ",
-    "Views": "\n    5 views\n"
+    "Question": "Removing a slice of keys within a Map with time complexity better than O(n^2) in Go",
+    "Description": "Basic approach to delete multiple keys from an array of Maps in Go, would be by using nested loops, that is with a parent loop for iterating over array of Maps and an inner loop of slice of Keys to be ...",
+    "Views": "6 views"
   },
   {
-    "Question": "Show lowercase url in .htaccess with uppercase file names",
-    "Description": "\n            In my .htaccess file, I have this code:\nRewriteMap tolowercase int:tolower \nRewriteRule ^(.*)$ ${tolowercase:$1} [R=301,L]\n\nFrom: htaccess Uppercase URL to lowercase\nThis change the url from uppercase ...\n        ",
-    "Views": "\n    10 views\n"
+    "Question": "java inverted pyramid of numbers?",
+    "Description": "I was asked to create a java program that will display an inverted pyramid of numbers (1 to 9 only). with user input of how many number of rows.\nI don't know how to loop and limit the numbers to 9 and ...",
+    "Views": "14 views"
   },
   {
-    "Question": "About using Oracle Nosql database on windows",
-    "Description": "\n            So i'm having an assignment which is researching the basic of Oracle Nosql Database\nI'm on windows, so i just wanted to know if there is anyway to use some kind of virtual machine to use it, bc ...\n        ",
-    "Views": "\n    8 views\n"
+    "Question": "unless browser.window condition",
+    "Description": "I have my Icons defined and want to make them fill another color when the browser size is for example < 960. But I am getting an can not render error.\nmy current approach :\n <svg xmlns=\"...",
+    "Views": "16 views"
   },
   {
-    "Question": "ConfuserEx - VS2019 - Obfuscating multiple project referenced in same solution",
-    "Description": "\n            I have two projects in my solution. The startup project is successfully able to obfuscate however, the other referenced project is not able to obfuscate successfully.\nIf I obfuscate individual ...\n        ",
-    "Views": "\n    5 views\n"
+    "Question": "Wear OS: What is the most suitable Android Wear device for Near-Infrared Spectroscopy (NIRS)?",
+    "Description": "I’m looking for a Wear OS device that can access multiple wavelengths of raw PPG data. (At least, it’s neither Fossil Gen 6 nor Gen 5)\nRecently, I am trying to make a Visible-NIR spectroscopy app for ...",
+    "Views": "6 views"
   },
   {
-    "Question": "event is waiting for ajax call even though async set to true",
-    "Description": "\n            I'm trying to let the user open a tab to keep letting him use the system while the current tab is making some request to the server.\nso I'm opening a new tab and trying to use $(window).load() or $(...\n        ",
-    "Views": "\n    10 views\n"
+    "Question": "Get logged in UserId in Blazor 6 Wasm controller",
+    "Description": "I have a Blazor Wasm app under .Net 6 (upgraded from .Net Core). I added default Identity from the Blazor Train video with Chris Sainty which now appears to work. I didn't want to use the Blazor 6 ...",
+    "Views": "4 views"
   },
   {
-    "Question": "How can i get guild name using discord.py",
-    "Description": "\n            @client.command()\nasync def kick(ctx, member : discord.Member, *, reason=None):\n    await member.kick(reason=reason)\n    await ctx.send(f\"{member.name} has been kicked by {ctx.author.name}\\...\n        ",
-    "Views": "\n    15 views\n"
+    "Question": "How to import Spacy to run with GCP Dataflow?",
+    "Description": "I would like to run Spacy Lemmatization on a column within a ParDo on GCP DataFlow.\nMy DataFlow project is composed by 3 files: main.py which is the file containing the script, myfile.json which ...",
+    "Views": "5 views"
   },
   {
-    "Question": "Why swiftui text dont have a lineBreakMode property?",
-    "Description": "\n            I really really need lineBreakMode .\nUsing UILabel() is not a graceful way !\n        ",
-    "Views": "\n    5 views\n"
+    "Question": "SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mkstudent.classes_student' doesn't exist (SQL: insert into `classes_student` (`classes_id`,",
+    "Description": "i dont know why it is going to store in mkstudent.classes_student table , i mean i created many to many table class_student and when i tray to store a a student that have a class this error is ...",
+    "Views": "8 views"
   }
 ]

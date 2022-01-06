@@ -2,6 +2,17 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const csvWriter = createCsvWriter({
+    path: 'data.csv',
+    header: [
+        { id: 'Question', title: 'Question' },
+        { id: 'Description', title: 'Description' },
+        { id: 'Views', title: 'Views' },
+    ]
+});
+
+
 const url = "https://stackoverflow.com/questions";
 
 async function scrapeData() {
@@ -15,21 +26,27 @@ async function scrapeData() {
                 Question: "",
                 Description: "",
                 Views: "",
-
+                Votes: "",
             };
-            questions.Question = $(el).children(".summary").children("h3").children("a").text();
-            questions.Description = $(el).children(".summary ").children(".excerpt ").text();
-            questions.Views = $(el).children(".statscontainer ").children(".views ").text();
+            questions.Question = $(el).children(".summary").children("h3").children("a").text().trim();
+            questions.Description = $(el).children(".summary ").children(".excerpt ").text().trim();
+            questions.Views = $(el).children(".statscontainer ").children(".views ").text().trim();
+
             stackdata.push(questions);
         });
         console.dir(stackdata);
-        fs.writeFile("coutries.json", JSON.stringify(stackdata, null, 2), (err) => {
+        fs.writeFile("data.csv", stackdata, 'utf8', (err) => {
             if (err) {
                 console.error(err);
                 return;
             }
             console.log("Successfully written data to file");
         });
+        csvWriter
+            .writeRecords(stackdata)
+            .then(() => console.log('The CSV file was written successfully'));
+
+
     } catch (err) {
         console.error(err);
     }
