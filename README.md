@@ -1,5 +1,5 @@
 
-# Stackoverflor crawler
+# Stackoverflow crawler
 
 Recursively crawled https://stackoverflow.com/questions using Node.js based crawler, harvested all questions on Stack Overflow and storeed them in a database.
 
