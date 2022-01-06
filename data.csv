@@ -1,166 +1,114 @@
-Question,Description,Views
-'Format code' and 'sort using' on save in Visual Studio 2022,"I and my team spent the last few months defining rules about C# code formatting and style for our project, so we ended up with an .editorconfig file.
-Moreover, we all installed the extension ...",184 views
-Flutter : Change the path of recorded video,"I have to record a video with a timer and stop the recording after few seconds.
-When I click on stop button I am getting this error everytime. I have tested it on different real devices and emulator.
-...",41 views
-How do I wait for something to finish in C#?,"private void Download_Click(object sender, EventArgs e)
+Question,Description,Views,UpVotes,Answers
+Is it possible to use mix-blend-mode to blur a background while ignoring an opaque layer?,"I have a small page with a blurred background image. On top of that, I have divs setup as cards that have their own transparent overlay a background image. I'm trying to setup a text effect using ...",51 ,0,0
+Why does decoder stop while decoding attributed string with secure coding?,"I am still struggling with secure coding an attributed string. As soon as I encode an attributed string with attributes – like
+NSDictionary *attrsDictNormal = [NSDictionary ...",2 ,0,0
+What is this raw query equivalent to Sqlalchemy?,"I also need to create a model with dynamic table name, etc. The below is the raw sql staement that I need to return response from with my FastAPI library.
+select min(date_trunc('{timeframe}', ...",2 ,0,0
+Is there another way to use CSS module?,"Whenever I import ""style.module.css"" I have to give a class name like this: class={style.className}
+is there any more convenient way than this? So, I don't have to type the ""style....",2 ,0,0
+module.exports = app More than One Require,"I'm creating a lambda function on AWS and I'm looking to require more than one file for ""app"". Apologies, I'm not great with Node yet.
+In a routes.js file I have the following...
+module....",17 ,0,1
+"GAE, Cannot find requsted url /index.html on this server",I have been working on a website that I am using google app engine to host. Everything is working on my localhost. It is a very simple website where the home page is an index.html file with 3 pages. I ...,5 ,0,1
+Reactjs how to add variable in URL parameter [duplicate],"The link from my backend produce ?id= for my frontend to parse using queryString. Is there a way to get this link to load in the frontend?
+http://localhost:3000/resetpassword/?id=...",6 ,0,0
+How I get data to flutter app from AWS RDS database,I need to get data from an AWS RDS database to my flutter up. I read that I need an endpoint to achieve this but I don't understand what this exactly means.,8 ,0,1
+Return List<object> from IEnumerable C#,"I have a method:
+
+public List<AxeResult> LoadAxes(string kilometriczone, string axe)
+{
+    IEnumerable<AxeResult> allAxes = PullAxes();
+    var findAxes = allAxes.Select(a => a....",2k ,2,2
+Is there a way to access values stored in has_many association in Ruby on Rails?,"I have two models in Ruby on Rails, movies, and directors. A director has_many movies, and a movie belongs_to a director. I'm creating a mini-project, where if I view a Director on a page, I would ...",11 ,0,1
+Making a command that shows all your cooldowns and the time remaining,"I need a command that shows the list of the commands with cooldowns and the time remaining to use the command again. Is it possible especially putting the command in a cog? If yes, can you help me how ...",56 ,0,2
+How to create a variable based on two opposing Booleans - business objects web intelligence,"I have a cross table in business objects web intelligence which has customer IDs in the rows, items in the columns and quantity in the body. I am trying to create a variable (dimension?) that will ...",20 ,0,1
+How to properly test React Native Modals using Jest and Native Testing Library,I'm having a bit of a hard time understanding how to test my modal component. I'm using the react-native-modals package and @testing-library/react-native with Jest. My component is a modal that pops ...,3k ,2,3
+How using JWT makes Spring Security more secure ? [New to JWT] [closed],The difference between Spring Security and JWT.,24 ,-3,0
+Apply effect to audio using NWaves,"I'm using the NWaves package to apply some effects to audios and make a simple voice changer.
+Actually, when I apply some effects to the current signal, it will not change at all and still is the same ...",9 ,0,1
+Creating a module subclass in a Python extension,"I am trying to create a Python extension module with multi-phase initialization, following the advice I got from a previous question. PEP 489 suggests that it is preferable for the Py_mod_create ...",27 ,2,1
+I can’t find the problem with my PyQt5 project,"I am currently writing my first project (game) in PyQt 5. The problem is that when the user goes from selecting the mode to the game itself, it freezes (that is, it starts loading endlessly). It's not ...",18 ,0,0
+Spring boot hibernate complex table relationship works partially,"I have following models they have one-to-one and one-to-many and many-to-one relationship. Most of the model are fine except one.
+My json data:
         {
-            label1.Text = ""Downloading..."";
-            WebClient wc = new WebClient();
-            string program = ""...",33 views
-Unable to Download all the Blobs in a container from Azure IOT Hub and getting error: Cannot read property 'on' of undefined,I have been trying to download 5 files uploaded as blobs already in azure cloud in container: updateappnew via a nodejs script. However I am getting error as in the image Cannot read property 'on' of ...,33 views
-Horizontal total monthly sales for procedures,"I am trying to generate total monthly sales for 2021 based on the procedure name by month. Each row must contain procedure name and months names and if any month has any sale, the total of the sale ...",23 views
-Call to undefined method Acceptance::amOnPage,"I followed this video to set up a AcceptanceTester: https://youtu.be/B3PE7w-jvjQ?t=686
-But the methods amOnPage and see give the following error:
+            
+                    ""name&...",13 ,0,0
+Render a nested object from API - Type Error: Cannot read properties of undefined,I'm trying to access information from this API. I can access the first level however when I try to access any property past the first level I get an error stating TypeError: Cannot read properties of ...,5 ,0,0
+EfCore ToListAsync() Throw exception with where condition,"I have a problem with an async task that get items from the database with a specific condition
+When i call the ToListAsync() i get this error
+  Expression of type 'System.Collections.Generic....",3k ,0,1
+Get Log4j2 log file location to write to directory containing a date,"How can I get the location of a log4j log file? I tried this: Where can i programatically find where the log4j log files are stored? 
 
-Call to undefined method Acceptance::amOnPage
-Call to ...",4 views
-How I can show multiple Rows in two table in one row in SQL?,"I have tow table like this:
-1)Phones
+But it doesn't work for newer versions of log4j. 
 
-| CustomerID           | PhoneID      | PhoneNum     | PhoneTypeID |
-| 1                    | 101          | 09811111     |       1     |
-| 1                    | ...",3 views
-does one login support dynamic urls?,"I am hoping to get my company's app added to one login (and others) but the way our urls are structured, the first part of it is different for each client.  So, we have client_1.mysite.com and ...",2 views
-Chilkat for Android™ Error: No implementation found chilkatJNI.swig_module_init(),"I wanted to implement Chilkat into my Android app, to do scp calls.
-I am using android studio v. 4.2.
-So far i have successfully followed the instructions on how to get started.
-I followed this post: ...",3 views
-Adding ComposeView to PopupWindow's contentView crashes,"I'm trying to show a PopupWindow from a Fragment, and then add a ComposableView to the Popup contentView, and it crashes because the ViewTreeLifecycleOwner is not found for PopupDecorView$...",175 views
-Get all posts base on Hashtag search Instagram API,"I want a API, to get all the posts, search by hashtag in Instagram.
-As per my research, I can use Graph API to do the same. But I did not get a proper tutorial from scratch.
-Can someone suggest me ...",5 views
-Code works on Anaconda but not on Python through cmd,"I have code that runs over 7000 columns dataset with around 250k records
+I am creating ...",6k ,2,2
+"Shift maker , shift organizer","We have 25 people with 12 engineers and 13 doctors.
+shift_1 = {""Jack"":""eng"", ""Sam"":""eng"", ""Ben"":""doc"", ""Tom"":""doc"", &...",22 ,-3,0
+Mixing parent and child managed object contexts down a view hierarchy,"I'm using Core Data to persist data in my app, and have a question about mixing parent and child managed object contexts down a view hierarchy.
+For simplicity, let's say my app allows users to create ...",7 ,0,1
+Entity Framework query with ToList().Last() in Where(),"I have to get records from database which last of OrderStatus is Registered. This is how I try to find those records
 
-it works fine when I use Anaconda Spyder 
+    List<Order> orders = db.Orders
+        .Include(""OrderStatuses"")
+        ...",2k ,2,1
+"""Cannot read properties of undefined,"" even though data is there (React/JSX)","I need to map over an array of novels a user has saved in order to render info cards on each novel. Each time I try, the page fails to load and I get ""TypeError: Cannot read properties of null (...",13 ,0,1
+How to open Dialog Box automatically when app receive notification in background?,"I want to open DialogBox automatically when app receive firebase push notification(Without clicking on notification). And app is not running . It is closed.
+You can find similar functionality in ...",4 ,0,0
+how to prevent ruby from defining variables,"I'd like a user to input a conditional expression interactively, something like f1 == 'b' || f2 == 'd' where f1 and f2 are ruby functions. eval condition works ok. However, I'd like to prevent errors ...",22 ,0,2
+How to use moveTo and locateOnScreen with duration and tween features on PyAutoGUI?,"I was using the moveTo function with coordinates, but I notice that sometimes the coordinates are changed, so getting those coordinates manually every time is not being that practical as I wanted.
+So ...",4 ,0,0
+How can I setup IntelliJ to remember Git Bash current working directory between sessions?,"I'm running IntelliJ 2018.3 on Windows 7, as well as openSUSE Leap 15.
+Under Windows 7, I've configured IntelliJ to use Git Bash, i.e., in Settings, under Tools -> Terminal, I'm setting Shell path ...",1k ,2,2
+How to convert list of jsons in a nested list of jsons to csv in python?,How do I convert a list of jsons in a nested list of jsons to be in the following format? Can't seem to get this right and many examples use pandas where as I'd prefer to use csv.DictWriter. My ...,16 ,0,2
+Kubernetes Ingress TLS not being applied with headless service,"What I'm trying to achieve
+I'm trying to deploy an elixir (phoenix) application in a microk8s cluster namespace with TLS using let's encrypt. The cluster is hosted on an AWS EC2 instance.
+The problem ...",2 ,0,0
+Default fallback for C++ template functions using enable_if,"I want to write a C++ mechanism, where different instantiations of a function are called if a given class Param is derived from a certain base class.
+This works pretty nicely with std::is_base_of and ...",19 ,0,1
+Why would my Magento 2 site start giving me 403 errors when I try to upload data?,"I am working on a Magento 2 site for a client. We recently had an issue with spam accounts flooding the /customer endpoints, so we enabled an IP-based region blocking plugin to stop people from a ...",21 ,0,2
+Is there a way to queue a function call and its parameters for later calling?,"Is there a way to store function calls and their variable parameters to a database while the player is offline and call them again when the player turns back online. 
 
-but now I want to put this code to run based on Task Schedule
+Hi! I am working on a new game(...",102 ,0,2
+How many custom claims can one user account have in Firebase Auth?,"I've recently tried setting custom claims and noticed that an account I previously added custom claims to lost those claims. I know for a fact they set correctly, so after some testing I noticed that ...",4 ,0,1
+Java parallel quires and read/writing I/O,"A system is generating 10k values every 10Min and I need to use system output to lookup on a table to get the key to select from another table and dump the select output to file.
+looping on all values ...",4 ,0,0
+Check if one polygon crosses another polygon in Turf.js,"I'm using Turf.js for advanced geospatial analysis in my application, but can not find a method which checks if two polygons cross one another. Intersect method is not what I want, since if I have a ...",1k ,4,4
+g++ does not produce debug symbols,"I am learning linux, and my first step is to adapt my project for running on linux. Here is simple makefile (in educational purposes mostly), which generates out file:
 
-Therefore I am want ...",194 views
-com.google.firebase.database.DatabaseException: Failed to convert a value of type java.lang.String to int,"I am adding Person name(String) and age(int) to the Firebase.
-But while retrieving data from Firebase I am facing this error.
-This is how data is added in Firebase.
-Cannot resolve this error
-Person ...",12 views
-Nav height is not 100% - CSS,"My vertical menu is not 100% high, it just covers the entire page (100vh). I've already tried making changes to the css stylesheet, but nothing has worked. I think it's a simple problem, but I can't ...",13 views
-Convert numpy array from space separated to comma separated in python,"This is data in .csv format file
-generally we expect array/ list with [1,2,3,4] comma separated values
-which it seems that nothing happened in this case
-data = pd.read_csv('file.csv')
-data_array = ...",7 views
-"Could not load file or assembly 'Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0","Using MVC5 with rdlc to generate pdf, it's working fine in localhost, but when i deply the application to server when i try to generate report it has error that some assebly are missing.....
+#------------------------BUILD ...",4k ,-1,3
+Change string values with new values contain in another data frame,"I have a csv with thousand of rows with sales data as follows:
+pd.DataFrame({
+    'Item_name': ['guacamole', 'morita', 'verde', 'pico', 'tomatillo'],
+    'Inv_number': ['0001', '0002', '0003', '0004', ...",17 ,0,2
+input value issues in javascript,"I hav a google published csv sheet. I created a html table and want to display csv values from published csv sheet into all input fields inside html table.
+Screenshot:
+But currently my code displays ...",40 ,0,1
+Ignoring specific rows in SAS,I have a large excel file that I am importing to SAS; Row 1 has the variable names but rows 2-4 of the file have additional descriptive information (about the variables) that I do not want in my SAS ...,3 ,0,0
+"Difference between ""ToListAsync()"" and ""AsAsyncEnumerable().ToList()""","Function need to return Task<List<Record>>
+Following both options are returning Task<List<Record>>, which one is more efficient? Is there any standard way here?
 
-Server ...",8k views
-How do I replace NULL in datediff with a text,I have a 2 different date columns and I'm using datediff to calculate the years of working. But there is nulls when the people is still working I wonder how can I replace it with a text 'Still Working'...,6 views
-"""Runtime.ImportModuleError"" trying to access npm package in an AWS lambda function using layers","I'd like to use the npm package ""request"" in an AWS lambda function.
+Option 1 : 
 
-I'm trying to follow the procedure outlined in this article here: https://medium.com/@anjanava.biswas/nodejs-runtime-environment-...",21k views
-Calculate if cannon with limited rotation angles can do fire in 3D space,"I want to create a game where it can be a lot of different cannons what will have different limit of fire angle (vertical and horizontal).
-I found this formula to calculate angle between cannon and ...",23 views
-Writing a vectorised function in R,"I have written the following function:
-asteriks = function(pvalue){
-  if(pvalue > 0.05){
-    output = ""NS""
-  }else if (pvalue <=0.05 & pvalue >0.01){
-    output = ""*""
- ...",16 views
-Mapping through array in React with nested objects,"For a school project, I am making a dashboard where I want to visualize some data. I've already got it so far that I can load the data into the front end which is react.
-Now I want to get certain ...",15 views
-Is it possible to add swap space on kubernetes nodes?,I am trying to add swap space on kubernetes node to prevent it from out of memory issue. Is it possible to add swap space on node (previously known as minion)? If possible what procedure should I ...,11k views
-How to group my expenses items according to the day you create them,I'm creating an expense tracker app. I did my best but couldn't figure out how to group expenses for each day so that I can count total expense and total income for that day and also display them ...,12 views
-Select only certain fields from the model using SqlAlchemy Core,"I use the encode databases library to perform asynchronous queries on the database. The library is based on SQLAlchemy Core expression language. A query that gives all fields works
-@staticmethod
-async ...",4 views
-Calculated column based on secondary key in Pandas Dataframe,"My data looks somewhat like this:
-key
-city
-currentCityKey
-1
-Boston
-NaN
-2
-New York
-1
-3
-Concord
-2
-I'd like to create a new column with the current city name, which needs to be found by finding the ...",6 views
-Building prime number checker in c++,"I am new to C++ and coding, so excuse me if my knowledge is poor. I thought of a way to check if a number is prime (my code is below). My idea is that the user inputs a number, and uses a for loop ...",101 views
-How to download data from OECD by using R package,"I am trying to download data directly from the OECD website using the OECD package in R. I'm specifically trying to download data from ""Employment by activities and status (ALFS) ARCHIVE"" ...",2 views
-How to create column based on other column and probably using regex in pandas?,"df:
-Id   Product_description     Vol
-100  Oil 32cmX36cmx25cm 1s   1  
-101  Oil 32cmX36cmx30cm 1M   1
-102  bag 45cmx3f 1s          1
-103  bag 45cmx32f 2L         2
-104  BAG 45cmx32f 3 L        3
-105  ...",10 views
-Matlab loop through images in a folder an transform each picture with Imreadto an array,I want to loop through a list of images in Matlab by unsing a loop. I want to get one Image at a time and turn it into a Matrix by using the imread function. Then I want to save each Matrix in a ...,3 views
-What are monadic bind and monadic return for C++23 optional?,"C++23 std::optional is finally getting some very useful additions.
-Since my knowledge of FP is very primitive I am wondering what is the syntax for the following two operations(that according to my ...",36 views
-how does this error means in react-router-dom?,"when I import switch from react-router-dom error screen shot
-when I import switch from react-router enter image description here
-I copied code from https://v5.reactrouter.com/web/guides/quick-start",18 views
-How to use egrep with double quotes in search string?,"I have a sample.txt as follows:
-$ cat sample.txt
-bc
-it is | ERROR
-first
-second
-third
-No space left
-1
-2
-3
-4
+...",8k ,5,2
+Dynamic Filename with Grunt Uglify,"I am trying to set the version in the filename with Grunt Uglify, but it doesn't accept anything other than a string literal.
 
-I want to search both | ERROR and No space left. When I try using the below command, it is ...",6 views
-Configure User Account authorization in SSRS,"What's up folks?
-I've been trying to call an SSRS report but the issue I am facing is The permissions granted to user 'XYZ\PQR-0051$' are insufficient for performing this operation. (rsAccessDenied).
-...",5 views
-SiegeTest:socket error unable to connect,"Really need help to figure out what is going wrong.
+How can I replace ""VERSION"" dynamically by using a variable (e.g. ${...",337 ,2,1
+Is modifying a class variable in python threadsafe?,"I was reading this question (which you do not have to read because I will copy what is there... I just wanted to give show you my inspiration)...
 
-Application Background: It is a nodejs with socket.io application.
+So, if I have a class that counts how many instances ...",15k ,23,5
+Display sales by store,I have three tables I am working with. Each table purposely is leaving out information so I need to do it with these. I need to break down the total sales by store. So far I am able to get the stores ...,14 ,-1,0
+Performance issue while converting to .ToList() while executing LINQ from LiteDB approx. 1 million records,"I am using LiteDB to store approx.1 million records. When i retrieve records from LiteDb after filtering and convert .ToList() from IQueryable, it is very slow even the result of the query is just one ...",519 ,0,1
+How can we import multiple tables from the body of a multiple .msg files?,"I am trying to import data from several tables embedded in a several .msg files. I think the sample code below is pretty close, but when I get to this line:
+ws.Cells(i, 1) = MyItem.Body
 
-I am testing my site load using siege windows 3.0.5 tool.
-70 concurrent users ...",2k views
-ImportError: cannot import name 'Frame' from partially initialized module 'tkinter',"I'm an absolute beginner in Python and I'm just trying to follow the steps in a youtube video tutorial on building a python GUI
-https://youtu.be/jE-SpRI3K5g
-I just wrote this so far:
-import tkinter as ...",505 views
-SQL Merge tables and return oldest record,"What I'm trying to achieve is to merge two tables and return the oldest record, then join it to another table.
-When i run the sub query on it's own it works ok, i know records exists in the subquery. ...",19 views
-Split string in two by splitting it at the last '_' symbol,I have this structure of string 'amount_capital_expected_eighty_percent_6009a08948abf6001e95359a'. I would like to cut the part after the last '_' from the rest of the string with a String.split() ...,37 views
-Large storage in Flutter web,"Is there a way to store approximately 2GB of binary data (video files with ~600MB each) in Flutter web?
-I need to support web on both desktop and mobile devices.
-I tried Localstorage (converting ...",8 views
-"flowWithLifecycle(lifecycle, Lifecycle.State.STARTED) doesn't stop flows while App is in background","I'm trying to observe the result of the View Collection and upstream flows stopped.
-But viewModel.testFlow is still collecting while the App is in the background.
-Why can't I observe the collection is ...",4 views
-How can I publish my node.js a.p.i to iis?,I am making an api with node js and I need to publish it to a server. I have been looking at how to do it and there is a lot of information about doing it on platforms like heroku but I can't get it ...,3 views
-WordPress - white space between header and slider,"I'm looking to make improvements to this website: https://www.iwillsolicitors.com/
-There is a white space between the header and the slider, that shows across all pages. The theme used on WordPress is ...",5 views
-"postman post result: could not find driver (SQL: select * from ""users""","I've a macbook pro with M1 chipset, I'm testing a Laravel web-app with Sanctum Api authentication.
-First I send a GET requesto to /sanctum/csrf-cookie to get the cookies, then I send a POST request to ...",28 views
-How to do non blocking usb serial input in circuit python?,"I am trying to interface a micropython board with python on my computer using serial read and write, however I can't find a way to read usb serial data in micropython that is non-blocking.
-Basicly I ...",838 views
-onFocusChange is not getting called when launching an activity above android version 8,I'm having android.support.v7.widget.AppCompatEditText inside TextInputLayout in my activity and added setOnFocusChangeListener for the editText. When ever the activity is opened its automatically ...,3 views
-OpenCV2 Thin Plate Splines Apply Transformation not working?,"I am using the Python OpenCV2 implenentation of the thin plate transformer and running into some issues. When I do WarpImage, the image gets warped properly, however when I then use ...",27 views
-jQuery AJAX submit form,"I have a form with name orderproductForm and an undefined number of inputs.
+Everything is ...",25 ,0,2
+react native access content:// uri fails,"Working with the following react native packages in android:
 
-I want to do some kind of jQuery.get or ajax or anything like that that would call a page through Ajax, and send along all ...",2.3m views
-Concat two strings through pointers not working,"I made a function that concat string t to the end of string s, for my exercise I have to use pointers for this, so I did this way but its not working:
-#include <stdio.h>
-
-void strcat(char *s, ...",24 views
-Using RUN in Dockerfile to install Laravel inside a php image is not working,"I am trying to install Laravel inside a php container using this line on my Dockerfile:
-RUN composer create-project laravel/laravel=8.* . --prefer-dist
-
-My goal is to install it on my container ...",15 views
-Changing Size and the Color of the UIComponent of Storyboard from the Inspector Menu,"I'm able to change the size of a component(on storyboard) by using the Inspector Menu of below:
-
-But I can not change the background color of the component using Inspector Menu. It doesn't change ...",4 views
-sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column,"I'm trying to create a model with SQLAlchemy (with Flask), but I cannot find out anywhere on the internet a fix to my problem.
-The error that it gives me is
-sqlalchemy.exc.OperationalError: (sqlite3....",2k views
+""react-native"": ""0.47.2""
+""react-native-document-picker"": ""2.0.0"" (removing the ovveride to compile with 0.47)
+""react-native-fetch-blob"": ""^...",8k ,9,2
+Splitting a large file into chunks,"I've a file with 7946479 records, i want to read the file line by line and insert into the database(sqlite). My first approach was open the file read the records line by line and insert into the ...",38 ,1,4
+How to join data from 2 datasets conditionally based on time?,"In my case, I have 2 datasets I'd like to merge. My first dataset consists of a column of locations, and a column of datetimes.
+site              | datetime
+---------------------------------------
+...",26 ,3,2
