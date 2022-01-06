@@ -1,56 +1,136 @@
 Question,Description,Views,UpVotes,Answers
-How can I run Xcode 12.5.1 on Monterey?,I am facing a problem running older versions of Xcode on new Monterey OS.,3k ,16,3
-Fix for SQL update updating all the rows to the same value,"I have the following query to combine the columns into a comma separated list:
-SELECT top 1 STUFF((
-            SELECT ',' + t1.HAZARD_code_desc 
-            FROM HAZARD_codes t1 
-            where ...",14 ,0,1
-ImportXML having issues with XPATH,"I cannot seem to import a table from a website. At best I can get the first column I want but none of the other data and I am not sure why.
-The website: https://classic.warcraftlogs.com/character/EU/...",2 ,0,0
-To Connect [833/528/O9O5] with our Customer Service Representative - Coinbase,"All you need is the support.coinbase.com platform or the customer service phone number, which is openly posted.
-Why Coinbase Support Number, Coinbase Customer service and phone number get quick and ...",2 ,0,0
-Count and ToList extension method for Enum?,"Is it possible de create a Count and a ToList extension method for an Enum instance ?
-I have tried this but don't know how to replace the ""???"", related to the type of the enum ""e"".
+"Python , working with files, math operations [closed]","I'm new to Python and I need help with a program thats reads the contents of a text file and make the necessary math operations from the file.
+in the txt.file i have the following numbers and ...",22 ,-1,1
+linq orderby.tolist() performance,"I have an ordering query to a List and calling for many times. 
+list = list.OrderBy().ToList();
+In this code ToList() method is spending high resources and takes very long time. How can I speed up ...",14k ,4,2
+Array constant not evaluating to constant even though only constexpr functions called in initialization,"This is a simplified, reproducible version of my code:
+type_id.h
+template<typename>
+void type_id() {}
 
-public static ...",773 ,3,2
-How to add mXparser library to Sketchware Pro?,I am trying to add mxparser library to my Sketchware Pro project. I downloaded the .jar file of the library and copy paste it to local libraries folder manually. But when I open Sketchware and go to ...,26 ,0,1
-"On windows, DLL load failed while importing CV2: the specified module could not be found","system: windows 10
-I installed anaconda3. But it isn't added in the system PATH.
-I installed an official python3.8.2 also. And the official python3.8.2 is added in the system PATH
-I compile opencv ...",358 ,2,0
-Updating chart when onchange handler is called in React,For a school project i'm visualizing data in React. I load the data when an onchange event is called. The problem now is that the chart does not refresh with the new data that is in the state. i'm ...,2 ,0,0
-"Django annotate with conditional expression, how to apply distinct()","I have a little bit complex query and I use annotate with a conditional expression, the code is below:
+typedef void(*type_id_t)();
 
-from django.db.models import Q, F, When, CharField, Value, Case
-from django.contrib.auth.models ...",314 ,5,1
-Why am I required to remove/rescan my PCIe devices after Ubuntu boots?,"When I cold-boot my SuperMicro server, the kernel dmesg log states that it finds my PCIe cards and their required MEM spaces for their BARs...
-[  +0.000036] pci 0000:19:00.0: [10de:1eb1] type 00 class ...",2 ,0,0
-Hot to read variable that is outside dynamically added script element?,"I add scripts dynamically to my page using next code:
-var newScriptElem = document.createElement(""script"");
-newScriptElem.innerHTML = myJSCodeString; // myJSCodeString loaded before from .js ...",23 ,0,1
-Count the number of Records in Child in MVC,"I want to achieve the same result as the below question but in MVC. 
-
-    public ActionResult Index()
-
-    {
-        //List<Systems> systems;
-        //var query = db.SystemFamily.Select(c => ...",5k ,2,1
-Axios API request in Vue app returns different results than when testing with Insomnia,"I have a vue app with a flask server. I wrote a new API in flask, however when making a request using this API, I get different results in insomnia than I do in the app itself.
-simplified version of ...",2 ,0,0
+c_sort.h (based on this answer)
+template<typename Array>
+...",2 ,0,0
+Geopandas error while trying to union geometries,"I have a geopandas dataframe like the following:
+gdf
+    geometry
+0   POLYGON ((-3.64099 40.54597, -3.63906 40.53709...
+1   POLYGON ((-3.68162 40.51283, -3.67968 40.50395...
+2   POLYGON ((-3.72221 40....",77 ,0,1
 Can a module know name of host file?,"Say I have  a script.py that imports  module.py,
 In the module, __file__ returns path\module.py
 Is there a variable or something I can use in the module that returns path\script.py or script.py?
-at ...",16 ,1,1
-What is the recommended approach for large react app with react-query?,"I've recently started using react using functional components and react-query and it has been working fine except that I'm not clear about how to organize components properly.
-the way I'm used to ...",41 ,1,2
-Usage of flag and while loop,"boolean flag=true;
-while(flag)
-{
-   //code(flag=false;)
-}
+at ...",27 ,1,2
+can I have an iterator without hasNext()? - Q from school project,"I've  got a task to program an iterator that brings back the next letter in the ABC:
+if my string is a -> b
+if it's ad -> ae
+if it's Z -> aa
+if it's az -> aA
+if it's aZ -> ba
+if it's ZZ ...",51 ,1,3
+C# type conversion Help,"I have a Struct as follows,
 
-In the above code ,inside the while loop condition simply flag is given. How does the while condition satisfy here?",30 ,0,1
-Java Program skips over user input using the Scanner class and print statements,"I have never encountered a problem of this sort before, but three of my latest projects are all having this same problem where, for some reason, Java is skipping over the user's input. Whatever help ...",29 ,0,1
+struct Location
+{
+    public int Row;
+    public int Column;
+
+    public Location(int row, int column)
+    {
+        this.Row = row;
+        this.Column = column;
+    }
+}
+...",84 ,0,3
+Failed to install map box in my android app with Received status code 403 from server: Forbidden,"Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+
+Could not resolve com.mapbox.navigator:mapbox-navigation-native:7.0.0.
+Required by:
+project :app > com.mapbox.mapboxsdk:...",629 ,0,2
+How to join data from 2 datasets conditionally based on time?,"In my case, I have 2 datasets I'd like to merge. My first dataset consists of a column of locations, and a column of datetimes.
+site              | datetime
+---------------------------------------
+...",30 ,3,1
+MongoDBWriter with other than localhost gives error for tensorflow_io,"import tensorflow_io as tfio
+while following the code mentioned under
+tensorflow_io
+if i use URI other than ""mongodb://localhost:27017""
+I get an error for
+writer = tfio.experimental.mongodb....",2 ,0,0
+Efficient code for custom color formatting in tkinter python,"[Editing this question completely] I've almost completed the Periodic Table ( I still need to insert data and do editing in it ) but there's an issue I could not solve . Whenever I run this code , it ...",169 ,5,2
+WebJob only has access to 2 GiB of memory when App Service Plan has 7 GiB,"I have an Azure App Service Plan as the following, which is supposed to have 7 GB of memory.
+P2V2
+420 total ACU
+7 GB memory
+Dv2-Series compute equivalent
+83.22 USD/Month (Estimated)
+
+I am using this ...",17 ,0,0
+Why does Github show older commits when creating PR across branches?,"I have seen a few posts here in Stackoverflow but nothing specific to my use case.
+We essentially have TWO branches - one for testing in QA (sprint)and one for release(master).
+Our normal deployment ...",2 ,0,0
+Android WebView video custom view content is off center after rotation,"When the user clicks the full screen button on a video in a WebView, WebChromeClient calls onShowCustomView with the custom video view. I use this callback to add the view to a fragment and display it ...",2 ,0,0
+How to take number input and convert to time in excel,"I am making an airplane reservation system on java. i got a sample database from online. only problem i have is the way the time is inputted.
+
+and some times are 917 , or 22 , or 2. there is no 0 so i ...",20 ,1,2
+Value of async function can't be used,"I saved token into asyncstorage to be retrieved for authentication, but the problem is whenever i get the value, i log it into the console and it works but it doesn't send token to header, i have ...",4 ,0,0
+c# defined variables in a method as a list - is it possible?,"In php, you can get the method's defined variables as an array:
+
+function test($a,$b){
+  print_r(
+       get_defined_vars()
+  );
+}
+Is it possible in C#?",867 ,1,2
+Reapeating a program with a while loop in python,"This was just a project I was working on for fun, Ive also asked my CSC 122 prof. and Im just waiting for a reply. In the meantime I just put it here. Ive created a while true loop at the end of the ...",8 ,0,0
+"How to prevent ""The play() request was interrupted by a call to pause()"" error?","I made a website where if the user clicks, it plays a sound. To prevent the sound from overlapping, I had to add the code: 
+
+n.pause();
+n.currentTime = 0;
+n.play();
+But that causes the error:
+The ...",174k ,131,27
+I cannot send the email cancellation variable through the SendGrid API,"I have a SendGrid API function to send an email to each contact in the list via a dynamic template. However, I cannot send the variable needed to activate the user's unsubscribe from the newsletter. ...",8 ,0,0
+sklearn imputer drop column with missing values,"I am learning currently about sklearn imputer and I found that there is one strategy that isn't implemented by the imputers.
+I would like to build a pipeline that deletes the columns with any missing ...",7 ,0,0
+How to send silent foreground notification using Exoplayer's PlayerNotificationManager,"I am using the latest version of Exoplayer (2.16.1). I create my foreground service notification using the code below but it comes with a notification sound. How can I prevent this sound?
+ override ...",15 ,0,1
+Cycle through a list of Investors and calculate the XIRR for each one to automate process,"So I have been stuck on this problem for a few days. I have looked at some others codes but I am still coming up short. I am not the best at VBA either.
+I have a list of investors with their attached ...",14 ,0,1
+Doesn't understand why this error appeared,"Hello I'm resolving a little exercise for school everything was good but I just got this error when I test the program:
+    Traceback (most recent call last):
+  File ""<interactive input>&...",19 ,0,1
+No matching client found for package name java,"Build      File : activity
+No matching client found for package name 'com.androidtest.apps'
+Execution failed for task ':app:processReleaseGoogleServices'. No matching client found for package name '...",3 ,0,0
+how to remove backslash from json array pyspark,"I'm trying to remove backslashes from the array.
+I used json.dumps and load but backslashes still exist in the array
+
+anyone could help with it",9 ,-1,0
+Specify immediate offset with GCC Extended ASM,"I am using GCC 10.3.0 and I have this source code:
+__asm__ volatile
+(
+    ""movl %%gs:%0, %%eax\n\t""
+    : :
+    ""i""(immediate_value)
+);
+
+I want to make GCC translate this ...",2 ,0,0
+"jq: how to perform unmerge / multi-level object subtraction i.e. given X and Y, find Z such that X * Z = Y","Using jq we can easily merge two multi-level objects X and Y using *:
+X='{
+    ""a"": 1,
+    ""b"": 5,
+    ""c"": {
+      ""a"": 3
+    }
+  }' Y='{
+    ""d"": 2,
+...",15 ,1,1
+React API calls not fully completing before rendering,"I'm essentially brand new to React, so please bear with me if there are any strange or obvious mistakes that I am missing.
+I am looking to create a small little project with the National Hockey League ...",24 ,1,3
 JavaScript - find index of array inside another array,"I am trying to find the index of an array inside another array in Javascript, as below:
 
 
@@ -60,54 +140,62 @@ array = [[5, 10], [5, 11]];
 //Using indexOf
 console.log(array.indexOf(piece));
 
-//Using ...",15 ,0,2
-"Warning: Departure time for vehicle ""*"" is in the past; using current time instead","After running the following code, the GUI sends a message repeatedly that: ""Warning: Departure time for vehicle 'veh_0' is in the past; using current time instead."" and the veh_0 is not ...",4 ,0,0
-Why is my face detector app so slow on my mobile device,"I've successfully implemented a face detector app using html and javascript. Specifically this one: https://justadudewhohacks.github.io/face-api.js/docs/index.html.
-To test it, I run it locally using ...",4 ,0,0
-IQueryable.ToList method messing up with T-SQL sorting order,"I'm using EF Code First and I have a Linq To SQL (against an Oracle Database). For the sake of simplicity, I'll be resuming the scenario. Suppose I have table Products like this:
+//Using ...",22 ,1,3
+A Tag element border breaking when trying to be responsive,"I'm trying to make a responsive static page but the tag element is breaking when wrapping.
+so I try to put it on w3school to really see the problem but still thesame.",2 ,0,0
+Not able to access .ToList() method on Table,"I am trying to use SilverlightPhoneDatabase to use a sqlite db for my Windows Phone 7 application. 
 
-ProductName (varchar)...",457 ,3,1
-Assistance with SQL hyperlink,"SELECT distinct
-'[' || job_requisition_id ||'](https://app.huntclub.com/jobs/'||job_id|| '/requisitions)' as ""Req ID"",
-job_requisition_id as ""Job Req ID"",
-FROM job_requisitions
-...",3 ,0,0
-Find number of digits in number,"I need to generate a unique id for every user in my program. This is my code :
-from random import choices
-IDS = []
-id = """"
-num = int(input("" Entr the ids number : ""))#عدد الايديات ...",40 ,0,2
-What does object object object mean?,"I'm trying to make a journal but can't get it to work. I'm trying to make a for loop that posts the posts that I compose, in an array on the home page. I get connection between the app file and the ...",44 ,0,2
-Get ROLLUP to include rows for missing values,"PostgreSQL 14
-Assuming this sample data:
-fruit
-ripeness
-orange
-1
-orange
-3
-apple
-0
-apple
-3
-apple
-3
-apple
-2
-Is there a way to get ROLLUP to give me a count of fruits by ripeness with a row for ...",3 ,0,0
-"Error ""Error: A <Route> is only ever to be used as the child of <Routes> element""","I am trying to use routing for the first time and followed the exact instructions from Udemy:
-File App.js:
-import { Route } from ""react-router-dom"";
-import Welcome from ""./Pages/Welcome&...",47k ,41,12
-execute two functions in google app script,"I have two functions (function one and function two). what I want is when function one 
+The dll has a class Database
 
-execution completes, then function two execution starts and then after done. I managed to find
-some formula ...",3 ,0,0
-Android Google play : App rejected : Your app has been rejected and wasn't published due to a policy violation. Issue: Not a core feature,"Our app got rejected 3 times with same reasons.
-1st attempt :
-rejection email : https://docs.google.com/document/d/10AV9Mq4EBjollo_-kgvsfNgJR8XzBhFxT5eXl3OL0eo/edit?usp=sharing
-After doing research, ...",12 ,0,0
-Count items in a list - ASP.NET C# [closed],"I have a search function on my website which takes text from a textbox control, compares it to the names of products in my database, adds the results to a list and then displays the product details in ...",5k ,-4,1
+    public class Database
+    {
+    .
+    .
+    .
+    public Table<...",10k ,3,1
+Download Blob file from Website inside Android WebViewClient,"I have an HTML Web page with a button that triggers a POST request when the user clicks on. When the request is done, the following code is fired:
+
+window.open(fileUrl);
+Everything works great in the ...",25k ,15,2
+Retain old value when refreshing cache?,"I have a Caffeine AsyncLoadingCache created with a refreshAfterWrite configured. For a given key, if a value is already loaded into the cache and there is an error during refresh, the key/value gets ...",12 ,0,1
+formvalidation.io - revalidateField with Select2 doesn't work,"I'm using code example of Select2 plugin to validate a multiple select field. I just want that the field has at least one element.
+Here my code:
+HTML:
+                        <div class=""form-...",2 ,0,0
+"Node Mysql connection refused Errors: ECONNREFUSED, ETIMEDOUT, ENOENT","I created an application that takes input from an HTML form and inserts it into a MySQL Database. Everything was working perfectly until I started playing with Docker, SSH and NGINX for my study ...",7 ,0,1
+How to fix GetData = null ? through ajax call,"Hello i needed some help with my error on a none existed link or page to the getData
+anyone know why i have this error found, the page is working fine however there seems to have this error in my ...",11 ,0,0
+horizontal menu show vertical menu [closed],"I am just starting to learn HTML, CSS and PHP.
+I have made a layout with a horizontal menu using cssgrid and now I want to show a vertical menu on the left side below the horizontal menu. which in ...",13 ,-2,0
+Android Studio Can't resolve fragmentActivity and ViewPager imports,"I follow the tutorial of developing swipe-able tabs. When I import:
+
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
+Android Studio shows me cannot resolve ...",22k ,5,6
+"Google sheet API, executing AddProtectedRangeRequest","How to execute Google sheet API, executing AddProtectedRangeRequest ?
+ void addRangeRestriction(final String sheetId, final Sheets sheetService) throws IOException {
+
+    AddProtectedRangeRequest ...",8 ,0,0
+django.core.exceptions.AppRegistryNotReady: Apps aren't loaded yet. (django 2.0.1)(Python 3.6),"It's my first time trying to deploy a Django app(django 2.0.1)(Python 3.6) to pythonanywhere, it is a simple portfolio app with no models, no bootstrap.
+Just Django, HTML, CSS & Javascript.
+
+After ...",52k ,45,13
+Calling database upon ToList() method call,"From my repository I return different List using ToList() method.
+
+The problem is when I run some more LINQ on this returned result (i.e. of type List) it generates a database call for this too. ...",715 ,1,1
+assign custom list by value memory allocation in c# list object assignment issue,"objTempList = objParentList;
+foreach (var item in objTempList)
+{
+    objChildList = objList.AsQueryable()
+                          .Where(x => x._parentId == item.filedbid)
+                        ...",340 ,-1,2
+Get value from Read command and assign to a variable,"I have a simple script that is something like the following:
+#!/bin/bash
+NUM=$(read -p ""Number: "")
+echo $NUM
+
+When I run this from the command line i don't seem to get any value
+How can one ...",6 ,-1,0
 How to type an argument which will be subclassed in Python,"I have a piece that follows such pattern
 from typing import Any
 class Base:
@@ -117,71 +205,14 @@ class Derived1(Base):
 class Derived2(Base):
     ...
 class BasicApp:
-    # how to type d in this base ...",5 ,0,0
-"""Reinitialize from source"" not working for long time run",I have defined a variable using MATLAB code in a Simulink block (Monte Carlo approach). The problem I am facing is that when I edit and run the MATLAB Code on a short time it works fine BUT for long ...,5 ,0,0
-How to update key's value in json file by Python,"I want collect data from different pages, but when i get data and append to json file it is structurally bad. i have one dict num and i want to append all data in value as list. for example
-num:[1,2,3]...",21 ,0,1
-Is dispatch function returned from useDispatch hook synchronous with async thunk?,"Async thunk:
-const getMovies = createAsyncThunk('recommended/getMovies', async () =>{
-    const result = await api.getRecommendedMovies();
-    console.log('first')
-    return result;
-});
-
-Function ...",3 ,0,0
-Spring Boot graphiql not working when running a Jar but works on IntelliJ,"I have a basic spring boot 2.7 project with graphql.
-I can access the /graphiql  console from the path  http://localhost:8080/graphiql?path=/graphql when running the project on intellij but I get 404 ...",14 ,0,1
-How can I set the margin of a PowerPoint TextBox with Apache POI?,"I have an application which creates a power point presentation with Apache POI. I have some text boxes, and I need to set the left and right margin of this text boxes to 0.
-Hypothetically it would be ...",3 ,0,0
-Scraping entire lines with HtmlUnit,"I'm struggling to scrape the entire option lines from a web page
-<select id=""Code_9"" name=""value[2].valueType"" onchange=""changeMe(this);"">
-  <option value=""...",11 ,0,1
-E-mail form doesn't send data to the email address,"I'm trying to make simple contact form
-and here is my html code:
-<form id=""wf-form-Contact-Form"" name=""wf-form-Contact-Form"" data-name=""Wf Form Contact Form"" method=&...",10 ,0,0
-How do i convert the following xml based spring bean to java annotation beans,I want to convert this to java annotation based bean (@Bean).,5 ,0,0
-Extend my Ubuntu LVM so it uses free space on a partition,"I am running a Ubuntu server VM (no GUI) inside virtualbox. My disk space became to small so I increased the size of sda3 to use the additional space that I added to the virtualbox vdi.
-Now I have the ...",3 ,0,0
-How admin can update user meta using gravity form,"I have gravity form user registration, in which a user can update their own metadata but I want that an admin can also update any user data just by adding their email address on some specific field.  ...",222 ,0,1
-How do I write codes to calculate the following averages in an array?,"Apologies if this is too simple. I have been looking but not able to solve it.
-Dimensions of my data looks like this
-y is [1:267, 1:3, 1:10]
-It basically represents 267 sites, 3 surveys every year for ...",6 ,0,0
-Loading table into R from SQL Server database,"I get the following error when I try to load a table from a SQL Server in an Azure VM. I know the connection is successful, but I'm unable to get my syntax correct for the tables I want to load into R ...",17 ,0,1
-How to get text from a textfield inside another classin kivy,"I'm stuck in this problem, I'm using a dialog so that the user can change his password but i cant access the textfield text from the DashboardGerente class...
-main.py
-class Content(BoxLayout):
-    ...",12 ,0,1
-Which packages will allow me to automate website tasks in Python,"I want to automate some interactions with a website (that has video content) that doesn't have an API.
-Specifically I want to do things like:
-
-Log in
-Navigate to different pages
-Play video content
-
-I ...",4 ,0,0
-Prolog: aStar method for maximization,"i have a problem with the aStar method for maximization, the goal is with this method find the strongest path with a little twist
-This is the knowledge base
-no/3 (First value is the id of a user, the ...",3 ,0,0
-How do I stop my Player from attaching to my mouse? (Unity 2D),"I'm making a game where you can teleport to the Mouse position when you press ""Q"". When I load in the game to play the player essentialy gets attached to the mouse (Where the mouse moves the ...",4 ,0,0
-Value assignment on copied object not behaving as expected,"I have a simple game I'm working through.  At one point I am running some logic to test several possible moves and determine which one gets the best result in the game.  To do this, I am copying the ...",9 ,0,0
-"I am new to data structures and was trying,but whenever i am using my index function to find the index of the number its returning -1 as value","#include <iostream>
-using namespace std;
-class Node
-{
-public:
-    int data;
-    Node *next;
-
-    Node(int Data)
-    {
-        data = Data;
-        next = NULL;
-    }
-};
-
-//This FUNCTION is used ...",17 ,0,0
-Why does jetpack-compose state hoisting use callbacks?,"This tutorial on state hoisting in jetpack-compose says:
-
-By passing a function and not a state to OnboardingScreen we are making this composable more reusable and protecting the state from being ...",31 ,0,1
-Get GCP OAuth2.0 token via Postman POST,"I know that postman provides an interface to get OAuth2.0 tokens. But I need to know if I can create a request with all the necessary information (client_id, client_secret, username, password etc ) ...",5 ,0,0
+    # how to type d in this base ...",14 ,0,0
+Postgres Large Table Slow Performance,"I have a Postgres database in AWS RDS and have multiple tables that have over 1 mil rows.
+I will use one table as an example -
+Table A has two columns - let's assume the column names are column_1 and ...",16 ,0,0
+audioContext onaudioprocess alternative,"I wanted to use audioContext but I just realized that onaudioprocess is deprecated.
+Is there any other alternative?
+I used this code from another StackOverflow question https://stackoverflow.com/a/...",4 ,0,0
+Neural Network in torch,"I am supposed to write a classifier with discrete input data. (typically less than 10 states with two inputs)
+I have tried an image classifier before but now this data is different. What would a ""...",3 ,0,0
+Errors occur when Hibernate Mapping Files and pojo's from the database,I'm new one to java and net beans. I used hibernate framework in one of the project. I tried to Hibernate Mapping Files and pojo's from the database. Given names for the class correctly without giving ...,380 ,1,1
+How do I stop my Player from attaching to my mouse? (Unity 2D),"I'm making a game where you can teleport to the Mouse position when you press ""Q"". When I load in the game to play the player essentialy gets attached to the mouse (Where the mouse moves the ...",7 ,0,1
