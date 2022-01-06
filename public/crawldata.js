@@ -2,8 +2,9 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 var db = require('./dbconnect');
-var csvwrite = require("./writecsv");
+var csvwrite = require("../writecsv");
 var dbwrite = require("./dbwrite");
+
 var scrapeData = async function(url) {
     try {
         const { data } = await axios.get(url);
@@ -25,12 +26,9 @@ var scrapeData = async function(url) {
             questions.Answers = $(el).children(".statscontainer ").children(".stats ").children(".status ").text().trim().replace('answers', '').replace('answer', '');
             stackdata.push(questions);
         });
-
-
         console.dir(stackdata);
         csvwrite(stackdata);
         dbwrite(stackdata);
-
         db.end((err) => {});
     } catch (err) {
         console.error(err);
